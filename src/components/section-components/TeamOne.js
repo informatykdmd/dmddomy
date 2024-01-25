@@ -9,11 +9,11 @@ const TeamOne = () => {
 
     axios.get(`http://${ApiAddress}/api/getWorkers?count=4`) // ?count=4
       .then((response) => {
-        console.log('Odpowiedź z serwera (najnowsze posty):', response.data);
+        console.log('Odpowiedź z serwera:', response.data);
         setworkersGot(response.data);
       })
       .catch((error) => {
-        console.error('Błąd podczas pobierania najnowszych postów:', error);
+        console.error('Błąd podczas pobierania:', error);
       });
   }, [ApiAddress]);
     return(

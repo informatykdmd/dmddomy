@@ -91,10 +91,10 @@ const BlogPostFullwidth = () => {
                 <div className="blog-box-detail p-4">
                   <div className="mt-0">
                     <p className="labal text-muted">{post.contentDetails && post.contentDetails.CATEGORY}</p>
-                    <h5 className="font-weight-bold"><Link to={`/post-${post.ID}`} className="read-more">{post.contentDetails && post.contentDetails.TITLE}</Link></h5>
+                    <h5 className="font-weight-bold"><Link to={`/post/${post.ID}`} className="read-more">{post.contentDetails && post.contentDetails.TITLE}</Link></h5>
                     <p className="text-muted">{post.contentDetails && post.contentDetails.HIGHLIGHTS}</p>
                     <p className="space-date text-muted"> {post.authorDetails && post.authorDetails.NAME_AUTHOR} - {post.contentDetails && formatDate(post.contentDetails.DATE_TIME)}</p>
-                    <Link className="read-more text-uppercase font-weight-bold" to={`/post-${post.ID}`}>Czytaj więcej</Link>
+                    <Link className="read-more text-uppercase font-weight-bold" to={`/post/${post.ID}`}>Czytaj więcej</Link>
                   </div>
                 </div>
               </div>

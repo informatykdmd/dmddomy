@@ -97,7 +97,7 @@ const FooterOne = () => {
                         <h2>Najnowsze wpisy</h2>
                         {latestPosts.map((post) => (
                             <article className="post" key={post.ID}>
-                                <div className="text"><Link to={`/post-${post.ID}`}>{post.contentDetails && post.contentDetails.TITLE}</Link></div>
+                                <div className="text"><Link to={`/post/${post.ID}`}>{post.contentDetails && post.contentDetails.TITLE}</Link></div>
                                 <ul className="post-date">
                                 <li><i className="fa fa-user" /> {post.authorDetails && post.authorDetails.NAME_AUTHOR}</li>
                                 <li>{post.contentDetails && formatDate(post.contentDetails.DATE_TIME)}</li>

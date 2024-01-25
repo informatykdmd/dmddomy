@@ -27,6 +27,20 @@ dbConnection.connect((err) => {
   }
 });
 
+// Dodaję funkcję do obsługi błędów i ponownego nawiązania połączenia
+function handleDatabaseError(error) {
+  console.error('Błąd bazy danych:', error);
+  if (error.code === 'PROTOCOL_CONNECTION_LOST') {
+    // Reconnect to the database
+    dbConnection.connect((connectError) => {
+      if (connectError) {
+        console.error('Błąd ponownego nawiązania połączenia z bazą danych:', connectError);
+      } else {
+        console.log('Ponowne połączenie z bazą danych zostało ustanowione');
+      }
+    });
+  }
+}
 
 // Endpoint do pobierania zadeklarowanej ilości rekordów danych z blog_posts
 app.get('/api/getLatestPosts', async (req, res) => {
@@ -54,6 +68,7 @@ app.get('/api/getLatestPosts', async (req, res) => {
 
     res.status(200).json(latestPostsWithDetails);
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd podczas pobierania najnowszych postów:', error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
   }
@@ -82,6 +97,7 @@ app.get('/api/getWorkers', async (req, res) => {
 
     res.status(200).json(latestWorkers);
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd podczas pobierania pracowników:', error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
   }
@@ -106,6 +122,7 @@ app.get('/api/loadMorePosts', async (req, res) => {
 
     res.status(200).json(postsWithDetails);
   } catch (error) {
+    handleDatabaseError(error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
   }
 });
@@ -142,6 +159,7 @@ app.get('/api/getAllBlogPosts', async (req, res) => {
     // console.log('totalPosts', totalPosts);
     res.status(200).json([sortedPostsWithDetails, totalPosts]);
   } catch (error) {
+    handleDatabaseError(error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
   }
 });
@@ -176,6 +194,7 @@ app.get('/api/getBlogPosts', async (req, res) => {
 
     res.status(200).json([sortedPostsWithDetails, totalPages]);
   } catch (error) {
+    handleDatabaseError(error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
   }
 });
@@ -195,6 +214,7 @@ async function getContentDetails(contentId) {
 
     return contentDetails[0];
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd podczas pobierania danych z contents:', error);
     return null;
   }
@@ -214,6 +234,7 @@ async function getAuthorDetails(authorId) {
 
     return authorDetails[0];
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd podczas pobierania danych z authors:', error);
     return null;
   }
@@ -234,6 +255,7 @@ async function getCommentsDetails(commentsId) {
 
     return commentDetails;
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd podczas pobierania danych z authors:', error);
     return null;
   }
@@ -253,6 +275,7 @@ async function getUserDetails(userId) {
 
     return userDetails[0];
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd podczas pobierania danych z authors:', error);
     return null;
   }
@@ -287,6 +310,7 @@ app.get('/api/getPost/:postId', async (req, res) => {
 
     res.status(200).json(postWithDetails);
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd podczas pobierania danych z pojedynczego posta:', error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
   }
@@ -305,6 +329,7 @@ app.post('/api/addSubscriber', (req, res) => {
 
   dbConnection.query(checkEmailQuery, checkEmailValues, (checkError, checkResults, checkFields) => {
     if (checkError) {
+      handleDatabaseError(error);
       console.error('Błąd podczas sprawdzania emaila w bazie danych:', checkError);
       return res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
     }
@@ -320,6 +345,7 @@ app.post('/api/addSubscriber', (req, res) => {
 
   dbConnection.query(sqlQuery, values, (error, results, fields) => {
     if (error) {
+      handleDatabaseError(error);
       console.error('Błąd zapytania do bazy danych:', error);
       res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
     } else {
@@ -340,6 +366,7 @@ app.post('/api/addComment', (req, res) => {
   const checkEmailQuery = 'SELECT * FROM newsletter WHERE CLIENT_EMAIL = ? AND CLIENT_NAME = ?';
   dbConnection.query(checkEmailQuery, [email, name], (checkError, checkResults, checkFields) => {
     if (checkError) {
+      handleDatabaseError(error);
       console.error('Błąd podczas sprawdzania emaila w bazie danych:', checkError);
       return res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
     }
@@ -359,6 +386,7 @@ app.post('/api/addComment', (req, res) => {
 
       dbConnection.query(sqlQuery, values, (error, results, fields) => {
         if (error) {
+          handleDatabaseError(error);
           console.error('Błąd zapytania do bazy danych:', error);
           res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
         } else {
@@ -395,6 +423,7 @@ app.get('/api/searchPosts', async (req, res) => {
 
     res.status(200).json(postsWithDetails);
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd podczas wyszukiwania postów:', error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania wyszukiwania.' });
   }
@@ -414,6 +443,7 @@ app.post('/api/sendContactAsks', async (req, res) => {
     // console.log('Wiadomość została dodana do bazy danych:', results);
     res.status(201).json({ success: 'Wiadomość została dodana do bazy danych.' });
   } catch (error) {
+    handleDatabaseError(error);
     console.error('Błąd zapytania do bazy danych:', error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
   }

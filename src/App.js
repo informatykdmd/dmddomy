@@ -155,7 +155,7 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL + '/architekci-barycz'}`} element={<Barycz />}/>
           {/* dev options */}
           <Route exact path={`${process.env.PUBLIC_URL + '/dev-page-reader-post'}`} element={<DevTech />}/>
-          <Route path="/post-:postId" element={<PostsDetailsOne/>} />
+          <Route path="/post/:postId" element={<PostsDetailsOne/>} />
 
           <Route path='*' element={<Error/>}/>        
         </Routes>

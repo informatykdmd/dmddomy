@@ -108,7 +108,7 @@ const BlogDetailsFullwidth = () => {
   function takeExistSocial() {
     const readySocialArray = [];
 
-    if (post.authorDetails.FACEBOOK !== "") {
+    if (post.authorDetails.FACEBOOK) {
         readySocialArray.push(
             <a href={post.authorDetails.FACEBOOK} key="facebook" rel="noreferrer" target="_blank">
                 <i className="fa fa-facebook" />
@@ -116,7 +116,7 @@ const BlogDetailsFullwidth = () => {
         );
     }
 
-    if (post.authorDetails.TWITER_X !== "") {
+    if (post.authorDetails.TWITER_X) {
         readySocialArray.push(
             <a href={post.authorDetails.TWITER_X} key="twitter" rel="noreferrer" target="_blank">
                 <i className="fa fa-twitter" />
@@ -124,7 +124,7 @@ const BlogDetailsFullwidth = () => {
         );
     }
 
-    if (post.authorDetails.INSTAGRAM !== "") {
+    if (post.authorDetails.INSTAGRAM) {
         readySocialArray.push(
             <a href={post.authorDetails.INSTAGRAM} key="instagram" rel="noreferrer" target="_blank">
                 <i className="fa fa-instagram" />
@@ -132,7 +132,7 @@ const BlogDetailsFullwidth = () => {
         );
     }
 
-    if (post.authorDetails.GOOGLE !== "") {
+    if (post.authorDetails.GOOGLE) {
         readySocialArray.push(
             <a href={post.authorDetails.GOOGLE} key="google" rel="noreferrer" target="_blank">
                 <i className="fa fa-google" />
@@ -199,7 +199,7 @@ const BlogDetailsFullwidth = () => {
             <div className="col-md-12">
               <div className="blog-detail mt-30">
                 <div className="b-det-img">
-                  <ZoomableImage src={post.contentDetails.HEADER_FOTO} alt="blog" />
+                  <ZoomableImage src={"../"+post.contentDetails.HEADER_FOTO} alt="blog" />
                 </div>
                 <div className="det-content">
                   <h3>{post.contentDetails.TITLE}</h3>
@@ -231,7 +231,7 @@ const BlogDetailsFullwidth = () => {
                       ))}
                     </div>
                     <div className="col-sm-5">
-                      <ZoomableImage src={ post.contentDetails.CONTENT_FOTO } alt="blog" />
+                      <ZoomableImage src={"../"+post.contentDetails.CONTENT_FOTO } alt="blog" />
                     </div>
                   </div>
                 </div>
@@ -271,12 +271,12 @@ const BlogDetailsFullwidth = () => {
                 </div>
                 <div className="blog-nav clearfix">
                 {prevPostId !== null && (
-                  <Link to={`/post-${prevPostId}`} className="blog-prev">
+                  <Link to={`/post/${prevPostId}`} className="blog-prev">
                     <i className="fa fa-angle-left" />
                   </Link>
                 )}
                 {nextPostId !== null && (
-                  <Link to={`/post-${nextPostId}`} className="blog-next">
+                  <Link to={`/post/${nextPostId}`} className="blog-next">
                     <i className="fa fa-angle-right" />
                   </Link>
                 )}

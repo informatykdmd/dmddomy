@@ -54,11 +54,11 @@ const SearchResults = () => {
                             {results.map((post) => (
                             <div key={post.ID}>
                             <blockquote style={{ padding: 15, margin: 15}}>
-                            <h4><Link to={`/post-${post.ID}`} style={{ color: 'Green'}}><strong>{post.TITLE}</strong></Link></h4>
+                            <h4><Link to={`/post/${post.ID}`} style={{ color: 'Green'}}><strong>{post.TITLE}</strong></Link></h4>
                             
                               <div className='truncate'>{post.CONTENT_MAIN} {post.HIGHLIGHTS}</div>
                               <p><span style={{fontSize: 15}}>Opublikowano: {formatDate(post.DATE_TIME)}</span></p>
-                              <p><Link to={`/post-${post.ID}`} style={{fontSize: 15, color: 'Green'}}>Czytaj więcej</Link></p>
+                              <p><Link to={`/post/${post.ID}`} style={{fontSize: 15, color: 'Green'}}>Czytaj więcej</Link></p>
                             </blockquote>
                             </div>
                             ))}
