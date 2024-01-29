@@ -33,7 +33,7 @@ const ProjectsTwo = () => {
                         margin={15}
                         className="filter-list row clearfix">
                         {/*Gallery Block Two*/}
-                        {/* <div className="gallery-block-two">
+                        <div className="gallery-block-two">
                             <div className="inner-box">
                                 <figure className="image-box">
                                     <img src="images/gallery/gl-SB-750x650-RezydencjaParkowa.png" alt="" />
@@ -46,17 +46,7 @@ const ProjectsTwo = () => {
                                     </div>
                                 </figure>
                             </div>
-                        </div> */}
-                        
-                        <div className="image-effect-one hover-shadow">
-                            <img src="images/gallery/gl-SB-750x650-RezydencjaParkowa.png" alt="" />
-                            <div className="figcaption">
-                                <h4>MG Projekt</h4>
-                                <p>Budujemy marzenia od 1998. Twój dom, twój styl!</p>
-                                <Link to="/single-realizacja-RezydencjaParkowa"><i className="link-plus bg-primary" /></Link>
-                            </div>
-                        </div>
-                       
+                        </div>                       
                         {/*Gallery Block Two*/}
                         <div className="gallery-block-two">
                             <div className="inner-box">
