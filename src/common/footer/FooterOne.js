@@ -85,10 +85,8 @@ const FooterOne = () => {
                         </ul>
                         <ul className="social-icon">
                             <li><a href="https://www.facebook.com/dmdbudownictwo/" rel="noreferrer" target="_blank"><i className="fa fa-facebook" /></a></li>
-                            <li><a href="https://www.facebook.com/dmdbudownictwo/" rel="noreferrer" target="_blank"><i className="fa fa-linkedin" /></a></li>
-                            <li><a href="https://www.facebook.com/dmdbudownictwo/" rel="noreferrer" target="_blank"><i className="fa fa-vimeo" /></a></li>
-                            <li><a href="https://www.facebook.com/dmdbudownictwo/" rel="noreferrer" target="_blank"><i className="fa fa-pinterest" /></a></li>
-                            <li><a href="https://www.facebook.com/dmdbudownictwo/" rel="noreferrer" target="_blank"><i className="fa fa-twitter" /></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCBRN-SPMEIYK6YRV23Komxw" rel="noreferrer" target="_blank"><i className="fa fa-youtube" /></a></li>
+                            <li><a href="https://www.facebook.com/dmdbudownictwo/" rel="noreferrer" target="_blank"><i className="fa fa-instagram" /></a></li>
                         </ul>
                         </div>
                     </div>
