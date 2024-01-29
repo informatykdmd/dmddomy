@@ -47,16 +47,16 @@ const ProjectsTwo = () => {
                                 </figure>
                             </div>
                         </div> */}
-                        <div className="col-lg-3 col-md-4 col-sm-6 m-b30">
-                            <div className="image-effect-one hover-shadow">
-                                <img src="images/gallery/gl-SB-750x650-RezydencjaParkowa.png" alt="" />
-                                <div className="figcaption">
-                                    <h4>MG Projekt</h4>
-                                    <p>Budujemy marzenia od 1998. Twój dom, twój styl!</p>
-                                    <Link to="/single-realizacja-RezydencjaParkowa"><i className="link-plus bg-primary" /></Link>
-                                </div>
+                        
+                        <div className="image-effect-one hover-shadow">
+                            <img src="images/gallery/gl-SB-750x650-RezydencjaParkowa.png" alt="" />
+                            <div className="figcaption">
+                                <h4>MG Projekt</h4>
+                                <p>Budujemy marzenia od 1998. Twój dom, twój styl!</p>
+                                <Link to="/single-realizacja-RezydencjaParkowa"><i className="link-plus bg-primary" /></Link>
                             </div>
                         </div>
+                       
                         {/*Gallery Block Two*/}
                         <div className="gallery-block-two">
                             <div className="inner-box">
