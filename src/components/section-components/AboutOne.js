@@ -5,7 +5,7 @@ const AboutOne = ( props ) => {
 
     const [toggler, setToggler] = useState( false );
     const videoLink = [
-        props.videoLink || 'https://www.youtube.com/watch?v=Aty3TV4Yn4I'
+        props.videoLink || 'https://www.youtube.com/watch?v=BrFETkf8wDw'
     ];
     
     return(
