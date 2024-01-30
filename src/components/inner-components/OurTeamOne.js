@@ -35,10 +35,10 @@ const OurTeamOne = () => {
                 </div>
                 <div className="team_social field-position-p">
                   <ul className="list-inline mb-0 text-center">
-                    {worker.PHONE && <li className="list-inline-item"><a href={"tel:"+worker.PHONE} className><i className="fa fa-phone" target="_blank" rel="noreferrer" /></a></li>}
-                    {worker.EMAIL && <li className="list-inline-item"><a href={"mailto:"+worker.EMAIL} className><i className="fa fa-envelope" target="_blank" rel="noreferrer" /></a></li>}
-                    {worker.FACEBOOK && <li className="list-inline-item"><a href={worker.FACEBOOK} className><i className="fa fa-facebook" target="_blank" rel="noreferrer" /></a></li>}
-                    {worker.LINKEDIN && <li className="list-inline-item"><a href={worker.LINKEDIN} className><i className="fa fa-linkedin" target="_blank" rel="noreferrer" /></a></li>}
+                    {worker.PHONE && <li className="list-inline-item"><a href={"tel:"+worker.PHONE} target="_blank" rel="noreferrer"><i className="fa fa-phone" /></a></li>}
+                    {worker.EMAIL && <li className="list-inline-item"><a href={"mailto:"+worker.EMAIL} target="_blank" rel="noreferrer"><i className="fa fa-envelope" /></a></li>}
+                    {worker.FACEBOOK && <li className="list-inline-item"><a href={worker.FACEBOOK} target="_blank" rel="noreferrer"><i className="fa fa-facebook" /></a></li>}
+                    {worker.LINKEDIN && <li className="list-inline-item"><a href={worker.LINKEDIN} target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a></li>}
                   </ul>
                 </div>
               </div>
