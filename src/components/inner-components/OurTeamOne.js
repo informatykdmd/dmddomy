@@ -38,7 +38,7 @@ const OurTeamOne = () => {
                     {worker.PHONE && <li className="list-inline-item"><a href={"tel:"+worker.PHONE} className><i className="fa fa-phone" target="_blank" rel="noreferrer" /></a></li>}
                     {worker.EMAIL && <li className="list-inline-item"><a href={"mailto:"+worker.EMAIL} className><i className="fa fa-envelope" target="_blank" rel="noreferrer" /></a></li>}
                     {worker.FACEBOOK && <li className="list-inline-item"><a href={worker.FACEBOOK} className><i className="fa fa-facebook" target="_blank" rel="noreferrer" /></a></li>}
-                    {worker.LINEDIN && <li className="list-inline-item"><a href={worker.LINEDIN} className><i className="fa fa-linkedin" target="_blank" rel="noreferrer" /></a></li>}
+                    {worker.LINEDIN && <li className="list-inline-item"><a href={worker.LINKEDIN} className><i className="fa fa-linkedin" target="_blank" rel="noreferrer" /></a></li>}
                   </ul>
                 </div>
               </div>
