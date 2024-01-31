@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+api/api_mysql.js
 
 # testing
 /coverage
