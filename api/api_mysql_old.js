@@ -3,9 +3,6 @@ const bodyParser = require('body-parser');
 const mysql = require('mysql2');
 const cors = require('cors');
 const util = require('util');
-const https = require('https');
-const fs = require('fs');
-const path = require('path');
 
 const app = express();
 const port = 5000;
@@ -450,24 +447,6 @@ app.post('/api/sendContactAsks', async (req, res) => {
     console.error('Błąd zapytania do bazy danych:', error);
     res.status(500).json({ error: 'Wystąpił błąd podczas przetwarzania żądania.' });
   }
-});
-
-// Ustaw ścieżki do certyfikatu SSL i klucza prywatnego
-const privateKey = fs.readFileSync('/etc/ssl/private/private_no_passwd.key', 'utf8');
-const certificate = fs.readFileSync('/etc/ssl/cert/dmddomyCertSSL.pem', 'utf8');
-const ca = fs.readFileSync('/etc/ssl/certs/dmddomyCertCA.pem', 'utf8');
-
-const credentials = { key: privateKey, cert: certificate, ca: ca };
-
-// Utwórz serwer HTTPS, przekazując mu Twoje aplikacje Express i credentiale
-const httpsServer = https.createServer(credentials, app);
-
-// Podaj port, na którym serwer będzie nasłuchiwał (w tym przypadku 5000)
-const PORT_HTTPS = 5000;
-
-// Uruchom serwer HTTPS na określonym porcie
-httpsServer.listen(PORT_HTTPS, () => {
-  console.log(`Serwer Express nasłuchuje na porcie HTTPS ${PORT_HTTPS}`);
 });
 
 app.listen(port, () => {
