@@ -26,7 +26,7 @@ const ContactUsForm = () => {
     e.preventDefault();
     console.log('formData: ', formData);
     try {
-      const response = await axios.post(`http://${ApiAddress}/api/sendContactAsks`, formData);
+      const response = await axios.post(`https://${ApiAddress}/api/sendContactAsks`, formData);
 
       console.log(response.data);
       setShowForm(false);

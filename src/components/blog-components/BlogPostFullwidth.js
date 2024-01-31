@@ -12,7 +12,7 @@ const BlogPostFullwidth = () => {
   const ApiAddress = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
   
   const fetchBlogPosts = useCallback(() => {
-    axios.get(`http://${ApiAddress}/api/getBlogPosts?page=${currentPage}`) // currentPage
+    axios.get(`https://${ApiAddress}/api/getBlogPosts?page=${currentPage}`) // currentPage
       .then((response) => {
         console.log('Odpowiedź z serwera:', response.data);  // Dodano console.log()
         const sortedPosts = response.data[0].slice().sort((a, b) => b.ID - a.ID);

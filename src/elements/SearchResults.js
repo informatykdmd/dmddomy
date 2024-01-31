@@ -12,7 +12,7 @@ const SearchResults = () => {
   useEffect(() => {
     const fetchSearchResults = async () => {
       try {
-        const response = await axios.get(`http://${ApiAddress}/api/searchPosts?query=${searchQuery}`);
+        const response = await axios.get(`https://${ApiAddress}/api/searchPosts?query=${searchQuery}`);
         setResults(response.data);
       } catch (error) {
         console.error('Błąd podczas wyszukiwania postów:', error);

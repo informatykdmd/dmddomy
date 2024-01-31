@@ -7,7 +7,7 @@ const TeamOne = () => {
   const [workersGot, setworkersGot] = useState([]);
   useEffect(() => {
 
-    axios.get(`http://${ApiAddress}/api/getWorkers?count=4`) // ?count=4
+    axios.get(`https://${ApiAddress}/api/getWorkers?count=4`) // ?count=4
       .then((response) => {
         console.log('Odpowiedź z serwera:', response.data);
         setworkersGot(response.data);
