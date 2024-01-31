@@ -44,7 +44,7 @@ const FooterOne = () => {
 
     useEffect(() => {
         // Wywołaj endpoint /api/getLatestPosts, domyślnie pobierając 3 najnowsze posty
-        axios.get(`http://${ApiAddress}/api/getLatestPosts?count=3`) // ?count=3
+        axios.get(`https://${ApiAddress}/api/getLatestPosts?count=3`) // ?count=3
           .then((response) => {
             console.log('Odpowiedź z serwera (najnowsze posty):', response.data);
             setLatestPosts(response.data);
