@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const port = 5000;
+const port = 5001;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -454,7 +454,7 @@ app.post('/api/sendContactAsks', async (req, res) => {
 
 // Ustaw ścieżki do certyfikatu SSL i klucza prywatnego
 const privateKey = fs.readFileSync('/etc/ssl/private/private_no_passwd.key', 'utf8');
-const certificate = fs.readFileSync('/etc/ssl/cert/dmddomyCertSSL.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/ssl/certs/dmddomyCertSSL.pem', 'utf8');
 const ca = fs.readFileSync('/etc/ssl/certs/dmddomyCertCA.pem', 'utf8');
 
 const credentials = { key: privateKey, cert: certificate, ca: ca };
