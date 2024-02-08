@@ -1,52 +1,56 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link, } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import myDatabaseConfig from '../../supportscripts/env_connect';
-import ZoomableImage from '../../supportscripts/ZoomableImage';
-import $ from 'jquery';
+
 
 const BlogDetailsFullwidth = () => {
-  const { userHash } = useParams();
-
-
-  const [setuserHash] = useState(userHash);
-
-  const [error, setError] = useState(null);
-
-  const ApiAddress = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
-  // Ustawienie stanu postId po zmianie posta
-  useEffect(() => {
-    const userHashInput = document.querySelector('input[name="userHash"]');
-    if (userHashInput) {
-      setuserHashInput(userHashInput.value);
-    }
-  }, [userHashInput]);
-
+    const { userHash } = useParams();
+    const [userData, setUserData] = useState(null);
+    const [error, setError] = useState(null);
   
-
-
-  function formatDate(dateTimeString) {
-    const options = { day: 'numeric', month: 'long', year: 'numeric' };
-    const formattedDate = new Date(dateTimeString).toLocaleDateString('pl-PL', options);
-    return formattedDate;
-  };
+    const ApiAddress = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
+  
+    useEffect(() => {
+      const fetchUserData = async () => {
+        try {
+          const response = await axios.get(`https://dmddomy.pl/api/activeUser/${userHash}`);
+          setUserData(response.data);
+        } catch (error) {
+          setError(error.message);
+        }
+      };
+  
+      fetchUserData();
+    }, [userHash]);
+  
+    function formatDate(dateTimeString) {
+      const options = { day: 'numeric', month: 'long', year: 'numeric' };
+      const formattedDate = new Date(dateTimeString).toLocaleDateString('pl-PL', options);
+      return formattedDate;
+    }
 
 
     return(
-    <>
-    {/*Blog Details Section*/}
-    <section className="single-blog-section section-padding-all">
-        <div className="default-container">
-          <div className="row">
-            <div className="col-md-12">
-              test
-    
-            </div>
+        <>
+        {/* Sekcja UserDetailsChanges */}
+        <section className="user-details-changes-section section-padding-all">
+          <div className="default-container">
+            {userData ? (
+              <div className="row">
+                <div className="col-md-12">
+                  {/* Wyświetl dane użytkownika tutaj, używając userData */}
+                  {/* Przykład: <p>{userData.firstName}</p> */}
+                </div>
+              </div>
+            ) : (
+              <p>Ładowanie danych użytkownika...</p>
+            )}
+            {error && <p>Błąd: {error}</p>}
           </div>
-        </div>
-    </section>
-    {/*End Blog Details Section */}
-    </>
+        </section>
+        {/* Koniec Sekcji UserDetailsChanges */}
+      </>
     )
 }
 
