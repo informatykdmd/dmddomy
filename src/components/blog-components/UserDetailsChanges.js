@@ -13,7 +13,7 @@ const UserDetailsChanges = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get(`https://${ApiAddress}/api/getUserData/${userHash}`);
+        const response = await axios.get(`https://${ApiAddress}/api/removeSubscriber/${userHash}`);
         setUserData(response.data); // Upewnij się, że struktura danych jest zgodna z tym, co zwraca nowy endpoint
       } catch (error) {
         setError(error.message);
