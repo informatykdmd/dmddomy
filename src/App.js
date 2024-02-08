@@ -48,6 +48,7 @@ import PostsThree from './pages/blogpages/PostsThree';
 import PostsFour from './pages/blogpages/PostsFour';
 import PostsFourRealizacje from './pages/blogpages/PostsFourRealizacje';
 import PostsDetailsOne from './pages/blogpages/PostsDetailsOne';
+import UserChangesPage from './pages/others/UserChangesPage';
 import RealizacjeDetailsOneRezydencjaParkowa from './pages/blogpages/RealizacjeDetailsOneRezydencjaParkowa';
 import RealizacjeDetailsOneDomzWidokiem4 from './pages/blogpages/RealizacjeDetailsOneDomzWidokiem4';
 import RealizacjeDetailsOneKasjopea from './pages/blogpages/RealizacjeDetailsOneKasjopea';
@@ -156,6 +157,9 @@ function App() {
           {/* dev options */}
           <Route exact path={`${process.env.PUBLIC_URL + '/dev-page-reader-post'}`} element={<DevTech />}/>
           <Route path="/post/:postId" element={<PostsDetailsOne/>} />
+          <Route path="/aktywacja-newslettera/:userHash" element={<UserChangesPage/>} />
+          <Route path="/edytuj-newslettera/:userHash" element={<UserChangesPage/>} />
+          <Route path="/usun-newslettera/:userHash" element={<UserChangesPage/>} />
 
           <Route path='*' element={<Error/>}/>        
         </Routes>
