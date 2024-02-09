@@ -20,38 +20,38 @@ const UserDetailsChanges = () => {
   };
 
   const handleAvatarSubmit = async () => {
-    console.log('userAvatar', userAvatar, typeof userAvatar);
-    const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar });
-    console.log(response.data);
+    
     try {
       // Sprawdź, czy URL avatara zaczyna się od 'http' i kończy na 'jpg' lub 'png'
       if (!userAvatar.match(/^http/) || !(userAvatar.endsWith('.jpg') || userAvatar.endsWith('.png'))) {
         setError('Nieprawidłowy format adresu URL obrazka.');
         return;
       }
-
+      console.log('userAvatar', userAvatar, typeof userAvatar);
+      const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar });
+      console.log(response.data);
       // Pobierz obrazek, aby sprawdzić jego rozmiar
-      const imageResponse = await fetch(userAvatar);
-      const blob = await imageResponse.blob();
+      //const imageResponse = await fetch(userAvatar);
+      //const blob = await imageResponse.blob();
 
       // Sprawdź, czy wymiary obrazka są zgodne z podanymi ograniczeniami
-      const img = new Image();
-      img.src = URL.createObjectURL(blob);
+      //const img = new Image();
+      //img.src = URL.createObjectURL(blob);
       
-      img.onload = async () => {
-        if (img.width > 300 || img.height > 300) {
-          setError('Rozmiar obrazka nie może przekraczać 300x300 pikseli.');
-        } else {
+      //img.onload = async () => {
+      //  if (img.width > 300 || img.height > 300) {
+      //    setError('Rozmiar obrazka nie może przekraczać 300x300 pikseli.');
+      //  } else {
           // Jeśli wszystkie warunki są spełnione, wykonaj zapytanie do API w celu aktualizacji avatara
-          const userAvatar_mask = userAvatar.replace('https://', '#ADRES_PROTOCOL#').replace('http://', '#ADRES_PROTOCOL#').replace(/\./g, '#dot#').replace(/\//g, '#slash#');
-          console.log('userAvatar', userAvatar, typeof userAvatar, 'userAvatar_mask', userAvatar_mask, typeof userAvatar_mask);
-          const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar_mask });
-          console.log(response.data);
-          setError(null);
-          setUserAvatar(''); // Opcjonalnie: Wyczyść pole adresu URL po sukcesie
-          setAvatarPreview(null);
-        }
-      };
+      //    const userAvatar_mask = userAvatar.replace('https://', '#ADRES_PROTOCOL#').replace('http://', '#ADRES_PROTOCOL#').replace(/\./g, '#dot#').replace(/\//g, '#slash#');
+      //    console.log('userAvatar', userAvatar, typeof userAvatar, 'userAvatar_mask', userAvatar_mask, typeof userAvatar_mask);
+      //    const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar_mask });
+      //    console.log(response.data);
+      //    setError(null);
+      //    setUserAvatar(''); // Opcjonalnie: Wyczyść pole adresu URL po sukcesie
+      //    setAvatarPreview(null);
+      //  }
+     // };
     } catch (error) {
       setError(error.message);
     }
