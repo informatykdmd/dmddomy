@@ -40,7 +40,7 @@ const UserDetailsChanges = () => {
           setError('Rozmiar obrazka nie może przekraczać 300x300 pikseli.');
         } else {
           // Jeśli wszystkie warunki są spełnione, wykonaj zapytanie do API w celu aktualizacji avatara
-          console.log('userAvatar', userAvatar);
+          
           const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar });
           console.log(response.data);
           setError(null);
@@ -52,7 +52,7 @@ const UserDetailsChanges = () => {
       setError(error.message);
     }
   };
-
+  console.log('userAvatar', userAvatar);
   return (
     <>
       {/* Sekcja UserDetailsChanges */}
