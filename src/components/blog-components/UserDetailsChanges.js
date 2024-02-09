@@ -8,7 +8,7 @@ const UserDetailsChanges = () => {
   const [userAvatar, setUserAvatar] = useState('');
   const [error, setError] = useState(null);
   const [avatarPreview, setAvatarPreview] = useState(null);
-
+  const SuccessFull = false;
   const ApiAdres = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
 
   const handleAvatarChange = (event) => {
@@ -30,28 +30,7 @@ const UserDetailsChanges = () => {
       console.log('userAvatar', userAvatar, typeof userAvatar);
       const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar });
       console.log(response.data);
-      // Pobierz obrazek, aby sprawdzić jego rozmiar
-      //const imageResponse = await fetch(userAvatar);
-      //const blob = await imageResponse.blob();
-
-      // Sprawdź, czy wymiary obrazka są zgodne z podanymi ograniczeniami
-      //const img = new Image();
-      //img.src = URL.createObjectURL(blob);
-      
-      //img.onload = async () => {
-      //  if (img.width > 300 || img.height > 300) {
-      //    setError('Rozmiar obrazka nie może przekraczać 300x300 pikseli.');
-      //  } else {
-          // Jeśli wszystkie warunki są spełnione, wykonaj zapytanie do API w celu aktualizacji avatara
-      //    const userAvatar_mask = userAvatar.replace('https://', '#ADRES_PROTOCOL#').replace('http://', '#ADRES_PROTOCOL#').replace(/\./g, '#dot#').replace(/\//g, '#slash#');
-      //    console.log('userAvatar', userAvatar, typeof userAvatar, 'userAvatar_mask', userAvatar_mask, typeof userAvatar_mask);
-      //    const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar_mask });
-      //    console.log(response.data);
-      //    setError(null);
-      //    setUserAvatar(''); // Opcjonalnie: Wyczyść pole adresu URL po sukcesie
-      //    setAvatarPreview(null);
-      //  }
-     // };
+      SuccessFull = true;
     } catch (error) {
       setError(error.message);
     }
@@ -73,6 +52,7 @@ const UserDetailsChanges = () => {
                   {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
 
                   <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
+                  {SuccessFull && <span style={{color: 'green'}}>Avatar został pomyślnie zmieniony.</span>}
                 </form>
               </div>
             </div>
