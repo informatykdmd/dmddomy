@@ -46,8 +46,29 @@ const ActiveUser = () => {
               <div className="blog-detail mt-30">
                 {userData ? (
                   <div style={{ textAlign: 'center', fontSize: '30px', color: '#0e600c', fontWeight: 'bold' }}>
-                    <i className="fa fa-smile-o" aria-hidden="true"></i>
-                    <p>Konto zostało aktywowane</p>
+                    <i className="fa fa-smile-o"></i>
+                    <p>Twoje Konto Zostało Aktywowane</p>
+                    <p>Dziękujemy za dołączenie do naszej platformy.</p>
+                    <div style={{ textAlign: 'left', fontSize: '15px', color: '#000', fontWeight: 'normal', width: '35%'}}>
+                        <p>Ciepłe gratulacje! Twoje konto zostało pomyślnie aktywowane. Witamy Cię w naszej społeczności z otwartymi ramionami!</p>
+
+                        <p> Teraz, jako aktywny subskrybent, masz dostęp do wielu możliwości personalizacji i interakcji.</p>
+
+                        <p>Oto kilka ważnych informacji:</p>
+
+                        <ul>
+                            <li><strong>Zmiana Tańca:</strong> Zawsze możesz dostosować swoje preferencje taneczne w swoim profilu. Wyraź siebie poprzez wybór tańca, który najlepiej do Ciebie pasuje.</li>
+                            <li><strong>Dodanie Awatara:</strong> Spraw, by Twoje konto było unikalne! Dodaj awatar, który reprezentuje Twój styl i osobowość.</li>
+                            <li><strong>Komentarze:</strong> Dzięki subskrybcji, teraz możesz swobodnie komentować posty na naszym blogu. Podziel się swoimi myślami i doświadczeniem z naszą dynamiczną społecznością.</li>
+                        </ul>
+
+                        <p>Jeszcze raz dziękujemy za dołączenie do DMD Blog. Mamy nadzieję, że Twoje doświadczenie z nami będzie pełne inspiracji i pozytywnych wrażeń.</p>
+
+                        <p>Życzymy udanej podróży po świecie tańca i wspólnej pasji!</p>
+
+                        <p>Z poważaniem,<br/>Zespół DMD</p>
+
+                    </div>
                     {showContent ? (
                       <>
                         {window.location.href = 'https://dmddomy.pl'}
