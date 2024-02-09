@@ -45,7 +45,7 @@ const ActiveUser = () => {
             <div className="col-md-12">
               <div className="blog-detail mt-30">
                 {userData ? (
-                <div style={{width: '100%', textAlign: 'center'}}>
+                <div style={{width: '100%', marginLeft: '35%', marginRight: '35%'}}>
                   <div style={{ 
                         textAlign: 'center', 
                         fontSize: '30px', 
