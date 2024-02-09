@@ -10,7 +10,6 @@ const UserDetailsChanges = () => {
   const [avatarPreview, setAvatarPreview] = useState(null);
 
   const ApiAdres = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
-  console.log(userHash);
 
   const handleAvatarChange = (event) => {
     const nowyAvatar = event.target.value;
@@ -44,6 +43,8 @@ const UserDetailsChanges = () => {
           const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar });
           console.log(response.data);
           setError(null);
+          setUserAvatar(''); // Opcjonalnie: Wyczyść pole adresu URL po sukcesie
+          setAvatarPreview(null);
         }
       };
     } catch (error) {
