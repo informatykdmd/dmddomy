@@ -37,8 +37,10 @@ const ActiveUser = () => {
           {userData ? (
             <div className="row">
               <div className="col-md-12">
-                Wyświetl dane użytkownika tutaj, używając userhasha
-                Przykład: <p>{userHash}</p>
+                <div className="blog-detail mt-30">
+                    Konto zostało aktywowane
+                    Przykład: <p>{userHash}</p>
+                </div>
               </div>
             </div>
           ) : (
