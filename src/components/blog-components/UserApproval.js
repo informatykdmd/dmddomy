@@ -9,7 +9,7 @@ const ActiveUser = () => {
   const [error, setError] = useState(null);
 
   const ApiAddress = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
-  console.log(userHash);
+//   console.log(userHash);
 
   const handleActiveSubscriber = async () => {
       try {
@@ -19,7 +19,7 @@ const ActiveUser = () => {
         setError(error.message);
       }
     };
-  console.log(userData.success);
+//   console.log(userData.success);
   useEffect(()=>{
     handleActiveSubscriber();
   }, [userHash, ApiAddress]);
@@ -39,7 +39,7 @@ const ActiveUser = () => {
             <div className="row">
               <div className="col-md-12">
                 Wyświetl dane użytkownika tutaj, używając userhasha
-                Przykład: <p>{userData.success}</p>
+                Przykład: <p>{userData}</p>
               </div>
             </div>
           ) : (
