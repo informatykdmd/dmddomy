@@ -88,7 +88,14 @@ const ActiveUser = () => {
                   </div>
                 </div>
                 ) : (
-                  error && <p>Błąd: {error}</p>
+                    error && (
+                        <div style={{textAlign:'center'}}>
+                          <h1>Błąd serwera!</h1> 
+                          <p>Błąd: {error}</p>
+                          <a href='https://dmddomy.pl'>www.dmddomy.pl</a>
+                          {window.location.href = 'https://dmddomy.pl'}
+                      </div>
+                      )
                 )}
               </div>
             </div>
