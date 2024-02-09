@@ -22,6 +22,7 @@ const UserDetailsChanges = () => {
   const handleAvatarSubmit = async () => {
     console.log('userAvatar', userAvatar, typeof userAvatar);
     const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar });
+    console.log(response.data);
     try {
       // Sprawdź, czy URL avatara zaczyna się od 'http' i kończy na 'jpg' lub 'png'
       if (!userAvatar.match(/^http/) || !(userAvatar.endsWith('.jpg') || userAvatar.endsWith('.png'))) {
