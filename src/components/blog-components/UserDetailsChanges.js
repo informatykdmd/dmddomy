@@ -9,19 +9,20 @@ const UserDetailsChanges = () => {
   const [error, setError] = useState(null);
 
   const ApiAddress = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
+  console.log(userHash);
 
-  useEffect(() => {
-    const fetchUserData = async () => {
+  const handleRemoveSubscriber = async () => {
       try {
-        const response = await axios.get(`https://${ApiAddress}/api/removeSubscriber/${userHash}`);
+        const response = await axios.post(`https://${ApiAddress}/api/removeSubscriber`, {userHash});
         setUserData(response.data); // Upewnij się, że struktura danych jest zgodna z tym, co zwraca nowy endpoint
       } catch (error) {
         setError(error.message);
       }
     };
-
-    fetchUserData();
-  }, [userHash, ApiAddress]); // Dodaj ApiAddress jako zależność useEffect, aby uniknąć ewentualnych błędów związanych z stale zmieniającym się adresem API
+  console.log(userData)
+  useEffect(()=>{
+    handleRemoveSubscriber();
+  }, [userHash, ApiAddress]);
 
   function formatDate(dateTimeString) {
     const options = { day: 'numeric', month: 'long', year: 'numeric' };
@@ -34,11 +35,11 @@ const UserDetailsChanges = () => {
       {/* Sekcja UserDetailsChanges */}
       <section className="user-details-changes-section section-padding-all">
         <div className="default-container">
-          {userData ? (
+          {userHash ? (
             <div className="row">
               <div className="col-md-12">
-                {/* Wyświetl dane użytkownika tutaj, używając userData */}
-                {/* Przykład: <p>{userData.firstName}</p> */}
+                {/* Wyświetl dane użytkownika tutaj, używając userhasha */}
+                {/* Przykład: <p>{userHash}</p> */}
               </div>
             </div>
           ) : (
