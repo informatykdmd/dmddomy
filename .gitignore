@@ -6,6 +6,11 @@
 .pnp.js
 api/api_mysql.js
 
+api/ecosystem.config.js
+commader.md
+ecosystem.config.js
+ecosystem.config.js.save
+
 # testing
 /coverage
 
