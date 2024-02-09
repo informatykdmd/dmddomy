@@ -16,7 +16,7 @@ const UserChangesPage = () => {
         
         <UserDetailsChanges />
                 
-        {/* <FooterOne /> */}
+        <FooterOne />
         </>
     )
 }
