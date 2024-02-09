@@ -38,7 +38,7 @@ const ActiveUser = () => {
             <div className="row">
               <div className="col-md-12">
                 Wyświetl dane użytkownika tutaj, używając userhasha
-                Przykład: <p>{userData}</p>
+                Przykład: <p>{userHash}</p>
               </div>
             </div>
           ) : (
