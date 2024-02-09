@@ -55,7 +55,7 @@ const UserDetailsChanges = () => {
                   <div style={{ 
                         textAlign: 'center', 
                         fontSize: '30px', 
-                        color: '#0e600c', 
+                        color: 'red', 
                         fontWeight: 'bold', 
                         minWidth: '300px',
                         maxWidth: '500px'
