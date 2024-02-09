@@ -45,7 +45,8 @@ const ActiveUser = () => {
             <div className="col-md-12">
               <div className="blog-detail mt-30">
                 {userData ? (
-                  <div style={{ textAlign: 'center', fontSize: '30px', color: 'greenyellow', fontWeight: 'bold' }}>
+                  <div style={{ textAlign: 'center', fontSize: '30px', color: '#0e600c', fontWeight: 'bold' }}>
+                    <i className="fa fa-smile-o" aria-hidden="true"></i>
                     <p>Konto zostało aktywowane</p>
                     {showContent ? (
                       <>
