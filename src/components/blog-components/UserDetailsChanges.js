@@ -8,9 +8,9 @@ const UserDetailsChanges = () => {
   const [userAvatar, setUserAvatar] = useState('');
   const [error, setError] = useState(null);
   const [avatarPreview, setAvatarPreview] = useState(null);
-  const SuccessFull = false;
+  
   const ApiAdres = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
-
+  let SuccessFull = false;
   const handleAvatarChange = (event) => {
     const nowyAvatar = event.target.value;
     setUserAvatar(nowyAvatar);
