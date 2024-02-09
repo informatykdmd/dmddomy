@@ -41,27 +41,34 @@ const UserDetailsChanges = () => {
       {/* Sekcja UserDetailsChanges */}
       <section className="user-details-changes-section section-padding-all">
         <div className="default-container">
-          {userHash ? (
-            <div className="row">
-              <div className="col-md-12">
-                <form>
-                  <div>
-                    <label>Adres URL obrazka avatara:</label>
-                  </div>
-                  <div>
-                    <input type="text" value={userAvatar} onChange={handleAvatarChange} />
-                    {/* Opcjonalnie: Wyświetl podgląd avatara */}
-                    {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
-                    <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
-                    {successFull && <span style={{color: 'green'}}>Avatar został pomyślnie zmieniony.</span> }
-                  </div>
-                </form>
+          <div className="blog-detail mt-30">
+            {userHash ? (
+              <div className="row">
+                <div className="col-md-12" style={{width: '100%', marginLeft: '35%', marginRight: '35%'}}>
+                  <form>
+                    <div >
+                      {/* Opcjonalnie: Wyświetl podgląd avatara */}
+                      {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
+                    </div>
+                    <div>
+                      <label>Adres URL obrazka avatara:</label>
+                    </div>
+                    <div>
+                      <input type="text" value={userAvatar} onChange={handleAvatarChange} />
+                    </div>
+                    
+                    <div>
+                      <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
+                      {successFull && <span style={{color: 'green'}}>Avatar został pomyślnie zmieniony.</span> }
+                    </div>
+                  </form>
+                </div>
               </div>
-            </div>
-          ) : (
-            <p>Ładowanie danych użytkownika...</p>
-          )}
-          {error && <p style={{ color: 'red' }}>Błąd: {error}</p>}
+            ) : (
+              <p>Ładowanie danych użytkownika...</p>
+            )}
+            {error && <p style={{ color: 'red' }}>Błąd: {error}</p>}
+          </div>
         </div>
       </section>
       {/* Koniec Sekcji UserDetailsChanges */}
