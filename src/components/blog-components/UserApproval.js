@@ -39,9 +39,9 @@ const ActiveUser = () => {
               <div className="col-md-12">
                 <div className="blog-detail mt-30">
                 {userData ? (
-                    <div style={{textAlign: 'center'}}>
+                    <div style={{textAlign: 'center', fontSize: '30px', color: 'greenyellow', fontWeight: 'bold' }}>
                         <p>Konto zostało aktywowane</p>
-                        <p>Przykład: {userHash}</p>
+                        {window.location.href = 'https://dmddomy.pl'}
                     </div>
                         ) : (
                             error && <p>Błąd: {error}</p>
