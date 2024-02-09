@@ -100,7 +100,11 @@ const UserDetailsChanges = () => {
                       <h1>Błąd serwera!</h1> 
                       <p>Błąd: {error}</p>
                       <a href='https://dmddomy.pl'>www.dmddomy.pl</a>
-                      {window.location.href = 'https://dmddomy.pl'}
+                      {showContent ? (
+                          <>
+                            {window.location.href = 'https://dmddomy.pl'}
+                          </>
+                        ) : null }
                   </div>
                   )
                 )}
