@@ -46,10 +46,9 @@ const ActiveUser = () => {
               <div className="blog-detail mt-30">
                 {userData ? (
                   <div style={{ textAlign: 'center', fontSize: '30px', color: 'greenyellow', fontWeight: 'bold' }}>
+                    <p>Konto zostało aktywowane</p>
                     {showContent ? (
                       <>
-                        {/* Tutaj umieść zawartość, która ma się pojawić po opóźnieniu */}
-                        <p>Konto zostało aktywowane</p>
                         {window.location.href = 'https://dmddomy.pl'}
                       </>
                     ) : null}
