@@ -8,6 +8,18 @@ const ActiveUser = () => {
   const [userData, setUserData] = useState(null);
   const [error, setError] = useState(null);
 
+  const [showContent, setShowContent] = useState(false);
+  useEffect(() => {
+    const delay = 10000; // 10 sekund w milisekundach
+
+    const timerId = setTimeout(() => {
+      setShowContent(true);
+    }, delay);
+
+    // Pamiętaj o wyczyszczeniu timera, aby uniknąć wycieków pamięci
+    return () => clearTimeout(timerId);
+  }, []);
+
   const ApiAddress = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
 
   const handleActiveSubscriber = async () => {
@@ -23,34 +35,31 @@ const ActiveUser = () => {
     handleActiveSubscriber();
   }, [userHash, ApiAddress]);
 
-  function formatDate(dateTimeString) {
-    const options = { day: 'numeric', month: 'long', year: 'numeric' };
-    const formattedDate = new Date(dateTimeString).toLocaleDateString('pl-PL', options);
-    return formattedDate;
-  }
 
   return (
     <>
       {/* Sekcja UserDetailsChanges */}
       <section className="user-details-changes-section section-padding-all">
         <div className="default-container">
-          
-            <div className="row">
-              <div className="col-md-12">
-                <div className="blog-detail mt-30">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="blog-detail mt-30">
                 {userData ? (
-                    <div style={{textAlign: 'center', fontSize: '30px', color: 'greenyellow', fontWeight: 'bold' }}>
+                  <div style={{ textAlign: 'center', fontSize: '30px', color: 'greenyellow', fontWeight: 'bold' }}>
+                    {showContent ? (
+                      <>
+                        {/* Tutaj umieść zawartość, która ma się pojawić po opóźnieniu */}
                         <p>Konto zostało aktywowane</p>
                         {window.location.href = 'https://dmddomy.pl'}
-                    </div>
-                        ) : (
-                            error && <p>Błąd: {error}</p>
-                        )}
-                </div>
+                      </>
+                    ) : null}
+                  </div>
+                ) : (
+                  error && <p>Błąd: {error}</p>
+                )}
               </div>
             </div>
-          
-          
+          </div>
         </div>
       </section>
       {/* Koniec Sekcji UserDetailsChanges */}
