@@ -43,8 +43,9 @@ const ActiveUser = () => {
         <div className="default-container">
           <div className="row">
             <div className="col-md-12">
-              <div className="blog-detail mt-30" style={{ textAlign: 'center'}}>
+              <div className="blog-detail mt-30">
                 {userData ? (
+                <div style={{width: '100%', textAlign: 'center'}}>
                   <div style={{ 
                         textAlign: 'center', 
                         fontSize: '30px', 
@@ -85,6 +86,7 @@ const ActiveUser = () => {
                       </>
                     ) : null}
                   </div>
+                </div>
                 ) : (
                   error && <p>Błąd: {error}</p>
                 )}
