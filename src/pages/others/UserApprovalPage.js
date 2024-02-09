@@ -2,7 +2,7 @@ import React from 'react';
 import UserApproval from '../../components/blog-components/UserApproval';
 
 
-const UserRemovePage = () => {
+const UserApprovalPage = () => {
     return (
         <>
             <UserApproval />
@@ -10,4 +10,4 @@ const UserRemovePage = () => {
     )
 }
     
-export default UserRemovePage;
+export default UserApprovalPage;
