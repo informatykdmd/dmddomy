@@ -20,7 +20,7 @@ const UserDetailsChanges = () => {
   };
 
   const handleAvatarSubmit = async () => {
-    console.log('userAvatar', userAvatar);
+    console.log('userAvatar', userAvatar, typeof userAvatar);
     try {
       // Sprawdź, czy URL avatara zaczyna się od 'http' i kończy na 'jpg' lub 'png'
       if (!userAvatar.match(/^http/) || !(userAvatar.endsWith('.jpg') || userAvatar.endsWith('.png'))) {
