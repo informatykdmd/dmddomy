@@ -42,6 +42,7 @@ const UserDetailsChanges = () => {
         } else {
           // Jeśli wszystkie warunki są spełnione, wykonaj zapytanie do API w celu aktualizacji avatara
           const userAvatar_mask = userAvatar.replace('https://', '#ADRES_PROTOCOL#').replace('http://', '#ADRES_PROTOCOL#').replace(/\./g, '#dot#').replace(/\//g, '#slash#');
+          console.log('userAvatar', userAvatar, typeof userAvatar, 'userAvatar_mask', userAvatar_mask, typeof userAvatar_mask);
           const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar_mask });
           console.log(response.data);
           setError(null);
