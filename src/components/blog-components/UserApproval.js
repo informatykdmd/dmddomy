@@ -19,7 +19,7 @@ const ActiveUser = () => {
         setError(error.message);
       }
     };
-  console.log(userData)
+  console.log(userData.success);
   useEffect(()=>{
     handleActiveSubscriber();
   }, [userHash, ApiAddress]);
@@ -35,11 +35,11 @@ const ActiveUser = () => {
       {/* Sekcja UserDetailsChanges */}
       <section className="user-details-changes-section section-padding-all">
         <div className="default-container">
-          {userHash ? (
+          {userData ? (
             <div className="row">
               <div className="col-md-12">
-                {/* Wyświetl dane użytkownika tutaj, używając userhasha */}
-                Przykład: <p>{userHash}</p>
+                Wyświetl dane użytkownika tutaj, używając userhasha
+                Przykład: <p>{userData.success}</p>
               </div>
             </div>
           ) : (
