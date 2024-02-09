@@ -10,7 +10,7 @@ const ActiveUser = () => {
 
   const [showContent, setShowContent] = useState(false);
   useEffect(() => {
-    const delay = 10000; // 10 sekund w milisekundach
+    const delay = 30000; // 10 sekund w milisekundach
 
     const timerId = setTimeout(() => {
       setShowContent(true);
@@ -54,9 +54,9 @@ const ActiveUser = () => {
                         minWidth: '300px',
                         maxWidth: '500px'
                     }}>
-                    <i className="fa fa-smile-o" style={{fontSize: '150px'}}></i>
+                    <i className="fa fa-smile-o" style={{fontSize: '120px'}}></i>
                     <p>Twoje Konto Zostało Aktywowane</p>
-                    <p>Dziękujemy za dołączenie do naszej platformy.</p>
+                    <p>Dziękujemy</p>
                     <div style={{ 
                             textAlign: 'left', 
                             fontSize: '15px', 
