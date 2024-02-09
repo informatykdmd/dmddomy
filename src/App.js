@@ -49,7 +49,7 @@ import PostsFour from './pages/blogpages/PostsFour';
 import PostsFourRealizacje from './pages/blogpages/PostsFourRealizacje';
 import PostsDetailsOne from './pages/blogpages/PostsDetailsOne';
 import UserChangesPage from './pages/others/UserChangesPage';
-import UserRemoverPage from './pages/others/UserRemoverPage';
+import UserRemovePage from './pages/others/UserRemovePage';
 import UserApprovalPage from './pages/others/UserApprovalPage';
 import RealizacjeDetailsOneRezydencjaParkowa from './pages/blogpages/RealizacjeDetailsOneRezydencjaParkowa';
 import RealizacjeDetailsOneDomzWidokiem4 from './pages/blogpages/RealizacjeDetailsOneDomzWidokiem4';
@@ -161,7 +161,7 @@ function App() {
           <Route path="/post/:postId" element={<PostsDetailsOne/>} />
           <Route path="/aktywacja-newslettera/:userHash" element={<UserApprovalPage/>} />
           <Route path="/edytuj-newslettera/:userHash" element={<UserChangesPage/>} />
-          <Route path="/usun-newslettera/:userHash" element={<UserRemoverPage/>} />
+          <Route path="/usun-newslettera/:userHash" element={<UserRemovePage/>} />
 
           <Route path='*' element={<Error/>}/>        
         </Routes>
