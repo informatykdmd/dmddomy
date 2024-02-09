@@ -39,7 +39,7 @@ const ActiveUser = () => {
               <div className="col-md-12">
                 <div className="blog-detail mt-30">
                 {userData ? (
-                    <div>
+                    <div style={{textAlign: 'center'}}>
                         <p>Konto zostało aktywowane</p>
                         <p>Przykład: {userHash}</p>
                     </div>
