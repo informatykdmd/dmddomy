@@ -43,7 +43,7 @@ const ActiveUser = () => {
         <div className="default-container">
           <div className="row">
             <div className="col-md-12">
-              <div className="blog-detail mt-30">
+              <div className="blog-detail mt-30" style={{ textAlign: 'center'}}>
                 {userData ? (
                   <div style={{ 
                         textAlign: 'center', 
