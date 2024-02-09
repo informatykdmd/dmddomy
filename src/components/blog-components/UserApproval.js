@@ -9,7 +9,6 @@ const ActiveUser = () => {
   const [error, setError] = useState(null);
 
   const ApiAddress = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
-//   console.log(userHash);
 
   const handleActiveSubscriber = async () => {
       try {
@@ -19,7 +18,7 @@ const ActiveUser = () => {
         setError(error.message);
       }
     };
-//   console.log(userData.success);
+
   useEffect(()=>{
     handleActiveSubscriber();
   }, [userHash, ApiAddress]);
