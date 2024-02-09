@@ -34,19 +34,23 @@ const ActiveUser = () => {
       {/* Sekcja UserDetailsChanges */}
       <section className="user-details-changes-section section-padding-all">
         <div className="default-container">
-          {userData ? (
+          
             <div className="row">
               <div className="col-md-12">
                 <div className="blog-detail mt-30">
-                    Konto zostało aktywowane
-                    Przykład: <p>{userHash}</p>
+                {userData ? (
+                    <div>
+                        <p>Konto zostało aktywowane</p>
+                        <p>Przykład: {userHash}</p>
+                    </div>
+                        ) : (
+                            error && <p>Błąd: {error}</p>
+                        )}
                 </div>
               </div>
             </div>
-          ) : (
-            <p>Ładowanie danych użytkownika...</p>
-          )}
-          {error && <p>Błąd: {error}</p>}
+          
+          
         </div>
       </section>
       {/* Koniec Sekcji UserDetailsChanges */}
