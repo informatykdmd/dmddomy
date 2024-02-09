@@ -59,8 +59,10 @@ const UserDetailsChanges = () => {
                     
                     <div>
                       <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
-                      {successFull && <span style={{color: 'green'}}>Avatar został pomyślnie zmieniony.</span> }
                     </div>
+                    
+                      {successFull && <div><span style={{color: 'green'}}>Avatar został pomyślnie zmieniony.</span></div> }
+                    
                   </form>
                 </div>
               </div>
