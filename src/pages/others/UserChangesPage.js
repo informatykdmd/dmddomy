@@ -5,18 +5,7 @@ import UserDetailsChanges from '../../components/blog-components/UserDetailsChan
 const UserChangesPage = () => {
     return (
         <>
-        {/* <HeaderOne /> */}
-
-        {/* <BreadcrumbOne 
-            title="Blog"
-            rootUrl="/"
-            parentUrl="Home"
-            currentUrl="Blog"
-        /> */}
-        
-        <UserDetailsChanges />
-                
-        <FooterOne />
+            <UserDetailsChanges />
         </>
     )
 }
