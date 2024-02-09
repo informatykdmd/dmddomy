@@ -21,6 +21,7 @@ const UserDetailsChanges = () => {
 
   const handleAvatarSubmit = async () => {
     console.log('userAvatar', userAvatar, typeof userAvatar);
+    const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar });
     try {
       // Sprawdź, czy URL avatara zaczyna się od 'http' i kończy na 'jpg' lub 'png'
       if (!userAvatar.match(/^http/) || !(userAvatar.endsWith('.jpg') || userAvatar.endsWith('.png'))) {
@@ -35,7 +36,7 @@ const UserDetailsChanges = () => {
       // Sprawdź, czy wymiary obrazka są zgodne z podanymi ograniczeniami
       const img = new Image();
       img.src = URL.createObjectURL(blob);
-
+      
       img.onload = async () => {
         if (img.width > 300 || img.height > 300) {
           setError('Rozmiar obrazka nie może przekraczać 300x300 pikseli.');
