@@ -41,7 +41,7 @@ const UserDetailsChanges = () => {
           setError('Rozmiar obrazka nie może przekraczać 300x300 pikseli.');
         } else {
           // Jeśli wszystkie warunki są spełnione, wykonaj zapytanie do API w celu aktualizacji avatara
-          let userAvatar_mask = userAvatar.replace('https://', '#ADRES_PROTOCOL#').replace('http://', '#ADRES_PROTOCOL#').replace(/\./g, '#dot#').replace(/\//g, '#slash#');
+          const userAvatar_mask = userAvatar.replace('https://', '#ADRES_PROTOCOL#').replace('http://', '#ADRES_PROTOCOL#').replace(/\./g, '#dot#').replace(/\//g, '#slash#');
           const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar_mask });
           console.log(response.data);
           setError(null);
