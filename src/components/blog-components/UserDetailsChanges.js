@@ -82,7 +82,7 @@ const UserDetailsChanges = () => {
                         }}
                         onClick={() => handleAvatarSelection('https://heretyk.smallhost.pl/img/logo.png')}
                       >
-                          <div style={{margin: '10px'}}>
+                          <div >
                             <img src="https://heretyk.smallhost.pl/img/logo.png" alt="Avatar 1" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
@@ -98,7 +98,7 @@ const UserDetailsChanges = () => {
                           }}
                           onClick={() => handleAvatarSelection('https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png')}
                         >
-                          <div style={{margin: '10px'}}>
+                          <div>
                             <img src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
