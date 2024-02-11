@@ -65,11 +65,11 @@ const UserDetailsChanges = () => {
                     <div>
                       <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
                     </div>
-                    <div className='com-img'>
-                        <button type="button" onClick={() => handleAvatarSelection('https://heretyk.smallhost.pl/img/logo.png')}>
+                    <div>
+                        <button  className='com-img' type="button" onClick={() => handleAvatarSelection('https://heretyk.smallhost.pl/img/logo.png')}>
                           <img src="https://heretyk.smallhost.pl/img/logo.png" alt="Avatar 1" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                         </button>
-                        <button type="button" onClick={() => handleAvatarSelection('https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png')}>
+                        <button  className='com-img' type="button" onClick={() => handleAvatarSelection('https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png')}>
                           <img src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                         </button>
                     </div>
