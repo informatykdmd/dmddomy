@@ -102,6 +102,54 @@ const UserDetailsChanges = () => {
                             <img src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
+                        <button
+                          className='com-img'
+                          type="button"
+                          style={{
+                            borderRadius: '50%',
+                            overflow: 'hidden',
+                            width: '100px', // Ustaw dowolną szerokość, aby uzyskać pożądany rozmiar kółka
+                            height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
+                            padding: 0, // Usuwa wewnętrzny padding
+                          }}
+                          onClick={() => handleAvatarSelection('https://png.pngtree.com/png-vector/20190626/ourlarge/pngtree-workerindustryavatarengineersupervisor-blue-dotted-line-png-image_1493290.jpg')}
+                        >
+                          <div>
+                            <img src="https://png.pngtree.com/png-vector/20190626/ourlarge/pngtree-workerindustryavatarengineersupervisor-blue-dotted-line-png-image_1493290.jpg" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
+                          </div>
+                        </button>
+                        <button
+                          className='com-img'
+                          type="button"
+                          style={{
+                            borderRadius: '50%',
+                            overflow: 'hidden',
+                            width: '100px', // Ustaw dowolną szerokość, aby uzyskać pożądany rozmiar kółka
+                            height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
+                            padding: 0, // Usuwa wewnętrzny padding
+                          }}
+                          onClick={() => handleAvatarSelection('https://www.pinpng.com/pngs/m/474-4744223_wild-hunt-witcher-avatar-hd-png-download.png')}
+                        >
+                          <div>
+                            <img src="https://www.pinpng.com/pngs/m/474-4744223_wild-hunt-witcher-avatar-hd-png-download.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
+                          </div>
+                        </button>
+                        <button
+                          className='com-img'
+                          type="button"
+                          style={{
+                            borderRadius: '50%',
+                            overflow: 'hidden',
+                            width: '100px', // Ustaw dowolną szerokość, aby uzyskać pożądany rozmiar kółka
+                            height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
+                            padding: 0, // Usuwa wewnętrzny padding
+                          }}
+                          onClick={() => handleAvatarSelection('https://w7.pngwing.com/pngs/210/693/png-transparent-leonardo-dicaprio-the-wolf-of-wall-street-film-youtube-leonardo-dicaprio-celebrities-microphone-glasses-thumbnail.png')}
+                        >
+                          <div>
+                            <img src="https://w7.pngwing.com/pngs/210/693/png-transparent-leonardo-dicaprio-the-wolf-of-wall-street-film-youtube-leonardo-dicaprio-celebrities-microphone-glasses-thumbnail.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
+                          </div>
+                        </button>
                     </div>
                     
                       {successFull && <div><span style={{color: 'green'}}>Avatar został pomyślnie zmieniony.</span></div> }
