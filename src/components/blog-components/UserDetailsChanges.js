@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import myDatabaseConfig from '../../supportscripts/env_connect';
@@ -20,7 +20,6 @@ const UserDetailsChanges = () => {
   };
 
   const handleAvatarSubmit = async () => {
-    
     try {
       // Sprawdź, czy URL avatara zaczyna się od 'http' i kończy na 'jpg' lub 'png'
       if (!userAvatar.match(/^http/) || !(userAvatar.endsWith('.jpg') || userAvatar.endsWith('.png'))) {
@@ -34,6 +33,12 @@ const UserDetailsChanges = () => {
     } catch (error) {
       setError(error.message);
     }
+  };
+
+
+  const handleAvatarSelection = (selectedAvatar) => {
+    setUserAvatar(selectedAvatar);
+    setAvatarPreview(selectedAvatar);
   };
   
   return (
@@ -59,6 +64,11 @@ const UserDetailsChanges = () => {
                     
                     <div>
                       <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
+                    </div>
+                    <div>
+                        <button type="button" onClick={() => handleAvatarSelection('https://heretyk.smallhost.pl/img/logo.png')}>
+                          <img src="https://heretyk.smallhost.pl/img/logo.png" alt="Avatar 2" />
+                        </button>
                     </div>
                     
                       {successFull && <div><span style={{color: 'green'}}>Avatar został pomyślnie zmieniony.</span></div> }
