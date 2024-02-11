@@ -54,25 +54,22 @@ const UserDetailsChanges = () => {
                                       flexDirection: 'column', 
                                       alignItems: 'center', 
                                       justifyContent: 'center', 
-                                      height: '100vh', 
-                                      margin: '10px'
+                                      height: '100vh'
                                       }}>
                   <form>
                     <div >
                       {/* Opcjonalnie: Wyświetl podgląd avatara */}
                       {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
                     </div>
-                    <div>
-                      <label></label>
-                    </div>
-                    <div>
+                    
+                    <div style={{margin: '10px'}}>
                       <input type="text" className="form-control" placeholder="Adres URL obrazka avatara:" value={userAvatar} onChange={handleAvatarChange} />
                     </div>
                     
-                    <div>
+                    <div style={{margin: '10px'}}>
                       <button className="btn btn_custom ploting-btn btn-style-two" type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
                     </div>
-                    <div>
+                    <div style={{margin: '10px'}}>
                       <button
                         className='com-img'
                         type="button"
@@ -85,7 +82,7 @@ const UserDetailsChanges = () => {
                         }}
                         onClick={() => handleAvatarSelection('https://heretyk.smallhost.pl/img/logo.png')}
                       >
-                          <div>
+                          <div style={{margin: '10px'}}>
                             <img src="https://heretyk.smallhost.pl/img/logo.png" alt="Avatar 1" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
@@ -101,7 +98,7 @@ const UserDetailsChanges = () => {
                           }}
                           onClick={() => handleAvatarSelection('https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png')}
                         >
-                          <div>
+                          <div style={{margin: '10px'}}>
                             <img src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
