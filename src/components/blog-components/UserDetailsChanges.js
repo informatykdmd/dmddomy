@@ -49,7 +49,14 @@ const UserDetailsChanges = () => {
           <div className="blog-detail mt-30">
             {userHash ? (
               <div className="row">
-                <div className="col-md-12" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+                <div className="col-md-12" style={{ 
+                                      display: 'flex', 
+                                      flexDirection: 'column', 
+                                      alignItems: 'center', 
+                                      justifyContent: 'center', 
+                                      height: '100vh', 
+                                      padding: '10px'
+                                      }}>
                   <form>
                     <div >
                       {/* Opcjonalnie: Wyświetl podgląd avatara */}
