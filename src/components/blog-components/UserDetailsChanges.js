@@ -65,7 +65,7 @@ const UserDetailsChanges = () => {
                     <div>
                       <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
                     </div>
-                    <div>
+                    <div className='com-img'>
                         <button type="button" onClick={() => handleAvatarSelection('https://heretyk.smallhost.pl/img/logo.png')}>
                           <img src="https://heretyk.smallhost.pl/img/logo.png" alt="Avatar 1" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                         </button>
