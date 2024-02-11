@@ -55,7 +55,7 @@ const UserDetailsChanges = () => {
                                       alignItems: 'center', 
                                       justifyContent: 'center', 
                                       height: '100vh', 
-                                      padding: '10px'
+                                      margin: '10px'
                                       }}>
                   <form>
                     <div >
