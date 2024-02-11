@@ -49,7 +49,7 @@ const UserDetailsChanges = () => {
           <div className="blog-detail mt-30">
             {userHash ? (
               <div className="row">
-                <div className="col-md-12" style={{width: '100%', marginLeft: '35%', marginRight: '35%'}}>
+                <div className="col-md-12" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
                   <form>
                     <div >
                       {/* Opcjonalnie: Wyświetl podgląd avatara */}
@@ -66,12 +66,34 @@ const UserDetailsChanges = () => {
                       <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
                     </div>
                     <div>
-                        <button type="button" onClick={() => handleAvatarSelection('https://heretyk.smallhost.pl/img/logo.png')}>
+                      <button
+                        className='com-img'
+                        type="button"
+                        style={{
+                          borderRadius: '50%',
+                          overflow: 'hidden',
+                          width: '100px', // Ustaw dowolną szerokość, aby uzyskać pożądany rozmiar kółka
+                          height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
+                          padding: 0, // Usuwa wewnętrzny padding
+                        }}
+                        onClick={() => handleAvatarSelection('https://heretyk.smallhost.pl/img/logo.png')}
+                      >
                           <div className='com-img'>
                             <img src="https://heretyk.smallhost.pl/img/logo.png" alt="Avatar 1" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
-                        <button  className='com-img' type="button" onClick={() => handleAvatarSelection('https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png')}>
+                        <button
+                          className='com-img'
+                          type="button"
+                          style={{
+                            borderRadius: '50%',
+                            overflow: 'hidden',
+                            width: '100px', // Ustaw dowolną szerokość, aby uzyskać pożądany rozmiar kółka
+                            height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
+                            padding: 0, // Usuwa wewnętrzny padding
+                          }}
+                          onClick={() => handleAvatarSelection('https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png')}
+                        >
                           <div className='com-img'>
                             <img src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-36/256/Avatar-6-icon.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
