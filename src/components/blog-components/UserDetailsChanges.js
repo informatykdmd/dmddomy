@@ -56,14 +56,14 @@ const UserDetailsChanges = () => {
                       {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
                     </div>
                     <div>
-                      <label>Adres URL obrazka avatara:</label>
+                      <label></label>
                     </div>
                     <div>
-                      <input type="text" value={userAvatar} onChange={handleAvatarChange} />
+                      <input type="text" className="form-control" placeholder="Adres URL obrazka avatara:" value={userAvatar} onChange={handleAvatarChange} />
                     </div>
                     
                     <div>
-                      <button type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
+                      <button className="btn btn_custom ploting-btn btn-style-two" type="button" onClick={handleAvatarSubmit}>Aktualizuj avatar</button>
                     </div>
                     <div>
                       <button
