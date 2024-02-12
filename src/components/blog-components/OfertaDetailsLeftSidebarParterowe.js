@@ -47,53 +47,71 @@ const BlogDetailsLeftSidebar = () => {
               <div className="blog-detail mt-30">
                 
                 <div className="det-content">
-                  <h3>Buduj z Nami <br />Najgorętsze Trendy w Naszej Ofercie Głównej</h3>
-                  <blockquote>
-                  <p>
-                    Z radością przedstawiamy naszą ofertę budowy domów z projektów gotowych, dostosowanych 
-                    do różnorodnych potrzeb naszych Klientów. Nasza firma zyskała uznanie dzięki realizacji 
-                    kilkunastu efektownych, funkcjonalnych domów o zróżnicowanych rozmiarach. Oferujemy zarówno 
-                    domy małe, idealne dla tych, którzy pragną intymnej przestrzeni, jak i domy reprezentacyjne, 
-                    dostojne i obszerne.
-                  </p>
-                  </blockquote>
-                  <p>
-                    Wychodząc naprzeciw oczekiwaniom naszych Klientów, proponujemy zoptymalizowane ceny, oparte na 
-                    naszym bogatym doświadczeniu wynikającym z wielokrotnych realizacji projektów w Warszawie 
-                    i okolicy. Specjalizujemy się w budowie domów z renomowanych projektów, takich jak Opal, 
-                    Topaz, Kasjopea, Szafir, Helios i wielu innych, prezentując bogactwo opcji zarówno dla 
-                    domów piętrowych, parterowych z poddaszem użytkowym, jak i tych z możliwością adaptacji strychu.
-                  </p>
-                  <p>
-                    Nasza oferta obejmuje domy o różnych metrażach, od małych po przestronne rezydencje, 
-                    z garażami jedno lub dwustanowiskowymi, a także alternatywnymi rozwiązaniami, takimi 
-                    jak dodatkowa przestrzeń sypialna. Dzięki liczbowym sukcesom w realizacjach, 
-                    gwarantujemy, że koszt budowy domu z naszym doświadczonym zespołem będzie w optymalnej 
-                    relacji do jakości.
-                  </p>                  
+                    <h3>Buduj z Nami <br />Najgorętsze Trendy w Naszej Ofercie Głównej - Domy Parterowe</h3>
+                    <blockquote>
+                        <p>
+                            Z radością przedstawiamy naszą ofertę budowy domów parterowych z projektów gotowych, dostosowanych 
+                            do różnorodnych potrzeb naszych Klientów. Nasza firma zyskała uznanie dzięki realizacji 
+                            kilkunastu efektownych, funkcjonalnych domów parterowych o zróżnicowanych rozmiarach. Oferujemy zarówno 
+                            domy małe, idealne dla tych, którzy pragną intymnej przestrzeni, jak i domy parterowe reprezentacyjne, 
+                            dostojne i obszerne.
+                        </p>
+                    </blockquote>
+                    <p>
+                        Wychodząc naprzeciw oczekiwaniom naszych Klientów, proponujemy zoptymalizowane ceny, oparte na 
+                        naszym bogatym doświadczeniu wynikającym z wielokrotnych realizacji projektów domów parterowych w Warszawie 
+                        i okolicy. Specjalizujemy się w budowie domów parterowych z renomowanych projektów, takich jak Willa Parterowa 2, 
+                        Wąski 3, Willa Parkowa 4, Dom Na Dębowej.
+                    </p>
+                    <p>
+                        Nasza oferta obejmuje domy parterowe o różnych metrażach, od małych po przestronne rezydencje, 
+                        z garażami jedno lub dwustanowiskowymi, a także alternatywnymi rozwiązaniami, takimi 
+                        jak dodatkowa przestrzeń sypialna. Dzięki liczbowym sukcesom w realizacjach, 
+                        gwarantujemy, że koszt budowy domu parterowego z naszym doświadczonym zespołem będzie w optymalnej 
+                        relacji do jakości.
+                    </p>                  
                 </div>
+
                 <blockquote>
-                  <p> “ Zapraszamy Cię do fascynującej podróży przez świat gotowych projektów, gdzie mistrzowska jakość spotyka się z głębokim doświadczeniem, formując niezrównane przestrzenie gotowe na spełnienie marzeń każdego Klienta. Nasza firma to nie tylko budowa domów, lecz tworzenie unikalnych historii w betonie i cegle. Każdy projekt, począwszy od malutkich domów po reprezentacyjne rezydencje, jest rezultatem pasji, zaangażowania i ponadprzeciętnego kunsztu. Pragniemy, aby Twój dom nie był jedynie miejscem zamieszkania, lecz prawdziwym odzwierciedleniem Twoich marzeń i aspiracji. Odkryj z nami przestrzeń, gdzie każdy detal ma znaczenie, a jakość staje się synonimem naszej misji.  ”
-                  </p>
+                    <p>
+                        “ Zapraszamy Cię do fascynującej podróży przez świat gotowych projektów domów parterowych, 
+                        gdzie mistrzowska jakość spotyka się z głębokim doświadczeniem, formując niezrównane przestrzenie gotowe 
+                        na spełnienie marzeń każdego Klienta. Nasza firma to nie tylko budowa domów parterowych, 
+                        lecz tworzenie unikalnych historii w betonie i cegle. Każdy projekt, począwszy od malutkich domów 
+                        parterowych po reprezentacyjne rezydencje parterowe, jest rezultatem pasji, zaangażowania i ponadprzeciętnego kunsztu. 
+                        Pragniemy, aby Twój dom parterowy nie był jedynie miejscem zamieszkania, lecz prawdziwym odzwierciedleniem 
+                        Twoich marzeń i aspiracji. Odkryj z nami przestrzeń, gdzie każdy detal ma znaczenie, a jakość staje się synonimem 
+                        naszej misji.  ”
+                    </p>
                 </blockquote>
+
                 <div className="det-list">
                   <div className="row">
                     <div className="col-sm-7">
-                      <ul>
-                        <li>
-                          <p> Pasja w Budowie: Odkryj z nami pasję w tworzeniu niepowtarzalnych przestrzeni, gdzie jakość jest naszym priorytetem. Każdy projekt to nie tylko budowa domu, ale także realizacja marzeń i aspiracji. </p>
-                        </li>
-                        <li>
-                          <p> Doświadczenie, Które Mówi Głośno: Nasze bogate doświadczenie widoczne jest w każdym detalu. Zderzenie jakości z głębokim fachowym know-how tworzy niezrównane przestrzenie, które stają się żywą opowieścią o naszych umiejętnościach.</p>
-                        </li>
-                        <li>
-                          <p> Projekty Dla Ciebie: Oferujemy różnorodność gotowych projektów, dopasowanych do indywidualnych potrzeb. Niezależnie od tego, czy marzysz o malutkim domu czy reprezentacyjnej rezydencji, każdy projekt jest stworzony z myślą o spełnieniu Twoich marzeń.</p>
-                        </li>
-                        <li>
-                          <p> Dom jako Historia: Nasza firma nie tylko buduje domy, lecz tworzy historie w betonie i cegle. Chcemy, aby Twój dom był wyjątkowym odzwierciedleniem Twojej osobowości. Odkryj z nami przestrzeń, gdzie dbałość o detale i jakość stają się integralną częścią naszej misji.</p>
-                        </li>
-                      </ul>
+                        < ul>
+                            <li>
+                            <p> Pasja w Budowie Parterowych Domów: Odkryj z nami pasję w tworzeniu niepowtarzalnych przestrzeni parterowych, 
+                            gdzie jakość jest naszym priorytetem. Każdy projekt to nie tylko budowa domu parterowego, ale także realizacja 
+                            marzeń i aspiracji. </p>
+                            </li>
+                            <li>
+                            <p> Doświadczenie, Które Mówi Głośno: Nasze bogate doświadczenie widoczne jest w każdym detalu. Zderzenie jakości 
+                            z głębokim fachowym know-how tworzy niezrównane przestrzenie parterowe, które stają się żywą opowieścią o naszych 
+                            umiejętnościach.</p>
+                            </li>
+                            <li>
+                            <p> Projekty Dla Ciebie: Oferujemy różnorodność gotowych projektów parterowych, dopasowanych do indywidualnych 
+                            potrzeb. Niezależnie od tego, czy marzysz o malutkim domu parterowym czy reprezentacyjnej rezydencji parterowej, 
+                            każdy projekt jest stworzony z myślą o spełnieniu Twoich marzeń.</p>
+                            </li>
+                            <li>
+                            <p> Dom jako Historia: Nasza firma nie tylko buduje domy parterowe, lecz tworzy historie w betonie i cegle. Chcemy, 
+                            aby Twój dom parterowy był wyjątkowym odzwierciedleniem Twojej osobowości. Odkryj z nami przestrzeń, gdzie dbałość 
+                            o detale i jakość stają się integralną częścią naszej misji.</p>
+                            </li>
+                        </ul>
                     </div>
+
                     <div className="col-sm-5">
                       <p><img src="images/offers/bl-09-750x430-MalePerly1.png" alt="blog" /></p>
                       <p><img src="images/offers/bl-09-750x430-MalePerly2.png" alt="blog" /></p>
