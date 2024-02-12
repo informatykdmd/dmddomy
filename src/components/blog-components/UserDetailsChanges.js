@@ -6,6 +6,7 @@ import myDatabaseConfig from '../../supportscripts/env_connect';
 const UserDetailsChanges = () => {
   const { userHash } = useParams();
   const [userAvatar, setUserAvatar] = useState('');
+  const [userData, setUserData] = useState('');
   const [error, setError] = useState(null);
   const [avatarPreview, setAvatarPreview] = useState(null);
   const [successFull, setSuccessFull] = useState(false);
@@ -39,9 +40,9 @@ const UserDetailsChanges = () => {
     const getUserData = async () => {
       try {
         const response = await axios.get(`https://${ApiAdres}/api/getUserName`, { params: { userHash } });
-        const userData = response.data; // Zakładam, że dane użytkownika znajdują się w response.data
-        console.log(userData.CLIENT_NAME); // Możesz zmienić console.log na odpowiednią logikę przetwarzania danych
-        // Tutaj możesz zapisać dane w stanie lub zrobić coś innego z danymi
+        const fetchedUserData = response.data;
+        setUserData(fetchedUserData); // Użyj innej nazwy dla lokalnej zmiennej
+        console.log(fetchedUserData);
       } catch (error) {
         console.error("Błąd podczas pobierania danych użytkownika", error);
       }
@@ -54,7 +55,7 @@ const UserDetailsChanges = () => {
     setUserAvatar(selectedAvatar);
     setAvatarPreview(selectedAvatar);
   };
-  
+  console.log(userData);
   return (
     <>
       {/* Sekcja UserDetailsChanges */}
