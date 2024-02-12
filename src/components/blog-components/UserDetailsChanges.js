@@ -41,8 +41,10 @@ const UserDetailsChanges = () => {
       try {
         const response = await axios.get(`https://${ApiAdres}/api/getUserName`, { params: { userHash } });
         const fetchedUserData = response.data;
+        
+        const clientName = fetchedUserData.CLIENT_NAME;
+        console.log(clientName);
         setUserData(fetchedUserData); // Użyj innej nazwy dla lokalnej zmiennej
-        // console.log(fetchedUserData);
       } catch (error) {
         console.error("Błąd podczas pobierania danych użytkownika", error);
       }
