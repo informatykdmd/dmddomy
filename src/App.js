@@ -18,6 +18,12 @@ import ProjectsOne from './pages/projectpages/ProjectsOne';
 import ProjectsTwo from './pages/projectpages/ProjectsTwo';
 import ProjectsDetails from './pages/projectpages/ProjectsDetails';
 import ProjectsDetailsKasjopea7 from './pages/projectpages/ProjectsDetailsKasjopea7';
+
+import ProjectsDetailWillaParterowa2 from './pages/projectpages/ProjectsDetailWillaParterowa2';
+import ProjectsDetailsDomWaski3 from './pages/projectpages/ProjectsDetailsDomWaski3';
+import ProjectsDetailsWillaParkowa4 from './pages/projectpages/ProjectsDetailsWillaParkowa4';
+import ProjectsDetailsDomNaDebowej from './pages/projectpages/ProjectsDetailsDomNaDebowej';
+
 import ProjectsDetailsDomzWidokiem3 from './pages/projectpages/ProjectsDetailsDomzWidokiem3';
 import ProjectsDetailsOpalElegancja from './pages/projectpages/ProjectsDetailsOpalElegancja';
 import ProjectsDetailswillaParkowa160 from './pages/projectpages/ProjectsDetailswillaParkowa160';
@@ -130,6 +136,11 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaMalibu'}`} element={<ProjectsDetailsWillaMalibu />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomzWidokiem4'}`} element={<ProjectsDetailsDomzWidokiem4 />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomzWidokiem'}`} element={<ProjectsDetailsDomzWidokiem />}/>
+
+          <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParterowa2'}`} element={<ProjectsDetailWillaParterowa2 />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomWaski3'}`} element={<ProjectsDetailsDomWaski3 />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParkowa4'}`} element={<ProjectsDetailsWillaParkowa4 />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomNaDebowej'}`} element={<ProjectsDetailsDomNaDebowej />}/>
 
           <Route exact path={`${process.env.PUBLIC_URL + '/blog-posts-fullwidth'}`} element={<PostsOne />}/>
 
