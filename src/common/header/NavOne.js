@@ -57,11 +57,11 @@ const NavOne = () => {
                             </li>
                             <li className="dropdown"><Link to="/oferta-post-left-sidebar">OFERTA</Link>
                                 <ul>
-                                  <li><Link to="/oferta-post-left-sidebar">Parterowe</Link></li>
-                                  <li><Link to="/oferta-post-left-sidebar-ER">Z Poddaszem</Link></li>
-                                  <li><Link to="/oferta-post-left-sidebar">Piętrowe</Link></li>
-                                  <li><Link to="/oferta-post-left-sidebar-ER">Wille</Link></li>
-                                  <li><Link to="/oferta-post-left-sidebar-ER">Styl Nowoczesny</Link></li>
+                                  <li><Link to="/oferta-parterowe">Parterowe</Link></li>
+                                  <li><Link to="/oferta-poddasze">Z Poddaszem</Link></li>
+                                  <li><Link to="/oferta-pietrowe">Piętrowe</Link></li>
+                                  <li><Link to="/oferta-wille">Wille</Link></li>
+                                  <li><Link to="/oferta-nowoczesne">Styl Nowoczesny</Link></li>
                                   {/* <li><Link to="/oferta-post-left-sidebar">Małe Perły</Link></li>
                                   <li><Link to="/oferta-post-left-sidebar-ER">Eleganckie Rezydencje</Link></li> */}
                                 </ul>
@@ -135,11 +135,11 @@ const NavOne = () => {
                         </li>
                         <li className="dropdown"><Link to="/oferta-post-left-sidebar">OFERTA</Link>
                         <ul>
-                          <li><Link to="/oferta-post-left-sidebar">Parterowe</Link></li>
-                          <li><Link to="/oferta-post-left-sidebar-ER">Z Poddaszem</Link></li>
-                          <li><Link to="/oferta-post-left-sidebar">Piętrowe</Link></li>
-                          <li><Link to="/oferta-post-left-sidebar-ER">Wille</Link></li>
-                          <li><Link to="/oferta-post-left-sidebar-ER">Styl Nowoczesny</Link></li>
+                          <li><Link to="/oferta-parterowe">Parterowe</Link></li>
+                          <li><Link to="/oferta-poddasze">Z Poddaszem</Link></li>
+                          <li><Link to="/oferta-pietrowe">Piętrowe</Link></li>
+                          <li><Link to="/oferta-wille">Wille</Link></li>
+                          <li><Link to="/oferta-nowoczesne">Styl Nowoczesny</Link></li>
 
                           {/* <li><Link to="/oferta-post-left-sidebar">Małe Perły</Link></li>
                           <li><Link to="/oferta-post-left-sidebar-ER">Eleganckie Rezydencje</Link></li> */}

@@ -58,6 +58,13 @@ import RealizacjeDetailsOneOpalElegancja from './pages/blogpages/RealizacjeDetai
 import RealizacjeDetailsOneRezydencjaLesna from './pages/blogpages/RealizacjeDetailsOneRezydencjaLesna';
 import PostsDetailsOneArchitekci from './pages/others/PostsDetailsOneArchitekci';
 import PostsDetailsTwo from './pages/blogpages/PostsDetailsTwo';
+
+import OfertaParteroweOne from './pages/blogpages/OfertaParteroweOne';
+import OfertaPoddaszeOne from './pages/blogpages/OfertaPoddaszeOne';
+import OfertaPietroweOne from './pages/blogpages/OfertaPietroweOne';
+import OfertaWilleOne from './pages/blogpages/OfertaWilleOne';
+import OfertaNowoczesneOne from './pages/blogpages/OfertaNowoczesneOne';
+
 import OfertaDetailsTwo from './pages/blogpages/OfertaDetailsTwo';
 import OfertaDetailsTwoEleganckieResidencje from './pages/blogpages/OfertaDetailsTwoEleganckieResidencje';
 import PostsDetailsThree from './pages/blogpages/PostsDetailsThree';
@@ -145,8 +152,16 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL + '/blog-single'}`} element={<PostsDetailsOne />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-post-fullwidth'}`} element={<PostsDetailsOne />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-post-left-sidebar'}`} element={<PostsDetailsTwo />}/>
+
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-parterowe'}`} element={<OfertaParteroweOne />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-poddasze'}`} element={<OfertaPoddaszeOne />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-pietrowe'}`} element={<OfertaPietroweOne />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-wille'}`} element={<OfertaWilleOne />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-nowoczesne'}`} element={<OfertaNowoczesneOne />}/>
+
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-post-left-sidebar'}`} element={<OfertaDetailsTwo />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-post-left-sidebar-ER'}`} element={<OfertaDetailsTwoEleganckieResidencje />}/>
+          
           <Route exact path={`${process.env.PUBLIC_URL + '/single-post-right-sidebar'}`} element={<PostsDetailsThree />}/>
 
           <Route exact path={`${process.env.PUBLIC_URL + '/architekci-mgprojekt'}`} element={<MgProjekt />}/>
