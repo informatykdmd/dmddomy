@@ -42,7 +42,7 @@ const UserDetailsChanges = () => {
         const response = await axios.get(`https://${ApiAdres}/api/getUserName`, { params: { userHash } });
         const fetchedUserData = response.data;
         setUserData(fetchedUserData); // Użyj innej nazwy dla lokalnej zmiennej
-        console.log(fetchedUserData);
+        // console.log(fetchedUserData);
       } catch (error) {
         console.error("Błąd podczas pobierania danych użytkownika", error);
       }
@@ -55,7 +55,7 @@ const UserDetailsChanges = () => {
     setUserAvatar(selectedAvatar);
     setAvatarPreview(selectedAvatar);
   };
-  console.log(userData);
+  console.log('userData[0].CLIENT_NAME', userData[0].CLIENT_NAME);
   return (
     <>
       {/* Sekcja UserDetailsChanges */}
