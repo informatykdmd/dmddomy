@@ -16,12 +16,12 @@ const ProjectsDetails = () => {
         <>
         <HeaderOne />
 
-        <BreadcrumbOneWillaParterowa2
+        {/* <BreadcrumbOneWillaParterowa2
             title="Kasjopea 7"
             rootUrl="/oferta-post-left-sidebar"
             parentUrl="OFERTA"
             currentUrl="Kasjopea 7"
-        />
+        /> */}
         
         <ProjectsDetailsOneWillaParterowa2 />
                                 

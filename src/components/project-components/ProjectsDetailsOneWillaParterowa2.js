@@ -65,11 +65,6 @@ const ProjectsDetailsOne = () => {
                 znajduje się nieużytkowy strych, który można dostosować do dodatkowej przestrzeni użytkowej.
               </p>
               <p>
-                Koszt budowy domu Willa Parterowa 2 wynosi 351 620 zł za stan surowy zamknięty, a całkowite koszty 
-                budowy pod klucz to 683 805 zł. Dom ten charakteryzuje się prostą konstrukcją, jest energooszczędny 
-                i można go dostosować do standardu NF 40.
-              </p>
-              <p>
                 Projekt Willa Parterowa 2 to doskonała propozycja dla Inwestorów planujących budowę nowoczesnego, 
                 komfortowego domu jednorodzinnego, umożliwiającego wygodne życie na jednej kondygnacji z bezpośrednim 
                 kontaktem z ogrodem.
