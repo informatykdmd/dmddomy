@@ -73,12 +73,23 @@ const ProjectsDetailsOne = () => {
               <div className="col-md-12 p-b30">
                 <div className="row">
                     <div className="col-md-4">
-                        <div className='project-thumb'><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
-                        <div className='project-thumb'><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
-                        <div className='project-thumb'><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
+                    <div className="project-thumb">
+                        <ZoomableImage src="images/project/bl-01-750x430-WillaParterowa2-1.png" alt="Oferta" />
+                    </div>
+                    </div>
+                    <div className="col-md-4">
+                    <div className="project-thumb">
+                        <ZoomableImage src="images/project/bl-02-750x430-WillaParterowa2-2.png" alt="Oferta" />
+                    </div>
+                    </div>
+                    <div className="col-md-4">
+                    <div className="project-thumb">
+                        <ZoomableImage src="images/project/bl-03-750x430-WillaParterowa2-3.png" alt="Oferta" />
+                    </div>
                     </div>
                 </div>
             </div>
+
               <div className="blog-nav clearfix">
                 <Link to="/single-project-DomNaDebowej" className="blog-prev"><i className="fa fa-angle-left" /></Link>
                 <Link to="/single-project-DomWaski3" className="blog-next"><i className="fa fa-angle-right" /></Link>
