@@ -36,40 +36,48 @@ const ProjectsDetailsOne = () => {
             <div className="col-md-8 det-content">
               <h3>Dom Wąski 3</h3>
               <p>
-                Projekt domu Willa parterowa 2 to dom jednorodzinny o powierzchni użytkowej 135,75 m2 (kubatura 916 m3), 
-                Jest to idealny projekt domu dla Inwestorów zamierzających budować dom dla 4, 5-osobowej rodziny. 
-                Kąt nachylenia dachu wynosi 30 stopni. Architektura projektu Willa parterowa 2 jest ponadczasowa 
-                i nawiązuje do amerykańskich rezydencji na przedmieściach. Projekt domu można zrealizować na 
-                działce o minimalnych wymiarach: szerokość – 24,75 m i długość: 24,84 m.
+                Projekt domu Wąski 3 jest kolejną wersją projektu z popularnej serii domów „Wąski” z MG Projekt. 
+                Jest to projekt przeznaczony na wąską działkę, z niekorzystnym ustawieniem względem stron świata, 
+                czyli z wjazdem od południa. Budynek zaprojektowano w modnej stylistyce „domu-stodoły", 
+                z prostokątną bryłą przykrytą dwuspadowym dachem bez okapów.
               </p>
 
-              <span><strong>Nietechniczny Opis Domu Willa Parterowa 2</strong></span><br />
-              <p>
-                Piętrowy dom jednorodzinny Willa Parterowa 2 to propozycja o nowoczesnej architekturze, idealna dla 
-                Inwestorów planujących budowę komfortowego domu dla 4-5 osobowej rodziny. Z powierzchnią 
-                użytkową 135,75 m2 (kubatura 916 m3) oraz kątem nachylenia dachu wynoszącym 30 stopni, projekt 
-                ten wyróżnia się ponadczasowym stylem nawiązującym do amerykańskich rezydencji na przedmieściach.
-              </p>
-              <p>
-                Budynek, zbudowany na planie litery T, posiada czterospadowy dach z dobudówkami nad garażem i sypialniami. 
-                Nowoczesna architektura charakteryzuje się poziomym podziałem elewacji, dużymi przeszkleniami, 
-                kontrastującymi tynkami i okładzinami drewnianymi, co nadaje bryle atrakcyjny wygląd. Duże okna 
-                podkreślają dostojny charakter domu, a bezpośrednie wyjście do ogrodu stanowi dodatkowy atut.
-              </p>
-              <p>
-                Wnętrze domu Willa Parterowa 2 jest przemyślane i funkcjonalne. W centralnej części znajduje się 
-                salon połączony z kuchnią, z możliwością ustawienia dużego stołu jadalnego. Salon ma wyjście na 
-                taras przez szerokie przeszkolone drzwi. Apartament rodziców z sypialnią, łazienką i garderobą 
-                zlokalizowany jest z jednej strony, natomiast z drugiej strony znajdują się trzy sypialnie 
-                dziecięce i łazienka. Wnętrze jest proste, logiczne, a jednocześnie oryginalne, a nad parterem 
-                znajduje się nieużytkowy strych, który można dostosować do dodatkowej przestrzeni użytkowej.
-              </p>
-              <p>
-                Projekt Willa Parterowa 2 to doskonała propozycja dla Inwestorów planujących budowę nowoczesnego, 
-                komfortowego domu jednorodzinnego, umożliwiającego wygodne życie na jednej kondygnacji z bezpośrednim 
-                kontaktem z ogrodem.
-              </p>
-
+                <span><strong>Nietechniczny Opis Domu Wąski 3</strong></span><br />
+                <p>
+                    Parterowy, jednorodzinny dom Wąski 3 o powierzchni użytkowej 123,72 m2 (kubatura 725 m3) 
+                    został zaprojektowany z myślą o wąskiej działce z wjazdem od południa. Budynek utrzymano 
+                    w nowoczesnej stylistyce "domu-stodoły", z prostokątną bryłą przykrytą dwuspadowym dachem 
+                    bez okapów. Projekt Wąski 3 doskonale sprawdza się na działce o minimalnych wymiarach: 21,40 x 26 m.
+                </p>
+                <span><strong>Architektura Domu Wąski 3</strong></span><br />
+                <p>
+                    Architektura projektu Wąski 3 jest efektowna i nowoczesna, złożona z prostych geometrycznych form. 
+                    Finezyjne detale, takie jak płaskie zadaszenie nad wejściem, wiatą, duże okno salonu o podwójnej 
+                    wysokości oraz drewniana pergola nad tarasem, nadają budynkowi unikalny charakter.
+                </p>
+                <span><strong>Wnętrze Domu Wąski 3</strong></span><br />
+                <p>
+                    Wnętrze Wąski 3 składa się z dwóch części: jednoprzestrzennej części dziennej oraz prywatnej części z 
+                    sypialniami i łazienkami. Duży i oświetlony salon, kuchnia z wyspą, cztery sypialnie (w tym sypialnia 
+                    master z garderobą) oraz przestronna łazienka tworzą funkcjonalne wnętrze.
+                </p>
+                <span><strong>Koszty Budowy Domu Wąski 3</strong></span><br />
+                <p>
+                    Projekt Wąski 3 ma prostą konstrukcję, co przekłada się na niższe koszty budowy. Zastosowane 
+                    izolacje termiczne, nowoczesne materiały i instalacje sprawiają, że dom jest energooszczędny. 
+                    Szacunkowy koszt budowy w standardzie surowym zamkniętym to 123,72 m2 wg PN-70/B-02365 i 127,91 m2 
+                    wg PN-ISO 9836:1997.
+                </p>
+                <span><strong>Dostosowanie do Standardu NF40</strong></span><br />
+                <p>
+                    Istnieje możliwość dostosowania projektu Wąski 3 do standardu NF40, co oznacza wprowadzenie 
+                    zmian w izolacji przegród zewnętrznych i instalacjach, spełniając warunki budynku energooszczędnego 
+                    o współczynniku EUCO poniżej 40 kWh/m2 x rok.
+                </p>
+                <p>
+                    Wąski 3 to doskonała propozycja dla Inwestorów, planujących budowę nowoczesnego, minimalistycznego 
+                    domu na trudnej działce.
+                </p>
               <div className="col-md-12 p-b30">
                 <div className="row">
                     <div className="col-md-4">
