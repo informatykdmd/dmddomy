@@ -4,7 +4,7 @@ import BreadcrumbOneMalePerly from '../../common/breadcrumb/BreadcrumbOneMalePer
 import OfertaDetailsLeftSidebar from '../../components/blog-components/OfertaDetailsLeftSidebar';
 import FooterOne from '../../common/footer/FooterOne';
 
-// Przewiń stronę do góry z animacją
+// Przewiń stronę do góry z animacją 
 import $ from 'jquery'
 
 const PostsDetailsTwo = () => {

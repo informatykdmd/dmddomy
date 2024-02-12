@@ -137,13 +137,13 @@ const BlogDetailsLeftSidebar = () => {
                         }} target="_blank" rel="noreferrer">
                         <i className="fa fa-twitter" />
                       </button>
-                      <button onClick={handleShareClickInstagram} style={{
+                      {/* <button onClick={handleShareClickInstagram} style={{
                         padding : '8px', 
                         background : 'none',
                         cursor: 'pointer'
                         }} target="_blank" rel="noreferrer">
                         <i className="fa fa-instagram" />
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>

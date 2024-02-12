@@ -34,75 +34,47 @@ const ProjectsDetailsOne = () => {
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>Kasjopea 7: Nowoczesny Dom Jednorodzinny z Tradycją</h3>
+              <h3>Willa Parterowa 2</h3>
               <p>
-                Projekt Kasjopea 7, określany przez studio projektowe MG PROJEKT jako nowość, 
-                jest niezwykle udaną siódmą iteracją tego wyjątkowego projektu. Chociaż nie 
-                jest to zupełnie nowy projekt, to z każdą kolejną wersją zyskuje nowe walory, 
-                dzięki wprawie zdobytej podczas licznych poprzednich realizacji. Mimo skromnych 
-                rozmiarów, budynek oferuje niezwykły komfort dla nawet 7 osób, a zastosowane 
-                innowacyjne rozwiązania sprawiają, że koszty budowy są stosunkowo niewielkie.
+                Projekt domu Willa parterowa 2 to dom jednorodzinny o powierzchni użytkowej 135,75 m2 (kubatura 916 m3), 
+                Jest to idealny projekt domu dla Inwestorów zamierzających budować dom dla 4, 5-osobowej rodziny. 
+                Kąt nachylenia dachu wynosi 30 stopni. Architektura projektu Willa parterowa 2 jest ponadczasowa 
+                i nawiązuje do amerykańskich rezydencji na przedmieściach. Projekt domu można zrealizować na 
+                działce o minimalnych wymiarach: szerokość – 24,75 m i długość: 24,84 m.
               </p>
 
-              <span><strong>Realizacje i Doświadczenie</strong></span><br />
-              <p>              
-                Mimo braku udostępnionych zdjęć nowych projektów Kasjopea 7, możemy z dumą 
-                podkreślić nasze wieloletnie doświadczenie w budowie domów z rodziny Kasjopea. 
-                Nasze ekipy z powodzeniem wznosiły domy Kasjopea 7 w różnych lokalizacjach, 
-                takich jak Warszawa, Łomianki i Legionowo.
-              </p>
-
-              <span><strong>Nietechniczny Opis Domu Kasjopea 7</strong></span><br />
+              <span><strong>Nietechniczny Opis Domu Willa Parterowa 2</strong></span><br />
               <p>
-                Piętrowy dom jednorodzinny Kasjopea 7 reprezentuje nowoczesne podejście do 
-                architektury miejskiej, podkreślając jednocześnie efektywność kosztową. 
-                Charakteryzuje go kompaktowa bryła, która ułatwia osiągnięcie doskonałych 
-                właściwości energetycznych i przyspiesza proces budowy.<br />
-
-                Dom Kasjopea 7 doskonale wpasowuje się w każdą działkę, oferując dwustanowiskowy 
-                garaż i harmonijne połączenie z ogrodem dzięki tarasom i loggiom. Jego wyjątkowym 
-                elementem są boniowania ułożone pasami oraz duże przeszklenia.</p>
-
-              <span><strong>Parter</strong></span><br />
-              <p>              
-                Parter domu cechuje charakterystyczny układ, z garażem i kotłownią umieszczonymi 
-                z boku budynku, dostępnymi jedynie z sieni. Przy wejściu rozwija się przestronny 
-                hol i salon z jadalnią, częściowo otwartym na obszerną kuchnię. Salon łączy się 
-                z tarasem z podcieniem, stanowiąc idealne miejsce do relaksu.
+                Piętrowy dom jednorodzinny Willa Parterowa 2 to propozycja o nowoczesnej architekturze, idealna dla 
+                Inwestorów planujących budowę komfortowego domu dla 4-5 osobowej rodziny. Z powierzchnią 
+                użytkową 135,75 m2 (kubatura 916 m3) oraz kątem nachylenia dachu wynoszącym 30 stopni, projekt 
+                ten wyróżnia się ponadczasowym stylem nawiązującym do amerykańskich rezydencji na przedmieściach.
               </p>
-              <span><strong>Piętro</strong></span><br />
-              <p>              
-                Kształt prostokątnego piętra umożliwia optymalne rozmieszczenie sypialni, 
-                maksymalizując ich przestrzeń. Główna sypialnia z loggią znajduje się nad 
-                wejściem, podczas gdy dwie mniejsze sypialnie położone są po drugiej stronie 
-                budynku, z balkonem łączącym je ze sobą.
+              <p>
+                Budynek, zbudowany na planie litery T, posiada czterospadowy dach z dobudówkami nad garażem i sypialniami. 
+                Nowoczesna architektura charakteryzuje się poziomym podziałem elewacji, dużymi przeszkleniami, 
+                kontrastującymi tynkami i okładzinami drewnianymi, co nadaje bryle atrakcyjny wygląd. Duże okna 
+                podkreślają dostojny charakter domu, a bezpośrednie wyjście do ogrodu stanowi dodatkowy atut.
               </p>
-              <h4><strong>Technologie wykorzystywane w budowie</strong></h4>
-                <ul>
-                  <li>• Bloczki betonowe na fundamenty </li>
-                  <li>• Pustaki porotherm 25, styropian i tynki mineralne na ściany zewnętrzne </li>
-                  <li>• TERIVA – technologia stropów </li>
-                  <li>• Tynki cienkowarstwowe na styropianie na elewacje </li>
-                  <li>• Dachówki ceramiczne na dachu </li>
-                </ul>
-              <br />
-              <h4><strong>Opis Domu Kasjopea 7</strong></h4>
-                <ul>
-                  <li>• Dom Kasjopea 7 jest budynkiem piętrowym z garażem dwustanowiskowym </li>
-                  <li>• Projekt Kasjopea 7 przygotowano z myślą o 4-7 mieszkańcach </li>
-                  <li>• 2 łazienki na piętrze, łazienka i WC na parterze </li>
-                  <li>• 3 sypialnie </li>
-                  <li>• Loggia i boniowania </li>
-                  <li>• <strong>PARTER: </strong>pokój dzienny z jadalnią 47,51 m², kuchnia 15,00 m², hol 12,40 m², sień 3,60 m², WC 1,94 m², gabinet 11,55 m², łazienka 2,57 m², garaż 32,95 m², kotłownia 7,59 m² </li>
-                  <li>• <strong>PIĘTRO: </strong>hol 7,99 m², 2 mniejsze sypialnie (15,71 m² + 14,75 m²), duża sypialnia z garderobą i łazienką (15,14 m² + 4,75 m² + 5,20 m²), łazienka wspólna 7,18 m², pralnia 2,90 m², pokój-gabinet 8,09 m² </li>
-                  <li>• Powierzchnia całkowita: 237,92 m2 </li>
-                  <li>• Powierzchnia użytkowa: 153,08 m2 </li>
-                  <li>• Wysokość domu z podmurówką: 8,55 m </li>
-                  <li>• Szerokość budynku: 10,57 m </li>
-                  <li>• Długość budynku: 14,94 m </li>
-                  <li>• Minimalna szerokość działki: 16,57 m </li>
-                  <li>• Minimalna długość działki: 22,94 m </li>
-                </ul>
+              <p>
+                Wnętrze domu Willa Parterowa 2 jest przemyślane i funkcjonalne. W centralnej części znajduje się 
+                salon połączony z kuchnią, z możliwością ustawienia dużego stołu jadalnego. Salon ma wyjście na 
+                taras przez szerokie przeszkolone drzwi. Apartament rodziców z sypialnią, łazienką i garderobą 
+                zlokalizowany jest z jednej strony, natomiast z drugiej strony znajdują się trzy sypialnie 
+                dziecięce i łazienka. Wnętrze jest proste, logiczne, a jednocześnie oryginalne, a nad parterem 
+                znajduje się nieużytkowy strych, który można dostosować do dodatkowej przestrzeni użytkowej.
+              </p>
+              <p>
+                Koszt budowy domu Willa Parterowa 2 wynosi 351 620 zł za stan surowy zamknięty, a całkowite koszty 
+                budowy pod klucz to 683 805 zł. Dom ten charakteryzuje się prostą konstrukcją, jest energooszczędny 
+                i można go dostosować do standardu NF 40.
+              </p>
+              <p>
+                Projekt Willa Parterowa 2 to doskonała propozycja dla Inwestorów planujących budowę nowoczesnego, 
+                komfortowego domu jednorodzinnego, umożliwiającego wygodne życie na jednej kondygnacji z bezpośrednim 
+                kontaktem z ogrodem.
+              </p>
+
               <div className="portfolio-tags"></div>
               <div className="blog-nav clearfix">
                 <Link to="/single-project-Helios157" className="blog-prev"><i className="fa fa-angle-left" /></Link>
@@ -122,7 +94,11 @@ const ProjectsDetailsOne = () => {
                   <h5>Stan developerski</h5><span><strong>Czas realizacji:</strong> 12 miesięcy <br />SSZ, elewacja, wylewki, tynki wewnętrzne</span>
                   </li>
                   <li>
-                    Koszt realizacji <span><h1><strong>602,056</strong> ZŁ</h1></span>
+                  <h5>Stan Pod Klucz</h5>
+                    <span>
+                        <strong>Czas realizacji:</strong> 18 miesięcy <br />
+                        Projekt obejmuje kompleksowe prace wykończeniowe wnętrza oraz zewnętrza, w tym instalacje, podłogi, ściany, a także pełne wyposażenie łazienek i kuchni. Dodatkowo, uwzględnia estetyczne detale, które nadają nieruchomości wyjątkowy charakter. Dzięki starannie zaplanowanym rozwiązaniom, nieruchomość dostarczana jest w pełni gotowa do zamieszkania, spełniając najwyższe standardy jakości i komfortu.
+                    </span>
                   </li>
                   <li></li>
                   </ul>
