@@ -44,7 +44,7 @@ const UserDetailsChanges = () => {
 
         if (Array.isArray(fetchedUserData) && fetchedUserData.length > 0) {
           const clientName = fetchedUserData[0].CLIENT_NAME;
-          console.log('clientName', clientName);
+          // console.log('clientName', clientName);
           setUserData(clientName);
         } else {
           console.error("Nieprawidłowy format danych użytkownika");
@@ -68,7 +68,7 @@ const UserDetailsChanges = () => {
       <section className="user-details-changes-section section-padding-all">
         <div className="default-container">
           <div className="blog-detail mt-30">
-            {userHash ? (
+            {userData ? (
               <div className="row">
                 <div className="col-md-12" style={{ 
                                       display: 'flex', 
@@ -78,6 +78,11 @@ const UserDetailsChanges = () => {
                                       height: '100vh'
                                       }}>
                   <form>
+                    <div>
+                      <h2 class="sec-title">
+                        { userData }
+                      </h2>
+                    </div>
                     <div >
                       {/* Opcjonalnie: Wyświetl podgląd avatara */}
                       {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
