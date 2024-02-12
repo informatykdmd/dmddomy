@@ -143,7 +143,7 @@ const ProjectsDetailsOne = () => {
     </section>
     {/* End Projects Section*/}
 
-    <RelatedProjectsKasjopea7 />
+    {/* <RelatedProjectsKasjopea7 /> */}
 
     </>
     )

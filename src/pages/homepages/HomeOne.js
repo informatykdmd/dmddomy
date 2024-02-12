@@ -32,7 +32,7 @@ const HomeOne = () => {
         
         <ProjectsTwo />
         
-        <TestimonialThree />
+        <div className='d-none d-lg-block'><TestimonialThree /></div>
         
         <ServicesTwo />
         

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import BlogCommentForm from '../../elements/BlogCommentForm';
 import SidebarLeftParterowe from '../../elements/SidebarLeftParterowe';
 import ProjectsTwo from '../section-components/ProjectsTwo';
 
@@ -31,12 +30,6 @@ const BlogDetailsLeftSidebar = () => {
     window.open(`${shareUrl}?text=${text}&url=${url}`, '_blank');
   };
   
-  const handleShareClickInstagram = () => {
-    const url = `https://www.instagram.com/`;
-  
-    window.open(url, '_blank');
-  };
-
     return(
     <>
     {/*Blog Details Section*/}
@@ -137,13 +130,6 @@ const BlogDetailsLeftSidebar = () => {
                         }} target="_blank" rel="noreferrer">
                         <i className="fa fa-twitter" />
                       </button>
-                      {/* <button onClick={handleShareClickInstagram} style={{
-                        padding : '8px', 
-                        background : 'none',
-                        cursor: 'pointer'
-                        }} target="_blank" rel="noreferrer">
-                        <i className="fa fa-instagram" />
-                      </button> */}
                     </div>
                   </div>
                 </div>
