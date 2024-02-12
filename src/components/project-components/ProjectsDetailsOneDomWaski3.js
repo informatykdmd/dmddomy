@@ -92,7 +92,7 @@ const ProjectsDetailsOne = () => {
               
 
               <div className="blog-nav clearfix">
-                <Link to="/single-project-DomWaski3" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-project-WillaParterowa2" className="blog-prev"><i className="fa fa-angle-left" /></Link>
                 <Link to="/single-project-WillaParkowa4" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
             </div>
