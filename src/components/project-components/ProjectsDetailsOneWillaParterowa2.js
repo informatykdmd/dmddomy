@@ -70,11 +70,11 @@ const ProjectsDetailsOne = () => {
                 kontaktem z ogrodem.
               </p>
 
-              <div className="portfolio-tags">
-                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
-                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
-                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
-                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
+              <div style={{ 
+                    display: 'flex', 
+                    flexDirection: 'column'
+                    }}>
+                <div><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
                 <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
                 <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
               </div>
