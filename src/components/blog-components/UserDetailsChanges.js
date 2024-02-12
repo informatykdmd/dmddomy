@@ -78,16 +78,13 @@ const UserDetailsChanges = () => {
                                       height: '100vh'
                                       }}>
                   <form>
-                    <div>
-                      <h2 class="sec-title">
-                        { userData }
-                      </h2>
-                    </div>
                     <div >
                       {/* Opcjonalnie: Wyświetl podgląd avatara */}
                       {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
                     </div>
-                    
+                    <div>
+                        { userData }
+                    </div>
                     <div style={{margin: '10px'}}>
                       <input type="text" className="form-control" placeholder="Adres URL obrazka avatara:" value={userAvatar} onChange={handleAvatarChange} />
                     </div>
