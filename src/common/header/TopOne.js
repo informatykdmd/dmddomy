@@ -13,7 +13,7 @@ const TopOne = () => {
                     <ul className="header-info-list">
                         <li><i className="icon fa fa-envelope" /><a href="mailto:biuro@dmddomy.pl">biuro@dmddomy.pl</a></li>
                         <li><i className="icon fa fa-map-marker" />ul. Dworkowa 51, 05-082 Stare Babice</li>
-                        <li><i className="icon fa fa-headphones" /><a href="tel:+48604125563">+48 604 125 563</a></li>
+                        <li><i className="icon fa fa-headphones" /><a href="tel:+48736545454">+48 736 54 54 54</a></li>
                     </ul>
                     </div>
                     {/*Top Right*/}

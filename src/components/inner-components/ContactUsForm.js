@@ -72,7 +72,7 @@ const ContactUsForm = () => {
               <div className="contact-details-content p-3 mt-3">
                 <div className="contact-detail">
                   <h6 className="font-weight-bold">Zadzwoń</h6> 
-                  <p className="text-muted mb-0"><a href="tel:+48604125563">+48 604 125 563</a>
+                  <p className="text-muted mb-0"><a href="tel:+48736545454">+48 736 54 54 54</a>
                     {/* <br /><a href="tel:+1234567890">+123 456 7890</a> */}
                     </p>
                 </div>

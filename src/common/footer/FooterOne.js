@@ -78,7 +78,7 @@ const FooterOne = () => {
                         </div>
                         <div className="text">ul. Dworkowa 51<br />05-082 Stare Babice</div>
                         <ul className="list-style-one">
-                            <li><span>Telefon:</span> <a href="tel:+48604125563">+48 604 125 563</a></li>
+                            <li><span>Telefon:</span> <a href="tel:+48736545454">+48 736 54 54 54</a></li>
                             {/* <li><span>WhatsApp:</span> <a href="https://wa.me/+48604125563">+48 604 125 563</a></li> */}
                             <li><span>Email:</span> <a href="mailto:biuro@dmddomy.pl">biuro@dmddomy.pl</a></li>
                             <li><span>Pracujemy:</span><p>Poniedziałek - Piątek</p><p>9:00 - 17:00</p></li>
