@@ -151,10 +151,10 @@ const UserDetailsChanges = () => {
                             height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
                             padding: 0, // Usuwa wewnętrzny padding
                           }}
-                          onClick={() => handleAvatarSelection('https://upload.wikimedia.org/wikipedia/en/c/c9/Charging_Bull_statue.jpg')}
+                          onClick={() => handleAvatarSelection('https://www.kindpng.com/picc/m/57-579010_wolf-png-logo-wolf-logo-transparent-background-png.png')}
                         >
                           <div>
-                            <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Charging_Bull_statue.jpg" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
+                            <img src="https://www.kindpng.com/picc/m/57-579010_wolf-png-logo-wolf-logo-transparent-background-png.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
                         <button
