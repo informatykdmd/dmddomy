@@ -44,7 +44,7 @@ const UserDetailsChanges = () => {
         
         const clientName = fetchedUserData.CLIENT_NAME;
         console.log('clientName', clientName);
-        setUserData(fetchedUserData); // Użyj innej nazwy dla lokalnej zmiennej
+        setUserData(fetchedUserData);
       } catch (error) {
         console.error("Błąd podczas pobierania danych użytkownika", error);
       }
@@ -57,7 +57,7 @@ const UserDetailsChanges = () => {
     setUserAvatar(selectedAvatar);
     setAvatarPreview(selectedAvatar);
   };
-  console.log('userData[0].CLIENT_NAME', userData[0]);
+  console.log('userData.CLIENT_NAME', userData);
   return (
     <>
       {/* Sekcja UserDetailsChanges */}
