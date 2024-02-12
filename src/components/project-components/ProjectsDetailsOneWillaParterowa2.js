@@ -118,7 +118,7 @@ const ProjectsDetailsOne = () => {
                   <li></li>
                   </ul>
                     <li>
-                      <p></p>
+                      <p><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></p>
                     </li>
                     <li>
                     <p><ZoomableImage src="images/project/bl-05-750x430-WillaParterowa2.png" alt="blog" /></p>
