@@ -74,9 +74,9 @@ const ProjectsDetailsOne = () => {
                     display: 'flex', 
                     flexDirection: 'column'
                     }}>
-                <div><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
-                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
-                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
+                <div style={{maxWidth: '2.5rem'}}><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
+                <div style={{maxWidth: '2.5rem'}}><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
+                <div style={{maxWidth: '2.5rem'}}><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
               </div>
               <div className="blog-nav clearfix">
                 <Link to="/single-project-DomNaDebowej" className="blog-prev"><i className="fa fa-angle-left" /></Link>
