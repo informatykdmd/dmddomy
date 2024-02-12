@@ -70,7 +70,14 @@ const ProjectsDetailsOne = () => {
                 kontaktem z ogrodem.
               </p>
 
-              <div className="portfolio-tags"></div>
+              <div className="portfolio-tags">
+                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
+                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
+                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
+                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
+                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
+                <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" />
+              </div>
               <div className="blog-nav clearfix">
                 <Link to="/single-project-DomNaDebowej" className="blog-prev"><i className="fa fa-angle-left" /></Link>
                 <Link to="/single-project-DomWaski3" className="blog-next"><i className="fa fa-angle-right" /></Link>
