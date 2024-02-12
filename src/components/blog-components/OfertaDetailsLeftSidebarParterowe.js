@@ -7,11 +7,11 @@ import ProjectsTwo from '../section-components/ProjectsTwo';
 const BlogDetailsLeftSidebar = () => {
   const TITLE = `Buduj z Nami - Najgorętsze Trendy w Naszej Ofercie Głównej`;
   const CONTENT_MAIN = `
-    Z radością przedstawiamy naszą ofertę budowy domów z projektów gotowych, dostosowanych 
+    Z radością przedstawiamy naszą ofertę budowy domów parterowych z projektów gotowych, dostosowanych 
     do różnorodnych potrzeb naszych Klientów. Nasza firma zyskała uznanie dzięki realizacji 
-    kilkunastu efektownych, funkcjonalnych domów o zróżnicowanych rozmiarach. Oferujemy 
-    zarówno domy małe, idealne dla tych, którzy pragną intymnej przestrzeni, jak i domy 
-    reprezentacyjne, dostojne i obszerne.`;
+    kilkunastu efektownych, funkcjonalnych domów parterowych o zróżnicowanych rozmiarach. Oferujemy zarówno 
+    domy małe, idealne dla tych, którzy pragną intymnej przestrzeni, jak i domy parterowe reprezentacyjne, 
+    dostojne i obszerne.`;
   const HEADER_FOTO = `images/offers/bl-09-750x430-MalePerly1.png`;
   const handleShareClickFB = () => {
     const shareUrl = "https://www.facebook.com/sharer/sharer.php";
@@ -113,9 +113,9 @@ const BlogDetailsLeftSidebar = () => {
                     </div>
 
                     <div className="col-sm-5">
-                      <p><img src="images/offers/bl-09-750x430-MalePerly1.png" alt="blog" /></p>
-                      <p><img src="images/offers/bl-09-750x430-MalePerly2.png" alt="blog" /></p>
-                      <p><img src="images/offers/bl-09-750x430-MalePerly3.png" alt="blog" /></p>
+                      <p><img src="images/offers/bl-09-750x430-Parterowe1.png" alt="blog" /></p>
+                      <p><img src="images/offers/bl-09-750x430-Parterowe2.png" alt="blog" /></p>
+                      <p><img src="images/offers/bl-09-750x430-Parterowe3.png" alt="blog" /></p>
                     </div>
                   </div>
                 </div>

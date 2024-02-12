@@ -5,7 +5,7 @@ const BreadcrumbOne = ({ title , rootUrl , parentUrl, currentUrl}) => {
     return (
         <>
         {/* Banner Section */}
-        <section className="banner-section" style={{background: 'url(images/banner/bn-01-1920x480-MalePerly.png)'}}>
+        <section className="banner-section" style={{background: 'url(images/banner/bn-01-1920x480-Parterowe.png)'}}>
             <div className="banner-heading">
                 <h2 dangerouslySetInnerHTML={{__html: title}}></h2>
             </div>
