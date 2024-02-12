@@ -73,19 +73,14 @@ const ProjectsDetailsOne = () => {
               <div className="col-md-12 p-b30">
                 <div className="row">
                     <div className="col-md-4">
-                    <div className="project-thumb">
-                        <ZoomableImage src="images/project/bl-01-750x430-WillaParterowa2-1.png" alt="Oferta" />
-                    </div>
-                    </div>
-                    <div className="col-md-4">
-                    <div className="project-thumb">
-                        <ZoomableImage src="images/project/bl-02-750x430-WillaParterowa2-2.png" alt="Oferta" />
-                    </div>
+                        <div className="project-thumb">
+                            <ZoomableImage src="images/project/bl-01-750x430-WillaParterowa2-1.png" alt="Oferta" />
+                        </div>
                     </div>
                     <div className="col-md-4">
-                    <div className="project-thumb">
-                        <ZoomableImage src="images/project/bl-03-750x430-WillaParterowa2-3.png" alt="Oferta" />
-                    </div>
+                        <div className="project-thumb">
+                            <ZoomableImage src="images/project/bl-02-750x430-WillaParterowa2-2.png" alt="Oferta" />
+                        </div>
                     </div>
                 </div>
             </div>
