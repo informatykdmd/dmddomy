@@ -74,36 +74,17 @@ const ProjectsDetailsOne = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-01-750x430-WillaParterowa2-1.png" alt="Oferta" />
+                        <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-02-750x430-WillaParterowa2-2.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-05-750x430-WillaParterowa2.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-02-750x430-WillaParterowa2-2.png" alt="Oferta" />
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div className="col-md-12 p-b30">
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-01-750x430-WillaParterowa2-1.png" alt="Oferta" />
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-02-750x430-WillaParterowa2-2.png" alt="Oferta" />
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-02-750x430-WillaParterowa2-2.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-06-750x430-WillaParterowa2.png" alt="Oferta" />
                         </div>
                     </div>
                 </div>
@@ -112,7 +93,26 @@ const ProjectsDetailsOne = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-01-750x430-WillaParterowa2-1.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-07-750x430-WillaParterowa2.png" alt="Oferta" />
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="project-thumb">
+                            <ZoomableImage src="images/project/bl-08-750x430-WillaParterowa2.png" alt="Oferta" />
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="project-thumb">
+                            <ZoomableImage src="images/project/bl-09-750x430-WillaParterowa2.png" alt="Oferta" />
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div className="col-md-12 p-b30">
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="project-thumb">
+                            <ZoomableImage src="images/project/bl-10-750x430-WillaParterowa2.png" alt="Oferta" />
                         </div>
                     </div>
                     
@@ -140,13 +140,13 @@ const ProjectsDetailsOne = () => {
                   <h5>RSSZ - Stan Pod Klucz</h5>
                     <span>
                         <strong>Czas realizacji:</strong> 18 miesięcy <br />
-                        Jest to etap, w którym łączy się zakres etapów stanu surowego zamkniętego. 
+                        Jest to etap, w którym inwestor już może zamieszkasz.
                     </span>
                   </li>
                   <li></li>
                   </ul>
                     <li>
-                      <p><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></p>
+                      <p></p>
                     </li>
                     <li>
                     <p><ZoomableImage src="images/project/bl-05-750x430-WillaParterowa2.png" alt="blog" /></p>
