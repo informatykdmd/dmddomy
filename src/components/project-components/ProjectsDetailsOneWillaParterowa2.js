@@ -74,31 +74,7 @@ const ProjectsDetailsOne = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
-                        <ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="Oferta" />
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-05-750x430-WillaParterowa2.png" alt="Oferta" />
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-06-750x430-WillaParterowa2.png" alt="Oferta" />
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div className="col-md-12 p-b30">
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-07-750x430-WillaParterowa2.png" alt="Oferta" />
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-08-750x430-WillaParterowa2.png" alt="Oferta" />
+                        <ZoomableImage src="images/project/bl-08-750x430-WillaParterowa2.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -106,18 +82,14 @@ const ProjectsDetailsOne = () => {
                             <ZoomableImage src="images/project/bl-09-750x430-WillaParterowa2.png" alt="Oferta" />
                         </div>
                     </div>
-                </div>
-              </div>
-              <div className="col-md-12 p-b30">
-                <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
                             <ZoomableImage src="images/project/bl-10-750x430-WillaParterowa2.png" alt="Oferta" />
                         </div>
                     </div>
-                    
                 </div>
               </div>
+              
 
               <div className="blog-nav clearfix">
                 <Link to="/single-project-DomNaDebowej" className="blog-prev"><i className="fa fa-angle-left" /></Link>
@@ -157,15 +129,7 @@ const ProjectsDetailsOne = () => {
                     <li>
                     <p><ZoomableImage src="images/project/bl-07-750x430-WillaParterowa2.png" alt="blog" /></p>
                     </li>
-                    <li>
-                    <p><ZoomableImage src="images/project/bl-08-750x430-WillaParterowa2.png" alt="blog" /></p>
-                    </li>
-                    <li>
-                    <p><ZoomableImage src="images/project/bl-09-750x430-WillaParterowa2.png" alt="blog" /></p>
-                    </li>
-                    <li>
-                    <p><ZoomableImage src="images/project/bl-10-750x430-WillaParterowa2.png" alt="blog" /></p>
-                    </li>
+                    
               </div>
               <div className="row">
                 {/*Video Column*/}
