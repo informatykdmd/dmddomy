@@ -25,7 +25,8 @@ const OurTeam = () => {
         
         <OurTeamOne />
         
-        <TestimonialThree />
+        
+        <div className='d-none d-lg-block'><TestimonialThree /></div>
         
         <Quote />
                 
