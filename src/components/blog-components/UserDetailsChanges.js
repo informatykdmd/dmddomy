@@ -55,7 +55,7 @@ const UserDetailsChanges = () => {
     setUserAvatar(selectedAvatar);
     setAvatarPreview(selectedAvatar);
   };
-  console.log('userData[0].CLIENT_NAME', userData.CLIENT_NAME);
+  console.log('userData[0].CLIENT_NAME', userData[0]);
   return (
     <>
       {/* Sekcja UserDetailsChanges */}
