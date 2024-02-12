@@ -41,11 +41,11 @@ const UserDetailsChanges = () => {
       try {
         const response = await axios.get(`https://${ApiAdres}/api/getUserName`, { params: { userHash } });
         const fetchedUserData = response.data;
-        
+
         if (Array.isArray(fetchedUserData) && fetchedUserData.length > 0) {
           const clientName = fetchedUserData[0].CLIENT_NAME;
           console.log('clientName', clientName);
-          setUserData(fetchedUserData[0]);
+          setUserData(clientName);
         } else {
           console.error("Nieprawidłowy format danych użytkownika");
         }
