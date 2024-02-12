@@ -15,12 +15,12 @@ const SidebarLeft = () => {
             <ul>
                 <li>
                 <div className="blog-rp-image">
-                    <Link to="/single-project-WillaPterowa2">
-                    <img src="images/offers/bl-01-120x120-WillaPterowa2.png" alt="thumb" />
+                    <Link to="/single-project-WillaParterowa2">
+                    <img src="images/offers/bl-01-120x120-WillaParterowa2.png" alt="thumb" />
                     </Link>
                 </div>
                 <div className="blog-rp-info">
-                    <p><Link to="/single-project-WillaPterowa2">Willa Parterowa 2</Link></p>
+                    <p><Link to="/single-project-WillaParterowa2">Willa Parterowa 2</Link></p>
                     <p>Zapraszamy do fascynującej podróży w świat nowoczesnej architektury z projektem domu Willa Parterowa 2.</p>
                 </div>
                 </li>
