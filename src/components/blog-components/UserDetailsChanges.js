@@ -82,7 +82,7 @@ const UserDetailsChanges = () => {
                       {/* Opcjonalnie: Wyświetl podgląd avatara */}
                       {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
                     </div>
-                    <div>
+                    <div style={{margin: '10px'}}>
                         { userData }
                     </div>
                     <div style={{margin: '10px'}}>
