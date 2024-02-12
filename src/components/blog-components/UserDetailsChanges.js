@@ -34,7 +34,21 @@ const UserDetailsChanges = () => {
       setError(error.message);
     }
   };
-
+  
+  useEffect(() => {
+    const getUserData = async () => {
+      try {
+        const response = await axios.get(`https://${ApiAdres}/api/getUserName`, { params: { userHash } });
+        const userData = response.data; // Zakładam, że dane użytkownika znajdują się w response.data
+        console.log(userData); // Możesz zmienić console.log na odpowiednią logikę przetwarzania danych
+        // Tutaj możesz zapisać dane w stanie lub zrobić coś innego z danymi
+      } catch (error) {
+        console.error("Błąd podczas pobierania danych użytkownika", error);
+      }
+    };
+  
+    getUserData();
+  }, [ApiAdres, userHash]);
 
   const handleAvatarSelection = (selectedAvatar) => {
     setUserAvatar(selectedAvatar);
