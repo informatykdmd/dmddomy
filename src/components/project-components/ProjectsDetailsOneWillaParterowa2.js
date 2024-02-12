@@ -88,6 +88,8 @@ const ProjectsDetailsOne = () => {
                         </div>
                     </div>
                 </div>
+              </div>
+              <div className="col-md-12 p-b30">
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
@@ -105,7 +107,17 @@ const ProjectsDetailsOne = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+              </div>
+              <div className="col-md-12 p-b30">
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="project-thumb">
+                            <ZoomableImage src="images/project/bl-01-750x430-WillaParterowa2-1.png" alt="Oferta" />
+                        </div>
+                    </div>
+                    
+                </div>
+              </div>
 
               <div className="blog-nav clearfix">
                 <Link to="/single-project-DomNaDebowej" className="blog-prev"><i className="fa fa-angle-left" /></Link>
