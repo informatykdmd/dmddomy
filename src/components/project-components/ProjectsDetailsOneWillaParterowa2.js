@@ -70,10 +70,7 @@ const ProjectsDetailsOne = () => {
                 kontaktem z ogrodem.
               </p>
 
-              <div style={{ 
-                    display: 'flex', 
-                    flexDirection: 'column'
-                    }}>
+              <div className="col-md-12 p-b30">
                 <div className='project-thumb'><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
                 <div className='project-thumb'><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
                 <div className='project-thumb'><ZoomableImage src="images/project/bl-04-750x430-WillaParterowa2.png" alt="blog" /></div>
