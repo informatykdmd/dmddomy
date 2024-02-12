@@ -82,8 +82,8 @@ const UserDetailsChanges = () => {
                       {/* Opcjonalnie: Wyświetl podgląd avatara */}
                       {avatarPreview && <img src={avatarPreview} alt="Podgląd avatara" style={{ maxWidth: '100%', maxHeight: '150px' }} />}
                     </div>
-                    <div style={{marginLeft: '30px'}}>
-                        { userData }
+                    <div style={{marginLeft: '35px', fontSize: "20px"}}>
+                        <stron>{ userData }</stron>
                     </div>
                     <div style={{margin: '10px'}}>
                       <input type="text" className="form-control" placeholder="Adres URL obrazka avatara:" value={userAvatar} onChange={handleAvatarChange} />
