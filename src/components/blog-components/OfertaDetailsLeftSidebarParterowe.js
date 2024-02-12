@@ -149,7 +149,10 @@ const BlogDetailsLeftSidebar = () => {
                 </div>
                 <div className="col-md-8">
                   <span className="title">Sprawdź również : </span>
-                  <Link to="/oferta-post-left-sidebar-ER" className="tag">Eleganckie Rezydencje: Domy do 370 m2</Link>
+                  <Link to="/oferta-poddasze" className="tag">Domy z poddaszem</Link>
+                  <Link to="/oferta-pietrowe" className="tag">Domy piętrowe</Link>
+                  <Link to="/oferta-wille" className="tag">Wille</Link>
+                  <Link to="/oferta-nowoczesne" className="tag">W nowoczesnej zabudowie</Link>
                 </div>
               </div>
             </div>
