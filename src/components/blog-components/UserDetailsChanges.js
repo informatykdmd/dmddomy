@@ -135,10 +135,10 @@ const UserDetailsChanges = () => {
                             height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
                             padding: 0, // Usuwa wewnętrzny padding
                           }}
-                          onClick={() => handleAvatarSelection('https://png.pngtree.com/png-vector/20190626/ourlarge/pngtree-workerindustryavatarengineersupervisor-blue-dotted-line-png-image_1493290.jpg')}
+                          onClick={() => handleAvatarSelection('https://avatarfiles.alphacoders.com/371/371922.jpg')}
                         >
                           <div>
-                            <img src="https://png.pngtree.com/png-vector/20190626/ourlarge/pngtree-workerindustryavatarengineersupervisor-blue-dotted-line-png-image_1493290.jpg" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
+                            <img src="https://avatarfiles.alphacoders.com/371/371922.jpg" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
                         <button
@@ -151,10 +151,10 @@ const UserDetailsChanges = () => {
                             height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
                             padding: 0, // Usuwa wewnętrzny padding
                           }}
-                          onClick={() => handleAvatarSelection('https://www.pinpng.com/pngs/m/474-4744223_wild-hunt-witcher-avatar-hd-png-download.png')}
+                          onClick={() => handleAvatarSelection('https://screenanarchy.com/assets_c/2013/12/the-wolf-of-wall-street-horror-photo-01-630-thumb-860xauto-44799.jpg')}
                         >
                           <div>
-                            <img src="https://www.pinpng.com/pngs/m/474-4744223_wild-hunt-witcher-avatar-hd-png-download.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
+                            <img src="https://screenanarchy.com/assets_c/2013/12/the-wolf-of-wall-street-horror-photo-01-630-thumb-860xauto-44799.jpg" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
                         <button
@@ -167,10 +167,10 @@ const UserDetailsChanges = () => {
                             height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
                             padding: 0, // Usuwa wewnętrzny padding
                           }}
-                          onClick={() => handleAvatarSelection('https://w7.pngwing.com/pngs/210/693/png-transparent-leonardo-dicaprio-the-wolf-of-wall-street-film-youtube-leonardo-dicaprio-celebrities-microphone-glasses-thumbnail.png')}
+                          onClick={() => handleAvatarSelection('https://www.seekpng.com/png/full/582-5825847_ashiels-avatar-realistic-beautiful-anime-girls.png')}
                         >
                           <div>
-                            <img src="https://w7.pngwing.com/pngs/210/693/png-transparent-leonardo-dicaprio-the-wolf-of-wall-street-film-youtube-leonardo-dicaprio-celebrities-microphone-glasses-thumbnail.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
+                            <img src="https://www.seekpng.com/png/full/582-5825847_ashiels-avatar-realistic-beautiful-anime-girls.png" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
                     </div>
