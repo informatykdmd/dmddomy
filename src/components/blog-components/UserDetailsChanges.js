@@ -43,7 +43,7 @@ const UserDetailsChanges = () => {
         const fetchedUserData = response.data;
         
         const clientName = fetchedUserData.CLIENT_NAME;
-        console.log(clientName);
+        console.log('clientName', clientName);
         setUserData(fetchedUserData); // Użyj innej nazwy dla lokalnej zmiennej
       } catch (error) {
         console.error("Błąd podczas pobierania danych użytkownika", error);
