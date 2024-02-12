@@ -151,10 +151,10 @@ const UserDetailsChanges = () => {
                             height: '100px', // Ustaw dowolną wysokość, aby uzyskać pożądany rozmiar kółka
                             padding: 0, // Usuwa wewnętrzny padding
                           }}
-                          onClick={() => handleAvatarSelection('https://screenanarchy.com/assets_c/2013/12/the-wolf-of-wall-street-horror-photo-01-630-thumb-860xauto-44799.jpg')}
+                          onClick={() => handleAvatarSelection('https://upload.wikimedia.org/wikipedia/en/c/c9/Charging_Bull_statue.jpg')}
                         >
                           <div>
-                            <img src="https://screenanarchy.com/assets_c/2013/12/the-wolf-of-wall-street-horror-photo-01-630-thumb-860xauto-44799.jpg" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Charging_Bull_statue.jpg" alt="Avatar 2" style={{ maxWidth: '100%', maxHeight: '100px' }}/>
                           </div>
                         </button>
                         <button
