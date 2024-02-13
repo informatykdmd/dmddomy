@@ -62,25 +62,22 @@ const SidebarLeft = () => {
             <div className="widget widget-archives">
             <div className="all-title">
             <h3>
-                <span>archives</span>
+                <span style={{paddingTop: '10px'}}>Sprawdź również</span>
             </h3>
             </div>
             <div className="widget-items widget-archie">
             <ul>
                 <li>
-                <Link to="#">july
-                    <span>20</span>
-                </Link>
+                    <Link to="/oferta-poddasze" className="tag">Domy z poddaszem</Link>
                 </li>
                 <li>
-                <Link to="#">November
-                    <span>36</span>
-                </Link>
+                    <Link to="/oferta-pietrowe" className="tag">Domy piętrowe</Link>
                 </li>
                 <li>
-                <Link to="#">october
-                    <span>12</span>
-                </Link>
+                    <Link to="/oferta-wille" className="tag">Wille</Link>
+                </li>
+                <li>
+                    <Link to="/oferta-nowoczesne" className="tag">W nowoczesnej zabudowie</Link>
                 </li>
             </ul>
             </div>
