@@ -60,10 +60,10 @@ const SidebarLeft = () => {
             </ul>
             </div>
             <div className="widget widget-archives">
-            <div className="all-title">
-            <h3>
-                <span style={{paddingTop: '10px'}}>Sprawdź również</span>
-            </h3>
+            <div className="all-title"  style={{paddingTop: '10px'}}>
+                <h3>
+                    <span>Sprawdź również</span>
+                </h3>
             </div>
             <div className="widget-items widget-archie">
             <ul>
