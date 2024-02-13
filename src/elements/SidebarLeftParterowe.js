@@ -59,6 +59,32 @@ const SidebarLeft = () => {
                 </li>
             </ul>
             </div>
+            <div className="widget widget-archives">
+            <div className="all-title">
+            <h3>
+                <span>archives</span>
+            </h3>
+            </div>
+            <div className="widget-items widget-archie">
+            <ul>
+                <li>
+                <Link to="#">july
+                    <span>20</span>
+                </Link>
+                </li>
+                <li>
+                <Link to="#">November
+                    <span>36</span>
+                </Link>
+                </li>
+                <li>
+                <Link to="#">october
+                    <span>12</span>
+                </Link>
+                </li>
+            </ul>
+            </div>
+        </div>
         </div>
     </div>
     </>
