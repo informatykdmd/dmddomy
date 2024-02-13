@@ -60,7 +60,7 @@ const SidebarLeft = () => {
             </ul>
             </div>
             <div className="widget widget-archives">
-            <div className="all-title"  style={{paddingTop: '10px'}}>
+            <div className="all-title"  style={{paddingTop: '25px'}}>
                 <h3>
                     <span>Sprawdź również</span>
                 </h3>
@@ -68,16 +68,16 @@ const SidebarLeft = () => {
             <div className="widget-items widget-archie">
             <ul>
                 <li>
-                <Link to="/oferta-poddasze">Domy z poddaszem</Link>
+                    <Link to="/oferta-nowoczesne">W nowoczesnej zabudowie</Link>
                 </li>
                 <li>
-                <Link to="/oferta-pietrowe">Domy piętrowe</Link>
+                    <Link to="/oferta-pietrowe">Domy piętrowe</Link>
                 </li>
                 <li>
-                <Link to="/oferta-wille">Wille</Link>
+                    <Link to="/oferta-wille">Wille</Link>
                 </li>
                 <li>
-                <Link to="/oferta-nowoczesne">W nowoczesnej zabudowie</Link>
+                    <Link to="/oferta-poddasze">Domy z poddaszem</Link>
                 </li>
             </ul>
             </div>
