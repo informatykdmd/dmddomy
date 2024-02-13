@@ -1,7 +1,6 @@
 import React from 'react';
 import HeaderOne from '../../common/header/HeaderOne';
-import BreadcrumbOneWillaParterowa2 from '../../common/breadcrumb/BreadcrumbOneWillaParterowa2';
-import ProjectsDetailsOneWillaParterowa2 from '../../components/project-components/ProjectsDetailsOneWillaParterowa2';
+import ProjectsDetailsOneWillaParkowa4 from '../../components/project-components/ProjectsDetailsOneWillaParkowa4';
 import FooterOne from '../../common/footer/FooterOne';
 
 // Przewiń stronę do góry z animacją
@@ -15,15 +14,8 @@ const ProjectsDetails = () => {
     return (
         <>
         <HeaderOne />
-
-        <BreadcrumbOneWillaParterowa2
-            title="Kasjopea 7"
-            rootUrl="/oferta-post-left-sidebar"
-            parentUrl="OFERTA"
-            currentUrl="Kasjopea 7"
-        />
         
-        <ProjectsDetailsOneWillaParterowa2 />
+        <ProjectsDetailsOneWillaParkowa4 />
                                 
         <FooterOne />
         </>
