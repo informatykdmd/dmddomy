@@ -68,16 +68,16 @@ const SidebarLeft = () => {
             <div className="widget-items widget-archie">
             <ul>
                 <li>
-                    <Link to="/oferta-poddasze" className="tag">Domy z poddaszem</Link>
+                <Link to="/oferta-poddasze">Domy z poddaszem</Link>
                 </li>
                 <li>
-                    <Link to="/oferta-pietrowe" className="tag">Domy piętrowe</Link>
+                <Link to="/oferta-pietrowe">Domy piętrowe</Link>
                 </li>
                 <li>
-                    <Link to="/oferta-wille" className="tag">Wille</Link>
+                <Link to="/oferta-wille">Wille</Link>
                 </li>
                 <li>
-                    <Link to="/oferta-nowoczesne" className="tag">W nowoczesnej zabudowie</Link>
+                <Link to="/oferta-nowoczesne">W nowoczesnej zabudowie</Link>
                 </li>
             </ul>
             </div>
