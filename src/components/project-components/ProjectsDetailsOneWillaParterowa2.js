@@ -3,6 +3,12 @@ import RelatedProjectsKasjopea7 from '../../elements/RelatedProjectsKasjopea7';
 import ZoomableImage from '../../supportscripts/ZoomableImage';
 
 const ProjectsDetailsOne = () => { 
+  const allImgs = [
+    'bl-01-750x430-WillaParterowa2-1.png', 'bl-02-750x430-WillaParterowa2-2.png' , 'bl-03-750x430-WillaParterowa2-3.png',
+    'bl-01-750x430-WillaParterowa2-0.png', 'bl-02-750x430-WillaParterowa2-2.png' , 'bl-03-750x430-WillaParterowa2-3.png',
+    'bl-04-750x430-WillaParterowa2.png', 'bl-05-750x430-WillaParterowa2.png', 'bl-06-750x430-WillaParterowa2.png', 'bl-07-750x430-WillaParterowa2.png', 
+    'bl-08-750x430-WillaParterowa2.png', 'bl-09-750x430-WillaParterowa2.png', 'bl-10-750x430-WillaParterowa2.png', 
+  ];
     return(
     <>
     {/* Projects Section*/}

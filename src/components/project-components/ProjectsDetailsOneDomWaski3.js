@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import RelatedProjectsKasjopea7 from '../../elements/RelatedProjectsKasjopea7';
+// import RelatedProjectsKasjopea7 from '../../elements/RelatedProjectsKasjopea7';
 import ZoomableImage from '../../supportscripts/ZoomableImage';
 
 const ProjectsDetailsOne = () => { 
@@ -80,11 +80,11 @@ const ProjectsDetailsOne = () => {
                 </p>
               <div className="col-md-12 p-b30">
                 <div className="row">
-                    <div className="col-md-4">
+                    {/* <div className="col-md-4">
                         <div className="project-thumb">
                         <ZoomableImage src="images/project/bl-08-750x430-DomWaski3.png" alt="Oferta" />
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-md-4">
                         <div className="project-thumb">
                             <ZoomableImage src="images/project/bl-09-750x430-DomWaski3.png" alt="Oferta" />
