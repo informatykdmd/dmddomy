@@ -55,7 +55,7 @@ const NavOne = () => {
 
                                 </ul>
                             </li>
-                            <li className="dropdown"><Link to="/oferta-post-left-sidebar">OFERTA</Link>
+                            <li className="dropdown"><Link to="/oferta-wille">OFERTA</Link>
                                 <ul>
                                   <li><Link to="/oferta-parterowe">Parterowe</Link></li>
                                   <li><Link to="/oferta-poddasze">Z Poddaszem</Link></li>
@@ -133,7 +133,7 @@ const NavOne = () => {
                             <li><Link to="/team">ZESPÓŁ</Link></li>
                         </ul>
                         </li>
-                        <li className="dropdown"><Link to="/oferta-post-left-sidebar">OFERTA</Link>
+                        <li className="dropdown"><Link to="/oferta-wille">OFERTA</Link>
                         <ul>
                           <li><Link to="/oferta-parterowe">Parterowe</Link></li>
                           <li><Link to="/oferta-poddasze">Z Poddaszem</Link></li>

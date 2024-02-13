@@ -109,7 +109,7 @@ const FooterOne = () => {
                         <h2>Szybki skrót</h2>
                         <ul className="footer-link">
                             <li><Link to="/o-nas">O nas</Link></li>
-                            <li><Link to="/oferta-post-left-sidebar">Oferta</Link></li>
+                            <li><Link to="/oferta-nowoczesne">Oferta</Link></li>
                             <li><Link to="/realizacje-posts-right-sidebar">Realizacje</Link></li>
                             <li><Link to="/blog-posts-fullwidth">Blog</Link></li>
                             <li><Link to="/polityka-prywatnosci">Polityka prywatności</Link></li>
