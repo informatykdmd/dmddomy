@@ -97,8 +97,6 @@ const ProjectsDetailsOne = () => {
                     </div>
                 </div>
               </div>
-              
-
               <div className="blog-nav clearfix">
                 <Link to="/single-project-WillaParterowa2" className="blog-prev"><i className="fa fa-angle-left" /></Link>
                 <Link to="/single-project-WillaParkowa4" className="blog-next"><i className="fa fa-angle-right" /></Link>
