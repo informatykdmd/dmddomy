@@ -24,6 +24,11 @@ import ProjectsDetailsDomWaski3 from './pages/projectpages/ProjectsDetailsDomWas
 import ProjectsDetailsWillaParkowa4 from './pages/projectpages/ProjectsDetailsWillaParkowa4';
 import ProjectsDetailsDomNaDebowej from './pages/projectpages/ProjectsDetailsDomNaDebowej';
 
+import ProjectsDetailsHiacynt3 from './pages/projectpages/ProjectsDetailsHiacynt3';
+import ProjectsDetailsNarcyz2 from './pages/projectpages/ProjectsDetailsNarcyz2';
+import ProjectsDetailsZefir from './pages/projectpages/ProjectsDetailsZefir';
+import ProjectsDetailsDomNaParkowej6 from './pages/projectpages/ProjectsDetailsDomNaParkowej6';
+
 import ProjectsDetailsDomzWidokiem3 from './pages/projectpages/ProjectsDetailsDomzWidokiem3';
 import ProjectsDetailsOpalElegancja from './pages/projectpages/ProjectsDetailsOpalElegancja';
 import ProjectsDetailswillaParkowa160 from './pages/projectpages/ProjectsDetailswillaParkowa160';
@@ -143,7 +148,12 @@ function App() {
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParkowa4'}`} element={<ProjectsDetailsWillaParkowa4 />}/>
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomNaDebowej'}`} element={<ProjectsDetailsDomNaDebowej />}/>
 
-            <Route exact path={`${process.env.PUBLIC_URL + '/oferta-poddasze'}`} element={<OfertaPoddaszeOne />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-poddasze'}`} element={<OfertaPoddaszeOne />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Hiacynt3'}`} element={<ProjectsDetailsHiacynt3 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Narcyz2'}`} element={<ProjectsDetailsNarcyz2 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Zefir'}`} element={<ProjectsDetailsZefir />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomNaParkowej6'}`} element={<ProjectsDetailsDomNaParkowej6 />}/>
+            
 
           <Route exact path={`${process.env.PUBLIC_URL + '/blog-posts-fullwidth'}`} element={<PostsOne />}/>
 
