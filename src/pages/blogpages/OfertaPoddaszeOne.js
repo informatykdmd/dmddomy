@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderOne from '../../common/header/HeaderOne';
-import BreadcrumbOneMalePerly from '../../common/breadcrumb/BreadcrumbOneMalePerly';
-import OfertaDetailsLeftSidebar from '../../components/blog-components/OfertaDetailsLeftSidebar';
+import BreadcrumbOneParter from '../../common/breadcrumb/BreadcrumbOneParter';
+import OfertaDetailsLeftSidebarPoddasze from '../../components/blog-components/OfertaDetailsLeftSidebarPoddasze';
 import FooterOne from '../../common/footer/FooterOne';
 
 // Przewiń stronę do góry z animacją 
@@ -16,14 +16,14 @@ const PostsDetailsTwo = () => {
         <>
         <HeaderOne />
 
-        <BreadcrumbOneMalePerly 
-            title="Małe Perły"
+        <BreadcrumbOneParter
+            title="Domy Z Poddaszem"
             rootUrl="/"
             parentUrl="DMD"
-            currentUrl="Małe Perły"
+            currentUrl="Domy Z Poddaszem"
         />
         
-        <OfertaDetailsLeftSidebar />
+        <OfertaDetailsLeftSidebarPoddasze />
                 
         <FooterOne />
         </>

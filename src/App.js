@@ -136,11 +136,14 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaMalibu'}`} element={<ProjectsDetailsWillaMalibu />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomzWidokiem4'}`} element={<ProjectsDetailsDomzWidokiem4 />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomzWidokiem'}`} element={<ProjectsDetailsDomzWidokiem />}/>
+          
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-parterowe'}`} element={<OfertaParteroweOne />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParterowa2'}`} element={<ProjectsDetailWillaParterowa2 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomWaski3'}`} element={<ProjectsDetailsDomWaski3 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParkowa4'}`} element={<ProjectsDetailsWillaParkowa4 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomNaDebowej'}`} element={<ProjectsDetailsDomNaDebowej />}/>
 
-          <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParterowa2'}`} element={<ProjectsDetailWillaParterowa2 />}/>
-          <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomWaski3'}`} element={<ProjectsDetailsDomWaski3 />}/>
-          <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParkowa4'}`} element={<ProjectsDetailsWillaParkowa4 />}/>
-          <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomNaDebowej'}`} element={<ProjectsDetailsDomNaDebowej />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/oferta-poddasze'}`} element={<OfertaPoddaszeOne />}/>
 
           <Route exact path={`${process.env.PUBLIC_URL + '/blog-posts-fullwidth'}`} element={<PostsOne />}/>
 
@@ -164,8 +167,8 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL + '/single-post-fullwidth'}`} element={<PostsDetailsOne />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-post-left-sidebar'}`} element={<PostsDetailsTwo />}/>
 
-          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-parterowe'}`} element={<OfertaParteroweOne />}/>
-          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-poddasze'}`} element={<OfertaPoddaszeOne />}/>
+          
+          
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-pietrowe'}`} element={<OfertaPietroweOne />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-wille'}`} element={<OfertaWilleOne />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-nowoczesne'}`} element={<OfertaNowoczesneOne />}/>
