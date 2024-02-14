@@ -84,7 +84,7 @@ const FooterOne = () => {
                             <li><span>Pracujemy:</span><p>Poniedziałek - Piątek</p><p>9:00 - 17:00</p></li>
                         </ul>
                         <ul className="social-icon">
-                            <li><a href="https://www.facebook.com/dmdbudownictwo/" rel="noreferrer" target="_blank"><i className="fa fa-facebook" /></a></li>
+                            <li><a href="https://www.facebook.com/dmddomy/" rel="noreferrer" target="_blank"><i className="fa fa-facebook" /></a></li>
                             <li><a href="https://www.youtube.com/channel/UCBRN-SPMEIYK6YRV23Komxw" rel="noreferrer" target="_blank"><i className="fa fa-youtube" /></a></li>
                             <li><a href="https://www.instagram.com/dmddomy/" rel="noreferrer" target="_blank"><i className="fa fa-instagram" /></a></li>
                         </ul>
