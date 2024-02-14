@@ -8,7 +8,7 @@ const SidebarLeft = () => {
         <div className="widget widget-recent-post">
             <div className="all-title">
             <h3>
-                <span>Domy Z Poddaszem</span>
+                <span>Domy Piętrowe</span>
             </h3>
             </div>
             <div className="widget-items">
@@ -21,7 +21,7 @@ const SidebarLeft = () => {
                 </div>
                 <div className="blog-rp-info">
                     <p><Link to="/single-project-Oszust">Oszust</Link></p>
-                    <p>Zapraszamy do fascynującej podróży w świat nowoczesnej architektury z projektem domu Willa Parterowa 2.</p>
+                    <p>Zapraszamy do fascynującej podróży w świat nowoczesnej architektury z projektem domu Oszust.</p>
                 </div>
                 </li>
                 <li>
@@ -32,7 +32,7 @@ const SidebarLeft = () => {
                 </div>
                 <div className="blog-rp-info">
                     <p><Link to="/single-project-Tytan3">Tytan 3</Link></p>
-                    <p>Projekt domu Wąski 3 to nowa odsłona popularnej serii domów, idealnie dostosowana do wąskich działek.</p>
+                    <p>Tytan 3 to projekt domu jednorodzinnego, piętrowego z garażem częściowo wbudowanym w bryłę budynku.</p>
                 </div>
                 </li>
                 <li>
@@ -43,7 +43,7 @@ const SidebarLeft = () => {
                 </div>
                 <div className="blog-rp-info">
                     <p><Link to="/single-project-Qubik3">Qubik 3</Link></p>
-                    <p>Willa Parkowa 4 to jednokondygnacyjny dom o prostokątnej bryle, z czterospadowym dachem i garażem.</p>
+                    <p>Projekt domu Qubik 3 jest to projekt budynku jednorodzinnego w zabudowie bliźniacze o nowoczesnej architekturze.</p>
                 </div>
                 </li>
                 <li>
@@ -54,7 +54,7 @@ const SidebarLeft = () => {
                 </div>
                 <div className="blog-rp-info">
                     <p><Link to="/single-project-Qubik">Qubik</Link></p>
-                    <p>Dom na Dębowej to projekt domu przeznaczonego dla czteroosobowej rodziny, w stylistyce dworkowej.</p>
+                    <p>Qubik jest to projekt nowoczesnego domu jednorodzinnego piętrowego, z płaskim dachem.</p>
                 </div>
                 </li>
             </ul>
