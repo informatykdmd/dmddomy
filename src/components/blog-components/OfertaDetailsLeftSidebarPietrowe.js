@@ -49,7 +49,7 @@ const BlogDetailsLeftSidebar = () => {
                 </blockquote>
                 <p>
                     Idąc na przekór tradycji, proponujemy konkurencyjne ceny oparte na naszym głębokim doświadczeniu w tworzeniu innowacyjnych domów piętrowych w Warszawie 
-                    i okolicy. Specjalizujemy się w budowie domów piętrowych według nowatorskich projektów, takich jak Amarant 4, Iris 3, Aquila czy Dom Na Różanej 7.
+                    i okolicy. Specjalizujemy się w budowie domów piętrowych według nowatorskich projektów, takich jak Oszust, Tytan 3, Qubik 3 czy zwyczajny Qubik.
                 </p>
                 <p>
                     Nasza oferta obejmuje domy piętrowe o różnych metrażach, od kompaktowych po przestronne rezydencje, 
