@@ -13,85 +13,94 @@ const ProjectsDetailsOne = () => {
               <div className="row">
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-01-750x430-DomNaDebowej-1.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-01-750x430-Narcyz2-1.png" alt="Oferta" />
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-02-750x430-DomNaDebowej-2.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-02-750x430-Narcyz2-2.png" alt="Oferta" />
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-03-750x430-DomNaDebowej-3.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-03-750x430-Narcyz2-3.png" alt="Oferta" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-12">
               <div className="project-thumb">
-                <ZoomableImage src="images/project/bl-01-1920x1075-DomNaDebowej-0.png" alt="Oferta" />
+                <ZoomableImage src="images/project/bl-01-1920x1075-Narcyz2-0.png" alt="Oferta" />
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>Dom na Dębowej</h3>
+              <h3>Narcyz 2</h3>
               <p>
-                Projekt domu "Dom na Dębowej" to jednorodzinny dom parterowy, stworzony z myślą o czterech 
-                mieszkańcach. Inspirując się popularnym stylem dworkowym, doskonale komponuje się zarówno 
-                z wiejskim krajobrazem, jak i stanowi wyjątkową ozdobę miejskiego otoczenia. Dom jest 
-                zwieńczony czterospadowym dachem o nachyleniu 27 i 30 stopni, nadając mu charakterystyczny 
-                wygląd. Z powierzchnią użytkową 93,43 m2 i kubaturą 581 m3, projekt jest dostosowany 
-                do realizacji na działce o wymiarach 20,80 m x 18,69 m.
+                Projekt domu Narcyz2 to parterowy dom z poddaszem użytkowym zbudowany na planie prostokąta,
+                 Do głównej bryły projektu dobudowany jest dwustanowiskowy garaż z poddaszem. Powierzchnia 
+                 użytkowa wynosi blisko 135 m2 (kubatura 788 m3). W domu komfortowo może mieszkać 5 użytkowników.
+                 Minimalna działka na jakiej może powstać obiekt ma wymiary: 23,68 x 17,88 m. 
+                 Projekt łączy tradycyjną formę budynku z dwuspadowym dachem.
               </p>
 
                 <span><strong>Bryła Domu</strong></span><br />
                 <p>
-                    Bryła budynku została zaplanowana na prostokątnym planie, przykryta 
-                    czterospadowym dachem. Centralnie na elewacji frontowej umieszczono 
-                    reprezentacyjny portyk wejściowy, a eleganckie drzwi frontowe z naświetlami 
-                    dodają uroku. Wnętrze domu zostało funkcjonalnie zaaranżowane, z uwzględnieniem 
-                    nowoczesnych rozwiązań. Z tyłu budynku znajduje się szerokie przeszklenie 
-                    otwierające salon na zadaszony taras i ogród, podkreślając współczesny 
-                    styl życia mieszkańców.
+                  Gotowy projekt Narcyz 2 to elegancki parterowy dom z poddaszem użytkowym, wzniesiony na planie 
+                  prostokąta i pokryty dwuspadowym dachem. Do głównej bryły domu Narcyz 2 dołączony jest 
+                  dwustanowiskowy garaż z poddaszem. Symetryczna elewacja frontowa projektu urozmaicona 
+                  jest podcieniem nad wejściem oraz szeroką lukarną z balkonem. Elewacja ogrodowa dodatkowo 
+                  zdobi zadaszenie tarasu oraz przesuwne drzwi balkonowe, otwierające salon na taras 
+                  i malowniczy ogród. Forma budynku jest tradycyjna, co nadaje mu ponadczasowy urok, 
+                  który pięknie się starzeje.
                 </p>
-                <span><strong>Wnętrze</strong></span><br />
+
+                <span><strong>Wnętrze Narcyza 2</strong></span><br />
                 <p>
-                    Przedsionek z miejsce na ubrania prowadzi do kotłowni, a hol zapewnia dostęp do 
-                    części dziennych i nocnych. W salonie połączonym z otwartą kuchnią znajdziemy 
-                    miejsce na meble wypoczynkowe, stół jadalny oraz ścianę telewizyjną i kominkową. 
-                    W części nocnej są trzy sypialnie z wbudowanymi szafami, łazienka i osobne WC. 
-                    Mimo niewielkiej powierzchni, projekt "Dom na Dębowej" oferuje przestronność 
-                    i funkcjonalność, zwłaszcza w przestrzeni dziennego salonu liczącej prawie 50 m2.
+                    Wnętrze parteru projektu Narcyz 2 obejmuje przestronną, blisko 40-metrową przestrzeń, 
+                    łączącą salon, hol i kuchnię, reprezentacyjne schody na poddasze, dodatkowy pokój 
+                    (gabinet lub sypialnia), pomieszczenia gospodarcze oraz podwójny garaż i obszerną kotłownię.
                 </p>
                 <p>
-                    "Dom na Dębowej" to idealna propozycja dla miłośników klasycznej architektury dworkowej, 
-                    którzy pragną wyjątkowego domu, ekonomicznego, funkcjonalnego i estetycznego. Oferuje 
-                    on komfort i nowoczesność, tworząc przyjemne miejsce do życia, bez konieczności 
-                    przeznaczania fortuny na własny dom.
+                    Lokalizacja kotłowni umożliwia instalację zarówno kotła gazowego lub pompy ciepła, jak 
+                    i kotła na paliwo stałe. Wnętrze domu Narcyz 2 zapewnia dużo miejsca na część gospodarczą 
+                    oraz przechowywanie. Przy przedsionku znajduje się obszerna garderoba, a dalej pomieszczenie, 
+                    które można zaaranżować na pralnię i suszarnię. Ciekawym rozwiązaniem jest również 
+                    zaplanowana spiżarnia tuż przy kuchni. Na poddaszu, mimo skosów, mieszczą się wygodne 
+                    cztery pokoje oraz duża łazienka. Sypialnia rodziców w projekcie Narcyz 2 dysponuje 
+                    własną sporą garderobą. Poddasze można powiększyć, podnosząc nieco ściany kolankowe, 
+                    zgodnie z preferencjami Inwestora. Pokój nad częścią garażową w tym projekcie domu 
+                    jest bardzo przestronny.
+                </p>
+
+                <p>
+                    <em>
+                      Odkryj harmonię i funkcjonalność w projektowaniu Narcyz 2, gdzie elegancja 
+                      architektoniczna spotyka się z wygodą życia codziennego.
+                    </em>
                 </p>
                 
               <div className="col-md-12 p-b30">
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
-                        <ZoomableImage src="images/project/bl-08-750x430-DomNaDebowej.png" alt="Oferta" />
+                        <ZoomableImage src="images/project/bl-08-750x430-Narcyz2.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-09-750x430-DomNaDebowej.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-09-750x430-Narcyz2.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-10-750x430-DomNaDebowej.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-10-750x430-Narcyz2.png" alt="Oferta" />
                         </div>
                     </div>
                 </div>
               </div>
               <div className="blog-nav clearfix">
-                <Link to="/single-project-WillaParkowa4" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                <Link to="/single-project-WillaParterowa2" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                <Link to="/single-project-Hiacynt3" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-project-Zefir" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
             </div>
             <div className="col-md-4 mt-4">
@@ -116,16 +125,16 @@ const ProjectsDetailsOne = () => {
                   <li></li>
                   </ul>
                     <li>
-                      <p><ZoomableImage src="images/project/bl-04-750x430-DomNaDebowej.png" alt="blog" /></p>
+                      <p><ZoomableImage src="images/project/bl-04-750x430-Narcyz2.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-05-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-05-750x430-Narcyz2.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-06-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-06-750x430-Narcyz2.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-07-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-07-750x430-Narcyz2.png" alt="blog" /></p>
                     </li>
               </div>
               <div className="row">
