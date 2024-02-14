@@ -13,85 +13,93 @@ const ProjectsDetailsOne = () => {
               <div className="row">
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-01-750x430-DomNaDebowej-1.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-01-750x430-Zefir-1.png" alt="Oferta" />
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-02-750x430-DomNaDebowej-2.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-02-750x430-Zefir-2.png" alt="Oferta" />
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-03-750x430-DomNaDebowej-3.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-03-750x430-Zefir-3.png" alt="Oferta" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-12">
               <div className="project-thumb">
-                <ZoomableImage src="images/project/bl-01-1920x1075-DomNaDebowej-0.png" alt="Oferta" />
+                <ZoomableImage src="images/project/bl-01-1920x1075-Zefir-0.png" alt="Oferta" />
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>Dom na Dębowej</h3>
+              <h3>Zefir</h3>
               <p>
-                Projekt domu "Dom na Dębowej" to jednorodzinny dom parterowy, stworzony z myślą o czterech 
-                mieszkańcach. Inspirując się popularnym stylem dworkowym, doskonale komponuje się zarówno 
-                z wiejskim krajobrazem, jak i stanowi wyjątkową ozdobę miejskiego otoczenia. Dom jest 
-                zwieńczony czterospadowym dachem o nachyleniu 27 i 30 stopni, nadając mu charakterystyczny 
-                wygląd. Z powierzchnią użytkową 93,43 m2 i kubaturą 581 m3, projekt jest dostosowany 
-                do realizacji na działce o wymiarach 20,80 m x 18,69 m.
+                Projekt domu Zefir jest to dom jednorodzinny parterowy z poddaszem użytkowym, przeznaczony 
+                dla 4-6 osobowej rodziny, Budynek zaprojektowano, wykorzystując maksymalnie prostą bryłę, 
+                przykrytą dwuspadowym dachem, bez żadnych udziwnień i podrażających budowę komplikacji.
               </p>
 
-                <span><strong>Bryła Domu</strong></span><br />
-                <p>
-                    Bryła budynku została zaplanowana na prostokątnym planie, przykryta 
-                    czterospadowym dachem. Centralnie na elewacji frontowej umieszczono 
-                    reprezentacyjny portyk wejściowy, a eleganckie drzwi frontowe z naświetlami 
-                    dodają uroku. Wnętrze domu zostało funkcjonalnie zaaranżowane, z uwzględnieniem 
-                    nowoczesnych rozwiązań. Z tyłu budynku znajduje się szerokie przeszklenie 
-                    otwierające salon na zadaszony taras i ogród, podkreślając współczesny 
-                    styl życia mieszkańców.
-                </p>
-                <span><strong>Wnętrze</strong></span><br />
-                <p>
-                    Przedsionek z miejsce na ubrania prowadzi do kotłowni, a hol zapewnia dostęp do 
-                    części dziennych i nocnych. W salonie połączonym z otwartą kuchnią znajdziemy 
-                    miejsce na meble wypoczynkowe, stół jadalny oraz ścianę telewizyjną i kominkową. 
-                    W części nocnej są trzy sypialnie z wbudowanymi szafami, łazienka i osobne WC. 
-                    Mimo niewielkiej powierzchni, projekt "Dom na Dębowej" oferuje przestronność 
-                    i funkcjonalność, zwłaszcza w przestrzeni dziennego salonu liczącej prawie 50 m2.
-                </p>
-                <p>
-                    "Dom na Dębowej" to idealna propozycja dla miłośników klasycznej architektury dworkowej, 
-                    którzy pragną wyjątkowego domu, ekonomicznego, funkcjonalnego i estetycznego. Oferuje 
-                    on komfort i nowoczesność, tworząc przyjemne miejsce do życia, bez konieczności 
-                    przeznaczania fortuny na własny dom.
-                </p>
+              <span><strong>Architektura Domu Zefir</strong></span><br />
+              <p>
+                  Charakterystyczną cechą architektury domu Zefir jest kontrast między białymi 
+                  i grafitowymi ścianami, uzupełniony grafitowym dachem i cokołem z ciemnej płytki klinkierowej. 
+                  To nowoczesne, minimalistyczne połączenie kolorystyczne zyskuje ciepło dzięki drewnianym 
+                  ramom okien oraz podbitkom dachu. Reprezentacyjne drzwi wejściowe, schowane pod daszkiem 
+                  podcienia, i duże okno kuchenne ozdabiają front budynku. Elewacja ogrodowa prezentuje 
+                  szerokie drzwi balkonowe z salonu prowadzące na taras, a także zadaszenie tarasu zbudowane 
+                  na konstrukcji pergoli. Całość wieńczy łagodny dwupołaciowy dach.
+              </p>
+
+              <span><strong>Wnętrze "Zefira"</strong></span><br />
+              <p>
+                  Wnętrze domu "Zefir" zostało starannie podzielone na trzy główne strefy: część dzienną na 
+                  parterze, część gospodarczą oraz pokoje sypialne na poddaszu. Pomimo niewielkiej powierzchni 
+                  użytkowej, zaprojektowano otwarcie przestrzenne nad salonem i antresolę, co nadaje wnętrzu 
+                  atrakcyjny wygląd. Salon zyskał dodatkową wysokość i przestrzeń. Wejście do domu prowadzi 
+                  przez przedsionek z szafami wprost do holu, z którego otwiera się widok na nowoczesne 
+                  schody i salon z antresolą.
+              </p>
+              <p>
+                  Przestrzeń dzienna obejmuje wydzieloną kuchnię ze spiżarką, salon z narożnikiem wypoczynkowym 
+                  i ścianą telewizyjno-kominkową, oraz jadalnię. Dodatkowy pokój-gabinet, wbudowany garaż 
+                  i kotłownia są dostępne zarówno z holu, jak i przedsionka. Na poddaszu znajdują się dwie 
+                  przestronne sypialnie dzieci, duża łazienka oraz apartament rodziców z własną garderobą 
+                  i łazienką. Wnętrze poddasza można łatwo podzielić na cztery sypialnie, a wysoko ustawiona 
+                  ścianka kolankowa minimalizuje uciążliwe skosy.
+              </p>
+
+              <p>
+                  <em>
+                    Dom "Zefir" wyróżnia się prostą konstrukcją, energooszczędnym projektem oraz funkcjonalnym 
+                    podziałem wnętrza, stanowiąc doskonałą propozycję dla Inwestorów marzących o średniej 
+                    wielkości domie z nowoczesnym designem.
+                  </em>
+              </p>
                 
               <div className="col-md-12 p-b30">
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
-                        <ZoomableImage src="images/project/bl-08-750x430-DomNaDebowej.png" alt="Oferta" />
+                        <ZoomableImage src="images/project/bl-08-750x430-Zefir.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-09-750x430-DomNaDebowej.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-09-750x430-Zefir.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-10-750x430-DomNaDebowej.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-10-750x430-Zefir.png" alt="Oferta" />
                         </div>
                     </div>
                 </div>
               </div>
               <div className="blog-nav clearfix">
-                <Link to="/single-project-WillaParkowa4" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                <Link to="/single-project-WillaParterowa2" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                <Link to="/single-project-Narcyz2" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-project-DomNaParkowej6" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
             </div>
             <div className="col-md-4 mt-4">
@@ -116,16 +124,16 @@ const ProjectsDetailsOne = () => {
                   <li></li>
                   </ul>
                     <li>
-                      <p><ZoomableImage src="images/project/bl-04-750x430-DomNaDebowej.png" alt="blog" /></p>
+                      <p><ZoomableImage src="images/project/bl-04-750x430-Zefir.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-05-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-05-750x430-Zefir.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-06-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-06-750x430-Zefir.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-07-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-07-750x430-Zefir.png" alt="blog" /></p>
                     </li>
               </div>
               <div className="row">
