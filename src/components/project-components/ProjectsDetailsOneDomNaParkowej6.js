@@ -13,78 +13,82 @@ const ProjectsDetailsOne = () => {
               <div className="row">
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-01-750x430-DomNaDebowej-1.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-01-750x430-DomNaParkowej6-1.png" alt="Oferta" />
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-02-750x430-DomNaDebowej-2.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-02-750x430-DomNaParkowej6-2.png" alt="Oferta" />
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-03-750x430-DomNaDebowej-3.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-03-750x430-DomNaParkowej6-3.png" alt="Oferta" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-12">
               <div className="project-thumb">
-                <ZoomableImage src="images/project/bl-01-1920x1075-DomNaDebowej-0.png" alt="Oferta" />
+                <ZoomableImage src="images/project/bl-01-1920x1075-DomNaParkowej6-0.png" alt="Oferta" />
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>Dom na Dębowej</h3>
+              <h3>Dom Na Parkowej 6</h3>
               <p>
-                Projekt domu "Dom na Dębowej" to jednorodzinny dom parterowy, stworzony z myślą o czterech 
-                mieszkańcach. Inspirując się popularnym stylem dworkowym, doskonale komponuje się zarówno 
-                z wiejskim krajobrazem, jak i stanowi wyjątkową ozdobę miejskiego otoczenia. Dom jest 
-                zwieńczony czterospadowym dachem o nachyleniu 27 i 30 stopni, nadając mu charakterystyczny 
-                wygląd. Z powierzchnią użytkową 93,43 m2 i kubaturą 581 m3, projekt jest dostosowany 
-                do realizacji na działce o wymiarach 20,80 m x 18,69 m.
+                Projekt domu Dom na Parkowej 6 to kolejny projekt z kolekcji Domów na Parkowej, 
+                Tym razem został przygotowany większy wariant projekt domu jednorodzinnego. 
+                Dom na parkowej 6 to budynek parterowy ze strychem, przeznaczony dla 3-6 osobowej 
+                rodziny. Strych w łatwy sposób można zaadaptować na poddasze użytkowe. Powierzchnia 
+                użytkowa domu to 121,67 m2 ( kubatura 742 m3). Minimalne wymiary działki na jakiej 
+                może być zrealizowany to: 23,50 x 24,85 m
               </p>
 
-                <span><strong>Bryła Domu</strong></span><br />
-                <p>
-                    Bryła budynku została zaplanowana na prostokątnym planie, przykryta 
-                    czterospadowym dachem. Centralnie na elewacji frontowej umieszczono 
-                    reprezentacyjny portyk wejściowy, a eleganckie drzwi frontowe z naświetlami 
-                    dodają uroku. Wnętrze domu zostało funkcjonalnie zaaranżowane, z uwzględnieniem 
-                    nowoczesnych rozwiązań. Z tyłu budynku znajduje się szerokie przeszklenie 
-                    otwierające salon na zadaszony taras i ogród, podkreślając współczesny 
-                    styl życia mieszkańców.
-                </p>
-                <span><strong>Wnętrze</strong></span><br />
-                <p>
-                    Przedsionek z miejsce na ubrania prowadzi do kotłowni, a hol zapewnia dostęp do 
-                    części dziennych i nocnych. W salonie połączonym z otwartą kuchnią znajdziemy 
-                    miejsce na meble wypoczynkowe, stół jadalny oraz ścianę telewizyjną i kominkową. 
-                    W części nocnej są trzy sypialnie z wbudowanymi szafami, łazienka i osobne WC. 
-                    Mimo niewielkiej powierzchni, projekt "Dom na Dębowej" oferuje przestronność 
-                    i funkcjonalność, zwłaszcza w przestrzeni dziennego salonu liczącej prawie 50 m2.
-                </p>
-                <p>
-                    "Dom na Dębowej" to idealna propozycja dla miłośników klasycznej architektury dworkowej, 
-                    którzy pragną wyjątkowego domu, ekonomicznego, funkcjonalnego i estetycznego. Oferuje 
-                    on komfort i nowoczesność, tworząc przyjemne miejsce do życia, bez konieczności 
-                    przeznaczania fortuny na własny dom.
-                </p>
+              <span><strong>Bryła Domu na Parkowej 6</strong></span><br />
+              <p>
+                  Prostokątna bryła budynku Domu na Parkowej 6 przykryta jest czterospadowym dachem o kącie 
+                  nachylenia wynoszącym 35 stopni. Do elewacji frontowej dobudowany jest dwustanowiskowy garaż, 
+                  a reprezentacyjny front domu przypomina amerykańskie rezydencje z luksusowych przedmieść. 
+                  Ozdobą elewacji frontowej jest piękne zadaszenie nad drzwiami wejściowymi, wsparte na 
+                  kolumnach, stanowiące centralny element przyciągający uwagę. Podobnie od strony ogrodu 
+                  dominuje piękne zadaszenie nad tarasem oraz duże przeszklenia salonu. Architektura domu, 
+                  nasycona klasycznymi detalami, emanuje elegancją i posiada ponadczasowy wygląd.
+              </p>
+
+              <span><strong>Wnętrze Domu na Parkowej 6</strong></span><br />
+              <p>
+                  Całość programu użytkowego Domu na Parkowej 6 znajduje się na parterze, a strych może pełnić 
+                  rolę dodatkowej przestrzeni użytkowej lub pozostać nieużytkowany. Po wejściu przez wygodną 
+                  sien z podwyższonym sufitem, przechodzimy do holu lub w bok do kotłowni i garażu. Otwarta 
+                  przestrzeń dziennej obejmuje salon, jadalnię i kuchnię ze spiżarnią. Sufit nad salonem 
+                  został otwarty, powiększając przestrzeń dzienną i tworząc antresolę na poddaszu. Część 
+                  nocna zawiera trzy sypialnie, WC i łazienkę. Sypialnie dzieci posiadają wbudowane 
+                  szafy, a sypialnia rodziców jest połączona z garderobą. Wszystkie sypialnie mają 
+                  piękne okna z widokiem na ogród. Ponad garażem znajduje się dodatkowy strych gospodarczy.
+              </p>
+
+              <p>
+                  <em>
+                    Dom na Parkowej 6 łączy w sobie elegancję architektury z funkcjonalnością wnętrza, tworząc 
+                    harmonijne i ponadczasowe miejsce do mieszkania.
+                  </em>
+              </p>
                 
               <div className="col-md-12 p-b30">
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
-                        <ZoomableImage src="images/project/bl-08-750x430-DomNaDebowej.png" alt="Oferta" />
+                        <ZoomableImage src="images/project/bl-08-750x430-DomNaParkowej6.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-09-750x430-DomNaDebowej.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-09-750x430-DomNaParkowej6.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-10-750x430-DomNaDebowej.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-10-750x430-DomNaParkowej6.png" alt="Oferta" />
                         </div>
                     </div>
                 </div>
@@ -116,16 +120,16 @@ const ProjectsDetailsOne = () => {
                   <li></li>
                   </ul>
                     <li>
-                      <p><ZoomableImage src="images/project/bl-04-750x430-DomNaDebowej.png" alt="blog" /></p>
+                      <p><ZoomableImage src="images/project/bl-04-750x430-DomNaParkowej6.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-05-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-05-750x430-DomNaParkowej6.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-06-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-06-750x430-DomNaParkowej6.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-07-750x430-DomNaDebowej.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-07-750x430-DomNaParkowej6.png" alt="blog" /></p>
                     </li>
               </div>
               <div className="row">
