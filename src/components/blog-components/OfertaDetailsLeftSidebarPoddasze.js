@@ -25,7 +25,7 @@ const BlogDetailsLeftSidebar = () => {
   const handleShareClickTwitter = () => {
     const shareUrl = "https://twitter.com/intent/tweet";
     const text = encodeURIComponent(CONTENT_MAIN);
-    const url = encodeURIComponent(`https://dmddomy.pl/oferta-post-left-sidebar`);
+    const url = encodeURIComponent(`https://dmddomy.pl/oferta-poddasze`);
   
     window.open(`${shareUrl}?text=${text}&url=${url}`, '_blank');
   };
@@ -49,7 +49,7 @@ const BlogDetailsLeftSidebar = () => {
                     </blockquote>
                     <p>
                         Idąc na przekór tradycji, proponujemy konkurencyjne ceny oparte na naszym głębokim doświadczeniu w tworzeniu innowacyjnych domów z poddaszem w Warszawie 
-                        i okolicy. Specjalizujemy się w budowie domów z poddaszem według nowatorskich projektów, takich jak Loftowa Przestrzeń 2.0, Pionierski 3, czy Nowoczesna Wizja 4.
+                        i okolicy. Specjalizujemy się w budowie domów z poddaszem według nowatorskich projektów, takich jak Hiacynt 3, Narcyz 2, Zefir czy Dom Na Parkowej 6.
                     </p>
                     <p>
                         Nasza oferta obejmuje domy z poddaszem o różnych metrażach, od kompaktowych po przestronne rezydencje, 
@@ -101,9 +101,9 @@ const BlogDetailsLeftSidebar = () => {
                     </div>
 
                     <div className="col-sm-5">
-                      <p><img src="images/offers/bl-09-750x430-Parterowe1.png" alt="blog" /></p>
-                      <p><img src="images/offers/bl-09-750x430-Parterowe2.png" alt="blog" /></p>
-                      <p><img src="images/offers/bl-09-750x430-Parterowe3.png" alt="blog" /></p>
+                      <p><img src="images/offers/bl-09-750x430-Poddasze1.png" alt="blog" /></p>
+                      <p><img src="images/offers/bl-09-750x430-Poddasze2.png" alt="blog" /></p>
+                      <p><img src="images/offers/bl-09-750x430-Poddasze3.png" alt="blog" /></p>
                     </div>
                   </div>
                 </div>
