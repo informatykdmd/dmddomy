@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderOne from '../../common/header/HeaderOne';
-import BreadcrumbOneParter from '../../common/breadcrumb/BreadcrumbOneParter';
+import BreadcrumbOnePoddasze from '../../common/breadcrumb/BreadcrumbOnePoddasze';
 import OfertaDetailsLeftSidebarPoddasze from '../../components/blog-components/OfertaDetailsLeftSidebarPoddasze';
 import FooterOne from '../../common/footer/FooterOne';
 
@@ -16,11 +16,12 @@ const PostsDetailsTwo = () => {
         <>
         <HeaderOne />
 
-        <BreadcrumbOneParter
+        <BreadcrumbOnePoddasze
             title="Domy Z Poddaszem"
             rootUrl="/"
             parentUrl="DMD"
             currentUrl="Domy Z Poddaszem"
+            imgUrl="images/banner/bn-01-1920x480-Poddasze.png"
         />
         
         <OfertaDetailsLeftSidebarPoddasze />
