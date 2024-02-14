@@ -15,46 +15,46 @@ const SidebarLeft = () => {
             <ul>
                 <li>
                 <div className="blog-rp-image">
-                    <Link to="/single-project-Hiacynt3">
-                    <img src="images/offers/bl-01-120x120-Hiacynt3.png" alt="thumb" />
+                    <Link to="/single-project-Oszust">
+                    <img src="images/offers/bl-01-120x120-Oszust.png" alt="thumb" />
                     </Link>
                 </div>
                 <div className="blog-rp-info">
-                    <p><Link to="/single-project-Hiacynt3">Hiacynt 3</Link></p>
-                    <p>Zapraszamy do fascynującej podróży w świat nowoczesnej architektury z projektem domu Hiacynt 3.</p>
+                    <p><Link to="/single-project-Oszust">Oszust</Link></p>
+                    <p>Zapraszamy do fascynującej podróży w świat nowoczesnej architektury z projektem domu Willa Parterowa 2.</p>
                 </div>
                 </li>
                 <li>
                 <div className="blog-rp-image">
-                    <Link to="/single-project-Narcyz2">
-                    <img src="images/offers/bl-01-120x120-Narcyz2.png" alt="thumb" />
+                    <Link to="/single-project-Tytan3">
+                    <img src="images/offers/bl-01-120x120-Tytan3.png" alt="thumb" />
                     </Link>
                 </div>
                 <div className="blog-rp-info">
-                    <p><Link to="/single-project-Narcyz2">Narcyz 2</Link></p>
-                    <p>Projekt domu Narcyz 2 to nowa odsłona popularnej serii domów.</p>
+                    <p><Link to="/single-project-Tytan3">Tytan 3</Link></p>
+                    <p>Projekt domu Wąski 3 to nowa odsłona popularnej serii domów, idealnie dostosowana do wąskich działek.</p>
                 </div>
                 </li>
                 <li>
                 <div className="blog-rp-image">
-                    <Link to="/single-project-Zefir">
-                    <img src="images/offers/bl-01-120x120-Zefir.png" alt="thumb" />
+                    <Link to="/single-project-Qubik3">
+                    <img src="images/offers/bl-01-120x120-Qubik3.png" alt="thumb" />
                     </Link>
                 </div>
                 <div className="blog-rp-info">
-                    <p><Link to="/single-project-Zefir">Zefir</Link></p>
-                    <p>Zefir to dom jednorodzinny parterowy z poddaszem użytkowym, przeznaczony dla 4-6 osobowej rodziny.</p>
+                    <p><Link to="/single-project-Qubik3">Qubik 3</Link></p>
+                    <p>Willa Parkowa 4 to jednokondygnacyjny dom o prostokątnej bryle, z czterospadowym dachem i garażem.</p>
                 </div>
                 </li>
                 <li>
                 <div className="blog-rp-image">
-                    <Link to="/single-project-DomNaParkowej6">
-                    <img src="images/offers/bl-01-120x120-DomNaParkowej6.png" alt="thumb" />
+                    <Link to="/single-project-Qubik">
+                    <img src="images/offers/bl-01-120x120-Qubik.png" alt="thumb" />
                     </Link>
                 </div>
                 <div className="blog-rp-info">
-                    <p><Link to="/single-project-DomNaParkowej6">Dom Na Parkowej 6</Link></p>
-                    <p>Dom Na Parkowej 6 to kolejny projekt z kolekcji Domów na Parkowej, Tym razem został przygotowany większ.</p>
+                    <p><Link to="/single-project-Qubik">Qubik</Link></p>
+                    <p>Dom na Dębowej to projekt domu przeznaczonego dla czteroosobowej rodziny, w stylistyce dworkowej.</p>
                 </div>
                 </li>
             </ul>
@@ -71,7 +71,7 @@ const SidebarLeft = () => {
                     <Link to="/oferta-nowoczesne">W nowoczesnej zabudowie</Link>
                 </li>
                 <li>
-                    <Link to="/oferta-pietrowe">Domy piętrowe</Link>
+                    <Link to="/oferta-poddasze">Domy z poddaszem</Link>
                 </li>
                 <li>
                     <Link to="/oferta-wille">Wille</Link>

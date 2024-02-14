@@ -1,10 +1,10 @@
 import React from 'react';
 import HeaderOne from '../../common/header/HeaderOne';
-import BreadcrumbOneMalePerly from '../../common/breadcrumb/BreadcrumbOneMalePerly';
-import OfertaDetailsLeftSidebar from '../../components/blog-components/OfertaDetailsLeftSidebar';
+import BreadcrumbOnePoddasze from '../../common/breadcrumb/BreadcrumbOnePoddasze';
+import OfertaDetailsLeftSidebarPietrowe from '../../components/blog-components/OfertaDetailsLeftSidebarPietrowe';
 import FooterOne from '../../common/footer/FooterOne';
 
-// Przewiń stronę do góry z animacją
+// Przewiń stronę do góry z animacją 
 import $ from 'jquery'
 
 const PostsDetailsTwo = () => {
@@ -16,14 +16,15 @@ const PostsDetailsTwo = () => {
         <>
         <HeaderOne />
 
-        <BreadcrumbOneMalePerly 
-            title="Małe Perły"
+        <BreadcrumbOnePoddasze
+            title="Domy Piętrowe"
             rootUrl="/"
             parentUrl="DMD"
-            currentUrl="Małe Perły"
+            currentUrl="Domy Piętrowe"
+            imgUrl="images/banner/bn-01-1920x480-Pietrowe.png"
         />
         
-        <OfertaDetailsLeftSidebar />
+        <OfertaDetailsLeftSidebarPietrowe />
                 
         <FooterOne />
         </>
