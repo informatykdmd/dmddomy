@@ -13,62 +13,61 @@ const ProjectsDetailsOne = () => {
               <div className="row">
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-01-750x430-Hiacynt3-1.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-01-750x430-Tytan3-1.png" alt="Oferta" />
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-02-750x430-Hiacynt3-2.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-02-750x430-Tytan3-2.png" alt="Oferta" />
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="project-thumb">
-                    <ZoomableImage src="images/project/bl-03-750x430-Hiacynt3-3.png" alt="Oferta" />
+                    <ZoomableImage src="images/project/bl-03-750x430-Tytan3-3.png" alt="Oferta" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-12">
               <div className="project-thumb">
-                <ZoomableImage src="images/project/bl-01-1920x1075-Hiacynt3-0.png" alt="Oferta" />
+                <ZoomableImage src="images/project/bl-01-1920x1075-Tytan3-0.png" alt="Oferta" />
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>Hiacynt 3</h3>
+              <h3>Tytan 3</h3>
               <p>
-                Projekt domu Hiacynt 3 to projekt parterowego domu z poddaszem użytkowym, Hiacynt 3 przykryty jest 
-                wielospadowym dachem z fragmentem płaskiego zadaszenia nad garażem. Kąt nachylenia dachu wynosi 
-                35 stopni. Dom przeznaczony jest dla 6 mieszkańców. Hiacynt 3 ma nowoczesną stylistykę, a jego 
-                powierzchnia wynosi blisko 157 m2 (kubatura 974 m3). Projekt Hiacynt 3 można zrealizować na 
-                działce o minimalnych wymiarach: 22 x 25,41 m.
+                Projekt domu Tytan 3 jest kolejną wersją popularnego projektu Tytan, Jest to projekt 
+                domu jednorodzinnego, piętrowego z garażem częściowo wbudowanym w bryłę budynku. 
+                Tytan 3 jest przeznaczony dla 4-6 mieszkańców. Łączna powierzchnia użytkowa domu wynosi 
+                blisko 150 m2 (kubatura 940 m3).Dom zwieńczony jest dachem wielospadowym o kącie nachylenia 
+                25 stopni. Projekt Tytan 3 można realizować na działce o minimalnych wymiarach 19,64 x 19,60 m.
               </p>
 
-              <span><strong>Bryła Domu Hiacynt 3</strong></span><br />
+              <span><strong>Bryła Domu Tytan 3</strong></span><br />
               <p>
-                  Nowoczesna bryła budynku MG Projekt Hiacynt 3 została starannie zaprojektowana na planie litery T. 
-                  Architektura domu wyróżnia się ciekawymi detalami wykończeniowymi, takimi jak duże przeszklenia 
-                  elewacji, narożne okna, kontrastujące z bielą ścian fragmenty obłożone betonem architektonicznym 
-                  i drewnem. Te elementy tworzą spójną kompozycyjnie całość, a podziały elewacji na poziome pasy 
-                  nad oknami dodają charakteru, tworząc ramy dla strefy wejściowej i wypoczynkowej.
+                  Bryła budynku Tytan 3 przyjmuje prostokątny kształt z rdzeniem domu na planie kwadratu, 
+                  przykrytym kopertowym dachem. Jego prosta konstrukcja sprawia, że jest łatwy w budowie 
+                  i niedrogi w późniejszym utrzymaniu. Duże okna zwrócone w kierunku elewacji frontowej 
+                  i bocznej sprawiają, że projekt doskonale sprawdza się na działkach o niekorzystnym 
+                  położeniu wjazdu i drogi dojazdowej względem słońca. Mimo tego, że dom zachowuje 
+                  ogródek i taras z tyłu, duże przeszklenia narożnika frontowego zapewniają dostęp 
+                  do naturalnego światła, nawet gdy działka ma wjazd od południa.
               </p>
 
-              <span><strong>Wnętrze Hiacynt 3</strong></span><br />
+              <span><strong>Wnętrze Domu Tytan 3</strong></span><br />
               <p>
-                  Reprezentacyjne drzwi wejściowe z naświetlami prowadzą do wnętrza, które zostało zaprojektowane 
-                  z myślą o maksymalnej funkcjonalności. Przestrzeń życiowa nie ogranicza się tylko do parteru - nad 
-                  salonem znajduje się otwarta antresola, powiększając przestrzeń domu. Salon oferuje miejsce na 
-                  wygodne meble wokół kominka i telewizora, a także przyjemny stół jadalny. Częściowo otwarta 
-                  kuchnia z spiżarnią dodaje charakteru, a szerokie drzwi balkonowe otwierają się na taras 
-                  i ogród. Na parterze znajduje się również apartament rodziców z garderobą i łazienką, 
-                  sypialnia lub gabinet. Elastyczny program funkcjonalny obejmuje dwustanowiskowy garaż, 
-                  kotłownię i pomieszczenie pralni przy strefie wejściowej. Na poddaszu zaplanowano trzy 
-                  pokoje z łazienką i garderobą.
+                  Wnętrze parteru to otwarta przestrzeń dzienna, obejmująca salon, jadalnię, kuchnię i hol. 
+                  Parter domu Tytan 3 zawiera również duży podwójny garaż, kotłownię, łazienkę, spiżarnię 
+                  oraz dodatkowy pokój, który może pełnić rolę gabinetu lub sypialni dla gości. Na piętrze 
+                  znajdują się cztery pokoje przeznaczone na sypialnie. Blisko sypialni rodziców z łazienką 
+                  zaplanowano obszerną garderobę, ułatwiającą poranną toaletę. Pozostałym mieszkańcom dostępna 
+                  jest łazienka znajdująca się w pobliżu schodów. Ponadto, nad piętrem znajduje się strych. 
+                  Architektura domu Tytan 3 łączy w sobie nowoczesność z spokojnym charakterem.
               </p>
-              
+
               <p>
                   <em>
-                    Zaaranżuj swoje przestrzenie z Hiacyntem 3, łącząc nowoczesną architekturę z funkcjonalnością 
-                    i komfortem.
+                    Dom Tytan 3 prezentuje nowoczesny, praktyczny design, nadający się doskonale do każdej rodziny.
                   </em>
               </p>
                 
@@ -76,24 +75,24 @@ const ProjectsDetailsOne = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-thumb">
-                        <ZoomableImage src="images/project/bl-08-750x430-Hiacynt3.png" alt="Oferta" />
+                        <ZoomableImage src="images/project/bl-08-750x430-Tytan3.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-09-750x430-Hiacynt3.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-09-750x430-Tytan3.png" alt="Oferta" />
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="project-thumb">
-                            <ZoomableImage src="images/project/bl-10-750x430-Hiacynt3.png" alt="Oferta" />
+                            <ZoomableImage src="images/project/bl-10-750x430-Tytan3.png" alt="Oferta" />
                         </div>
                     </div>
                 </div>
               </div>
               <div className="blog-nav clearfix">
-                <Link to="/single-project-DomNaParkowej6" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                <Link to="/single-project-Narcyz2" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                <Link to="/single-project-Oszust" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-project-Qubik3" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
             </div>
             <div className="col-md-4 mt-4">
@@ -118,16 +117,16 @@ const ProjectsDetailsOne = () => {
                   <li></li>
                   </ul>
                     <li>
-                      <p><ZoomableImage src="images/project/bl-04-750x430-Hiacynt3.png" alt="blog" /></p>
+                      <p><ZoomableImage src="images/project/bl-04-750x430-Tytan3.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-05-750x430-Hiacynt3.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-05-750x430-Tytan3.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-06-750x430-Hiacynt3.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-06-750x430-Tytan3.png" alt="blog" /></p>
                     </li>
                     <li>
-                    <p><ZoomableImage src="images/project/bl-07-750x430-Hiacynt3.png" alt="blog" /></p>
+                    <p><ZoomableImage src="images/project/bl-07-750x430-Tytan3.png" alt="blog" /></p>
                     </li>
               </div>
               <div className="row">
