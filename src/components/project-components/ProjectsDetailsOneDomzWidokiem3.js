@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+// import RelatedProjectsKasjopea7 from '../../elements/RelatedProjectsKasjopea7';
 import ZoomableImage from '../../supportscripts/ZoomableImage';
 
 const ProjectsDetailsOne = () => { 
@@ -33,80 +34,69 @@ const ProjectsDetailsOne = () => {
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>Dom z Widokiem 3: Nowoczesna Rezydencja Miejska dla Aktywnej Rodziny</h3>
+              <h3>DomzWidokiem3</h3>
               <p>
-                Projekt Dom z Widokiem 3 to wyrafinowana, zmniejszona wersja jednego z najbardziej 
-                cenionych projektów pracowni MG PROJEKT. Ta okazała rezydencja miejska, pomimo 
-                swoich skromnych rozmiarów, stanowi doskonałe miejsce dla pięcioosobowej rodziny. 
-                Dzięki naszemu doświadczeniu koszt budowy utrzymywany jest w umiarkowanych 
-                granicach, a elastyczność projektu umożliwia wznoszenie budynku nawet na 
-                nietypowych działkach.
+                Projekt domu DomzWidokiem3 jest to projekt nowoczesnego domu jednorodzinnego piętrowego, z płaskim 
+                dachem - z serii „DomzWidokiem3”, przeznaczony dla 4-5 osobowej rodziny, Dom zaprojektowano 
+                w prostopadłościennej bryle złożonej z kilku przenikających się ze sobą bloków, tworzących 
+                interesującą harmonijną sylwetkę - z zaakcentowanym wejściem w narożniku elewacji frontowej, 
+                oraz z zawieszonym nad tarasem fragmentem piętra, tworzącym podcień. 
               </p>
 
-              <span><strong>Realizacje i Doświadczenie</strong></span><br />
-              <p>              
-                Pracownia projektowa MG PROJEKT, odpowiedzialna za stworzenie projektu Dom z Widokiem 3, 
-                posiada bogate doświadczenie związaną z różnymi wydaniami tego projektu. 
-                Choć nie możemy podzielić się zdjęciami zrealizowanych projektów Dom z Widokiem 3, 
-                to mamy na swoim koncie udane realizacje m.in. w Izabelinie i Piastowie. Projekt Dom z 
-                Widokiem 4, konstrukcyjnie zbliżony, cieszył się uznaniem w Izabelinie i zachodniej Warszawie.
-              </p>
+                <span><strong>Bryła Domu DomzWidokiem3</strong></span><br />
+                <p>
+                    Dom DomzWidokiem3 otwarto maksymalnie dużymi przeszkleniami na stronę ogrodu, łącząc salon i sypialnie 
+                    z otoczeniem. Trzy narożne okna z przodu - kuchni, gabinetu i jednej z sypialni na piętrze, 
+                    oraz narożnik ścian wejścia wykonany w kontrastującym kolorze, akcentują reprezentacyjne drzwi 
+                    do domu. Do jednopiętrowej bryły części mieszkalnej dołączona została parterowa część garażowa 
+                    z tarasem na dachu, dostępnym z holu piętra. Kształty, kolory i materiały zastosowane 
+                    w elewacjach nadają domowi estetyczny, czysty, minimalistyczny wygląd. 
+                </p>
 
-              <span><strong>Dom z Widokiem 3 – Nietechniczny Opis</strong></span><br />
-              <p>
-                Optymalny koszt budowy projektu Dom z Widokiem 3 idzie w parze z funkcjonalnością 
-                i estetyką, spełniając oczekiwania inwestora. Ta zoptymalizowana wersja projektu 
-                Dom z Widokiem to piętrowa rezydencja miejska z dwustanowiskowym garażem, idealnie 
-                dostosowana do potrzeb rodzin cztero- lub pięcioosobowych. Projekt jest szczególnie 
-                przyjazny dla trudniejszych działek.<br />
+                <span><strong>Wnętrze Domu DomzWidokiem3</strong></span><br />
+                <p>
+                    Wnętrze domu DomzWidokiem3 prezentuje równie nowoczesny wyraz, charakteryzując się prostymi 
+                    podziałami pomieszczeń i wzajemnie przenikającymi się przestrzeniami. Parter to przede 
+                    wszystkim otwarty salon szeroko połączony z tarasem i ogródem, z wysokim holem, aneksem 
+                    jadalnym, częściowo odseparowaną kuchnią, oraz ścianą telewizyjno-kominkową z trzystronnym 
+                    kominkiem. Znajdziemy także dodatkowy pokój - gabinet, a także garaż z kotłownią. Na piętrze 
+                    zaplanowano dwie sypialnie dziecięce z garderobami i dużą łazienką, oraz apartament rodziców 
+                    z własną łazienką i garderobami. 
+                </p>
 
-                Forma budynku opiera się na nowoczesnych rozwiązaniach, w tym dużej ilości przeszkleń, 
-                jednocześnie dbając o wysoką efektywność energetyczną.</p>
-
-              <span><strong>Parter</strong></span><br />
-              <p>              
-                Na parterze budynku dominuje duży pokój dzienny, harmonijnie połączony z jadalnią 
-                i częściowo otwartą kuchnią. Przestrzeń ta, w dużej mierze przeszklona, 
-                otwiera się na częściowo zadaszony taras. Dodatkowy pokój, dyskretnie umieszczony, 
-                oraz łazienka i kotłownia, z których przechodzi się do dwustanowiskowego garażu, 
-                stanowią funkcjonalne elementy parteru.
-              </p>
-              <span><strong>Piętro</strong></span><br />
-              <p>              
-                Piętro Domu z Widokiem 3 skupia się wokół antresoli i otwartej przestrzeni nad 
-                salonem. Trzy sypialnie, z główną sypialnią posiadającą garderobę i łazienkę, 
-                tworzą intymne przestrzenie dla mieszkańców. Nad garażem znajduje się niewielki 
-                strych, dodający dodatkowego uroku temu nowoczesnemu projektowi.
-              </p>
-              <h4><strong>Technologie wykorzystywane w budowie</strong></h4>
-                <ul>
-                  <li>• Fundamenty z betonowych ław i bloczków betonowych (ściany fundamentowe) </li>
-                  <li>• Ściany zewnętrzne: pustaki porotherm 25 ocieplane styropianem i pokryte tynkiem cienkowarstwowym </li>
-                  <li>• TERIVA – technologia stropów </li>
-                  <li>• Elewacje z tynków cienkowarstwowych </li>
-                  <li>• Dach pokryty dachówką </li>
-                </ul>
-              <br />
-              <h4><strong>Opis Domu z Widokiem 3</strong></h4>
-                <ul>
-                  <li>• Dom z widokiem 3 to „odchudzona” wersja Domu z widokiem </li>
-                  <li>• Rezydencja miejska Dom z widokiem 3 przeznaczona jest dla rodziny liczącej 4-5 domowników </li>
-                  <li>• W projekcie Dom z widokiem 3 przewidziano dwustanowiskowy garaż </li>
-                  <li>• Dom z widokiem 3 posiada trzy sypialnie oraz pokój mogący pełnić rolę sypialni </li>
-                  <li>• <strong>PARTER: </strong>salon z jadalnią 46,88 m², kuchnia ze spiżarnią (12,37 m² + 1,37 m²), pokój 11,78 m², hol 15,99 m², sień z garderobą (4,00 m² + 3,00 m²), łazienka 4,05 m², garaż 43,20 m², kotłownia 7,54 m²</li>
-                  <li>• <strong>PIĘTRO: </strong>2 sypialnie (14,22 m² + 12,13 m²), główna sypialnia z garderobą i łazienką (14,94 m² + 5,48 m² + łazienka 9,99 m²), hol 10,32 m², łazienka wspólna 5,43 m²</li>
-                  <li>• Powierzchnia całkowita: 301,19 m2 </li>
-                  <li>• Powierzchnia użytkowa: 186,93 m2 </li>
-                  <li>• Wysokość domu z podmurówką: 8,82 m </li>
-                  <li>• Szerokość budynku: 19,08 m </li>
-                  <li>• Długość budynku: 13,19 m </li>
-                  <li>• Minimalna szerokość działki: 27,66 m </li>
-                  <li>• Minimalna długość działki: 21,19 m </li>
-                </ul>
-              <div className="portfolio-tags"></div>
+                <p>
+                    Całość wnętrza spięta jest holem z pustką nad parterem i przejściem na taras na dachu garażu. 
+                    DomzWidokiem3 to dom o nowoczesnej minimalistycznej architekturze, z dopracowanymi detalami 
+                    i energooszczędnymi instalacjami. Budynek ma korzystny stosunek powierzchni podłóg 
+                    do kubatury, oraz zwartą bryłę, co sprawia, że będzie niedrogi w ogrzewaniu 
+                    i eksploatacji. Konstrukcja domu jest prosta. Inwestorowi mogą sprawić koszta 
+                    stolarki okiennej. DomzWidokiem3 to doskonała propozycja dla osób planujących budowę 
+                    domu piętrowego z płaskim dachem, posiadających niewielką działkę i pragnących 
+                    zrealizować swoje marzenie o własnym domu w inny, nowoczesny sposób.
+                </p>
+                
+              <div className="col-md-12 p-b30">
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="project-thumb">
+                        <ZoomableImage src="images/project/bl-08-750x430-DomzWidokiem3.png" alt="Oferta" />
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="project-thumb">
+                            <ZoomableImage src="images/project/bl-09-750x430-DomzWidokiem3.png" alt="Oferta" />
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="project-thumb">
+                            <ZoomableImage src="images/project/bl-10-750x430-DomzWidokiem3.png" alt="Oferta" />
+                        </div>
+                    </div>
+                </div>
+              </div>
               <div className="blog-nav clearfix">
-                <Link to="/single-project-Kasjopea7" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                <Link to="/single-project-OpalElegancja" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                <Link to="/single-project-DomzWidokiem33" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-project-Oszust" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
             </div>
             <div className="col-md-4 mt-4">
@@ -116,13 +106,17 @@ const ProjectsDetailsOne = () => {
                     <h5>SSO - Stan surowy otwarty</h5><span><strong>Czas realizacji:</strong> 3 miesiące <br />fundamenty, ściany, stropy, dach</span>
                   </li>
                   <li>
-                  <h5>SSZ - Stan surowy zamknięty</h5><span><strong>Czas realizacji:</strong> pół roku <br />SSO, okna, drzwi, elektryka, instalacje wodno-kanalizacyjne</span>
+                  <h5>SSZ - Stan surowy zamknięty</h5><span><strong>Czas realizacji:</strong> 6 miesięcy <br />SSO, okna, drzwi, elektryka, instalacje wodno-kanalizacyjne</span>
                   </li>
                   <li>
-                  <h5>Stan developerski</h5><span><strong>Czas realizacji:</strong> jeden rok <br />SSZ, elewacja, wylewki, tynki wewnętrzne</span>
+                  <h5>Stan developerski</h5><span><strong>Czas realizacji:</strong> 12 miesięcy <br />SSZ, elewacja, wylewki, tynki wewnętrzne</span>
                   </li>
                   <li>
-                    Koszt realizacji <span><h1><strong>711,816</strong> ZŁ</h1></span>
+                  <h5>RSSZ - Stan Pod Klucz</h5>
+                    <span>
+                        <strong>Czas realizacji:</strong> 18 miesięcy <br />
+                        Jest to etap, w którym inwestor już może zamieszkasz.
+                    </span>
                   </li>
                   <li></li>
                   </ul>
@@ -138,15 +132,6 @@ const ProjectsDetailsOne = () => {
                     <li>
                     <p><ZoomableImage src="images/project/bl-07-750x430-DomzWidokiem3.png" alt="blog" /></p>
                     </li>
-                    <li>
-                    <p><ZoomableImage src="images/project/bl-08-750x430-DomzWidokiem3.png" alt="blog" /></p>
-                    </li>
-                    <li>
-                    <p><ZoomableImage src="images/project/bl-09-750x430-DomzWidokiem3.png" alt="blog" /></p>
-                    </li>
-                    <li>
-                    <p><ZoomableImage src="images/project/bl-10-750x430-DomzWidokiem3.png" alt="blog" /></p>
-                    </li>
               </div>
               <div className="row">
                 {/*Video Column*/}
@@ -160,7 +145,7 @@ const ProjectsDetailsOne = () => {
     </section>
     {/* End Projects Section*/}
 
-    {/* <RelatedProjects /> */}
+    {/* <RelatedProjectsKasjopea7 /> */}
 
     </>
     )
