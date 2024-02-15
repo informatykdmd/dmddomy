@@ -34,45 +34,48 @@ const ProjectsDetailsOne = () => {
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>WillaFloryda3</h3>
+              <h3>Willa Floryda 3</h3>
               <p>
-                Projekt domu WillaFloryda3 jest to projekt nowoczesnego domu jednorodzinnego piętrowego, z płaskim 
-                dachem - z serii „WillaFloryda3”, przeznaczony dla 4-5 osobowej rodziny, Dom zaprojektowano 
-                w prostopadłościennej bryle złożonej z kilku przenikających się ze sobą bloków, tworzących 
-                interesującą harmonijną sylwetkę - z zaakcentowanym wejściem w narożniku elewacji frontowej, 
-                oraz z zawieszonym nad tarasem fragmentem piętra, tworzącym podcień. 
+                Projekt domu Willa Floryda 3 jest naszą kolejną propozycją projektu z serii nowoczesnych rezydencji
+                 Willa Floryda, Dom estetycznie i architektonicznie nawiązuje do serii "Floryd". Całkowicie odbiega 
+                 od nich układem funkcjonalnym oraz wyglądem. Budynek jest piętrowy o powierzchni 
+                 użytkowej 235,54 m2 (kubatura 1243 m3). Projekt domu Willa Floryda 3 można zrealizować 
+                 na działce o minimalnych wymiarach 23,17 x 28,13 m 
               </p>
 
-                <span><strong>Bryła Domu WillaFloryda3</strong></span><br />
+                <span><strong>Willa Floryda 3 - Bryła Budynku</strong></span><br />
                 <p>
-                    Dom WillaFloryda3 otwarto maksymalnie dużymi przeszkleniami na stronę ogrodu, łącząc salon i sypialnie 
-                    z otoczeniem. Trzy narożne okna z przodu - kuchni, gabinetu i jednej z sypialni na piętrze, 
-                    oraz narożnik ścian wejścia wykonany w kontrastującym kolorze, akcentują reprezentacyjne drzwi 
-                    do domu. Do jednopiętrowej bryły części mieszkalnej dołączona została parterowa część garażowa 
-                    z tarasem na dachu, dostępnym z holu piętra. Kształty, kolory i materiały zastosowane 
-                    w elewacjach nadają domowi estetyczny, czysty, minimalistyczny wygląd. 
-                </p>
-
-                <span><strong>Wnętrze Domu WillaFloryda3</strong></span><br />
-                <p>
-                    Wnętrze domu WillaFloryda3 prezentuje równie nowoczesny wyraz, charakteryzując się prostymi 
-                    podziałami pomieszczeń i wzajemnie przenikającymi się przestrzeniami. Parter to przede 
-                    wszystkim otwarty salon szeroko połączony z tarasem i ogródem, z wysokim holem, aneksem 
-                    jadalnym, częściowo odseparowaną kuchnią, oraz ścianą telewizyjno-kominkową z trzystronnym 
-                    kominkiem. Znajdziemy także dodatkowy pokój - gabinet, a także garaż z kotłownią. Na piętrze 
-                    zaplanowano dwie sypialnie dziecięce z garderobami i dużą łazienką, oraz apartament rodziców 
-                    z własną łazienką i garderobami. 
+                    Budynek Willa Floryda 3 jest piętrowy, z dwukondygnacyjnym rdzeniem otoczonym parterowymi 
+                    częściami z przodu i z tyłu. Ta konstrukcja nadaje bryle budynku lekkości, łącząc zalety 
+                    domu piętrowego i parterowego. Elewacja willi została podzielona na poziome pasy, gdzie 
+                    ciemne fragmenty w grubości kondygnacji i okien kontrastują z białymi pasami w grubości 
+                    stropów. Jasne elementy wystające do przodu, a ciemniejsze chowane w ścianie, nadają bryle 
+                    atrakcyjności i trójwymiarowości.
                 </p>
 
                 <p>
-                    Całość wnętrza spięta jest holem z pustką nad parterem i przejściem na taras na dachu garażu. 
-                    WillaFloryda3 to dom o nowoczesnej minimalistycznej architekturze, z dopracowanymi detalami 
-                    i energooszczędnymi instalacjami. Budynek ma korzystny stosunek powierzchni podłóg 
-                    do kubatury, oraz zwartą bryłę, co sprawia, że będzie niedrogi w ogrzewaniu 
-                    i eksploatacji. Konstrukcja domu jest prosta. Inwestorowi mogą sprawić koszta 
-                    stolarki okiennej. WillaFloryda3 to doskonała propozycja dla osób planujących budowę 
-                    domu piętrowego z płaskim dachem, posiadających niewielką działkę i pragnących 
-                    zrealizować swoje marzenie o własnym domu w inny, nowoczesny sposób.
+                    Wejście do domu zostało podkreślone eleganckim podcieniem oraz masywną ścianą wykończoną 
+                    kamieniem lub betonem architektonicznym. Narożne okno kuchni oraz przeszklenia piętra dodają 
+                    lekkości i transparentności frontowi domu. Duże przeszklenia salonu i sypialni na piętrze 
+                    otwierają wnętrze na ogrodowy krajobraz. Taras z pergolą tworzy swoiste patio, zapewniając 
+                    mieszkańcom prywatną przestrzeń z widokiem na ogród.
+                </p>
+
+                <span><strong>Wnętrza Willi Floryda 3</strong></span><br />
+                <p>
+                    Parter domu został zaprojektowany na planie zbliżonym do kwadratu. Przestronny przedsionek 
+                    z miejscem na szatnię prowadzi do garażu, spiżarni, kuchni i holu z reprezentacyjnymi 
+                    schodami. Salon, jadalnia i kuchnia tworzą wspólną, niemal dziewięćdziesięciometrową 
+                    powierzchnię. Salon otwiera się na narożny taras. Parter zawiera także dwa dodatkowe 
+                    pokoje, z których można stworzyć sypialnie, pokoje do pracy lub rekreacji.
+                </p>
+
+                <p>
+                    Dodatkowo, parter oferuje duże pomieszczenie gospodarcze, które obejmuje kotłownię. 
+                    Na piętrze znajdują się trzy sypialnie, w tym apartament rodziców z własnymi garderobami 
+                    i łazienką, oraz sypialnie dzieci z łazienką dostępną z holu. Piętro zawiera również 
+                    pralnię i hol połączony z parterem schodami oraz niewielką dziurą w stropie, co 
+                    wprowadza do wnętrza dodatkowe światło.
                 </p>
                 
               <div className="col-md-12 p-b30">
@@ -95,8 +98,8 @@ const ProjectsDetailsOne = () => {
                 </div>
               </div>
               <div className="blog-nav clearfix">
-                <Link to="/single-project-WillaFloryda3" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                <Link to="/single-project-Oszust" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                <Link to="/single-project-WillaParkowa7" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-project-WillaFloryda2" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
             </div>
             <div className="col-md-4 mt-4">

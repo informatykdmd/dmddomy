@@ -34,46 +34,42 @@ const ProjectsDetailsOne = () => {
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>DomzWidokiem3</h3>
+              <h3>Dom z widokiem 3</h3>
               <p>
-                Projekt domu DomzWidokiem3 jest to projekt nowoczesnego domu jednorodzinnego piętrowego, z płaskim 
-                dachem - z serii „DomzWidokiem3”, przeznaczony dla 4-5 osobowej rodziny, Dom zaprojektowano 
-                w prostopadłościennej bryle złożonej z kilku przenikających się ze sobą bloków, tworzących 
-                interesującą harmonijną sylwetkę - z zaakcentowanym wejściem w narożniku elewacji frontowej, 
-                oraz z zawieszonym nad tarasem fragmentem piętra, tworzącym podcień. 
+                Projekt domu Dom z widokiem 3 to wariant popularnego projektu Dom z widokiem. Dom z Widokiem 
+                3 został zmniejszony o 30%, co przekłada się również na zmniejszenie kosztów realizacji budynku. 
+                Mimo wprowadzonych zmian dom nie stracił na reprezentacyjnym wyglądzie ani na programie użytkowym 
+                i funkcjonalności wnętrz. W rezultacie powstała elegancka niewielka miejska rezydencja piętrowa, 
+                składająca się z zasadniczej dwukondygnacyjnej i kilku parterowych brył. Powierzchnia użytkowa 
+                wynosi 186,93 m2 ( kubatura 1053,76 m3). Minimalne wymiary działki na jakiej może być zrealizowany 
+                projekt to: 27,66 x 21,19 m. Projekt Dom z widokiem 3 sprawdzi się w przypadku trudniejszych 
+                działek z niekorzystną orientacją wjazdu w stosunku do nasłonecznienia.
               </p>
 
-                <span><strong>Bryła Domu DomzWidokiem3</strong></span><br />
-                <p>
-                    Dom DomzWidokiem3 otwarto maksymalnie dużymi przeszkleniami na stronę ogrodu, łącząc salon i sypialnie 
-                    z otoczeniem. Trzy narożne okna z przodu - kuchni, gabinetu i jednej z sypialni na piętrze, 
-                    oraz narożnik ścian wejścia wykonany w kontrastującym kolorze, akcentują reprezentacyjne drzwi 
-                    do domu. Do jednopiętrowej bryły części mieszkalnej dołączona została parterowa część garażowa 
-                    z tarasem na dachu, dostępnym z holu piętra. Kształty, kolory i materiały zastosowane 
-                    w elewacjach nadają domowi estetyczny, czysty, minimalistyczny wygląd. 
-                </p>
+              <span><strong>Dom z Widokiem 3 - Bryła Budynku</strong></span><br />
+              <p>
+                  Architektura domu prezentuje spokojną nowoczesność z dopasowanymi harmonijnie materiałami 
+                  wykończeniowymi i detalami. Jego główną atrakcją jest piękne okno narożne w salonie oraz 
+                  pustka z przestrzennym otwarciem na antresolę na piętrze. Projekt charakteryzuje się 
+                  proporcjonalnym wyglądem z każdej strony i idealnie łączy się z otaczającymi tarasami i zielenią.
+              </p>
 
-                <span><strong>Wnętrze Domu DomzWidokiem3</strong></span><br />
-                <p>
-                    Wnętrze domu DomzWidokiem3 prezentuje równie nowoczesny wyraz, charakteryzując się prostymi 
-                    podziałami pomieszczeń i wzajemnie przenikającymi się przestrzeniami. Parter to przede 
-                    wszystkim otwarty salon szeroko połączony z tarasem i ogródem, z wysokim holem, aneksem 
-                    jadalnym, częściowo odseparowaną kuchnią, oraz ścianą telewizyjno-kominkową z trzystronnym 
-                    kominkiem. Znajdziemy także dodatkowy pokój - gabinet, a także garaż z kotłownią. Na piętrze 
-                    zaplanowano dwie sypialnie dziecięce z garderobami i dużą łazienką, oraz apartament rodziców 
-                    z własną łazienką i garderobami. 
-                </p>
+              <span><strong>Wnętrze Domu z Widokiem 3</strong></span><br />
+              <p>
+                  Wejście do domu odbywa się przez sień bezpośrednio z dwustanowiskowego garażu lub drzwiami wejściowymi. 
+                  W sieni przewidziano miejsce na garderobę, a z holu można dotrzeć do łazienki, kuchni, salonu oraz 
+                  pokoju, który można zaaranżować na gabinet, sypialnię lub bibliotekę. Częściowo otwarta kuchnia 
+                  jest częściowo oddzielona bryłą spiżarni i zabudowy kuchennej, łącząc się z jadalnią. Reprezentacyjne 
+                  schody są połączone ze ścianą kominkową. Część gospodarcza na parterze obejmuje kotłownię 
+                  i garaż z dodatkową przestrzenią magazynowo-gospodarczą.
+              </p>
 
-                <p>
-                    Całość wnętrza spięta jest holem z pustką nad parterem i przejściem na taras na dachu garażu. 
-                    DomzWidokiem3 to dom o nowoczesnej minimalistycznej architekturze, z dopracowanymi detalami 
-                    i energooszczędnymi instalacjami. Budynek ma korzystny stosunek powierzchni podłóg 
-                    do kubatury, oraz zwartą bryłę, co sprawia, że będzie niedrogi w ogrzewaniu 
-                    i eksploatacji. Konstrukcja domu jest prosta. Inwestorowi mogą sprawić koszta 
-                    stolarki okiennej. DomzWidokiem3 to doskonała propozycja dla osób planujących budowę 
-                    domu piętrowego z płaskim dachem, posiadających niewielką działkę i pragnących 
-                    zrealizować swoje marzenie o własnym domu w inny, nowoczesny sposób.
-                </p>
+              <p>
+                  Na piętrze znajdują się trzy sypialnie, w tym apartament rodziców z własną oddzielną łazienką 
+                  i garderobą, ogólnodostępna łazienka oraz antresola, która może pełnić funkcję biblioteki. 
+                  Dom z Widokiem 3 łączy się z otaczającym ogrodem poprzez tarasy i podcienia, a duże przeszklenia 
+                  otwierają budynek na otaczającą przyrodę.
+              </p>
                 
               <div className="col-md-12 p-b30">
                 <div className="row">
@@ -95,8 +91,8 @@ const ProjectsDetailsOne = () => {
                 </div>
               </div>
               <div className="blog-nav clearfix">
-                <Link to="/single-project-DomzWidokiem33" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                <Link to="/single-project-Oszust" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                <Link to="/single-project-WillaFloryda2" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-project-WillaParkowa7" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
             </div>
             <div className="col-md-4 mt-4">

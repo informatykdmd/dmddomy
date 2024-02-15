@@ -34,46 +34,49 @@ const ProjectsDetailsOne = () => {
               </div>
             </div>
             <div className="col-md-8 det-content">
-              <h3>WillaParkowa7</h3>
+              <h3>Willa parkowa 7</h3>
               <p>
-                Projekt domu WillaParkowa7 jest to projekt nowoczesnego domu jednorodzinnego piętrowego, z płaskim 
-                dachem - z serii „WillaParkowa7”, przeznaczony dla 4-5 osobowej rodziny, Dom zaprojektowano 
-                w prostopadłościennej bryle złożonej z kilku przenikających się ze sobą bloków, tworzących 
-                interesującą harmonijną sylwetkę - z zaakcentowanym wejściem w narożniku elewacji frontowej, 
-                oraz z zawieszonym nad tarasem fragmentem piętra, tworzącym podcień. 
+                Projekt domu Willa Parkowa 7 to klasyczna, podmiejska willa, Swoim stylem nawiązujący do 
+                architektury dworkowej i rezydencyjnej. Dom jest parterowy, o rozbudowanym rzucie w kształcie 
+                litery „T”. Powierzchnia użytkowa domu wynosi 206,69 m2 (kubatura 1285 m3). Jest to wygodny dom 
+                dla 4-5 osobowej rodziny. Projekt można zrealizować na działce o minimalnych wymiarach: 26,55 x30,52m.
               </p>
 
-                <span><strong>Bryła Domu WillaParkowa7</strong></span><br />
-                <p>
-                    Dom WillaParkowa7 otwarto maksymalnie dużymi przeszkleniami na stronę ogrodu, łącząc salon i sypialnie 
-                    z otoczeniem. Trzy narożne okna z przodu - kuchni, gabinetu i jednej z sypialni na piętrze, 
-                    oraz narożnik ścian wejścia wykonany w kontrastującym kolorze, akcentują reprezentacyjne drzwi 
-                    do domu. Do jednopiętrowej bryły części mieszkalnej dołączona została parterowa część garażowa 
-                    z tarasem na dachu, dostępnym z holu piętra. Kształty, kolory i materiały zastosowane 
-                    w elewacjach nadają domowi estetyczny, czysty, minimalistyczny wygląd. 
-                </p>
+              <span><strong>Willa Parkowa 7 - Bryła Budynku</strong></span><br />
+              <p>
+                  Bryła budynku Willa Parkowa 7 jest przykryta wielospadowym dachem, z charakterystycznym zadaszeniem 
+                  tarasu ustawionym pod kątem 45 stopni. Oryginalny kształt budynku, funkcjonalne wnętrze oraz dopracowane 
+                  detale elewacji sprawiają, że ta willa prezentuje się jako reprezentacyjna nieruchomość, wyróżniająca się 
+                  spośród innych domów. Front budynku został zaprojektowany w taki sposób, aby podkreślić strefę wejściową. 
+                  Garaż został celowo cofnięty w głąb działki, a dwukondygnacyjny portyk wejściowy z pięknymi drzwiami 
+                  z naświetlami bocznymi i łukową kolebką dominuje na pierwszym planie. Wykuszowe okno kuchenne w elewacji 
+                  frontowej oraz cofnięte wrota garażowe tworzą wygodny podjazd-dziedziniec, zdolny pomieścić nawet 
+                  4 dodatkowe auta.
+              </p>
 
-                <span><strong>Wnętrze Domu WillaParkowa7</strong></span><br />
-                <p>
-                    Wnętrze domu WillaParkowa7 prezentuje równie nowoczesny wyraz, charakteryzując się prostymi 
-                    podziałami pomieszczeń i wzajemnie przenikającymi się przestrzeniami. Parter to przede 
-                    wszystkim otwarty salon szeroko połączony z tarasem i ogródem, z wysokim holem, aneksem 
-                    jadalnym, częściowo odseparowaną kuchnią, oraz ścianą telewizyjno-kominkową z trzystronnym 
-                    kominkiem. Znajdziemy także dodatkowy pokój - gabinet, a także garaż z kotłownią. Na piętrze 
-                    zaplanowano dwie sypialnie dziecięce z garderobami i dużą łazienką, oraz apartament rodziców 
-                    z własną łazienką i garderobami. 
-                </p>
+              <p>
+                  Elewacja ogrodowa skomponowana jest z dwóch połączonych elewacji – bocznej i tylnej, z przełamaną 
+                  skośną ścianą salonu z pięknym przeszkleniem, zakończonym łukowym naświetlem, oraz zadaszeniem 
+                  tarasu na kolumnach. Taras ogrodowy znajduje się w narożniku domu, otwierając widok na tył i bok domu. 
+                  Cała bryła budynku jest ozdobiona gzymsami, opaskami okien i boniowaniami narożników ścian, nawiązując 
+                  do ponadczasowej klasycznej architektury i dodając elegancji budynkowi.
+              </p>
 
-                <p>
-                    Całość wnętrza spięta jest holem z pustką nad parterem i przejściem na taras na dachu garażu. 
-                    WillaParkowa7 to dom o nowoczesnej minimalistycznej architekturze, z dopracowanymi detalami 
-                    i energooszczędnymi instalacjami. Budynek ma korzystny stosunek powierzchni podłóg 
-                    do kubatury, oraz zwartą bryłę, co sprawia, że będzie niedrogi w ogrzewaniu 
-                    i eksploatacji. Konstrukcja domu jest prosta. Inwestorowi mogą sprawić koszta 
-                    stolarki okiennej. WillaParkowa7 to doskonała propozycja dla osób planujących budowę 
-                    domu piętrowego z płaskim dachem, posiadających niewielką działkę i pragnących 
-                    zrealizować swoje marzenie o własnym domu w inny, nowoczesny sposób.
-                </p>
+              <span><strong>Wnętrze Willi Parkowej 7</strong></span><br />
+              <p>
+                  Wnętrze willi zostało starannie zaprojektowane, dzieląc dom na części. Reprezentacyjny podwyższony 
+                  przedsionek z szatnią prowadzi wprost do przestrzeni dziennej z salonem, jadalnią i holem. Wyjątkową 
+                  cechą jest ściana kominkowo-telewizyjna oraz otwarcie przestrzenne sufitu z antresolą i szerokim 
+                  widokiem z salonu na taras i ogród. Na parterze znajduje się również dodatkowy pokój, dzienna toaleta, 
+                  obszerna kuchnia z wyspą, spiżarnią oraz część gospodarczo-garażowa z pralnią, kotłownią i dwustanowiskowym 
+                  garażem. Sypialnie mieszkańców zostały umiejscowione w części tylnej domu, oddzielone korytarzem. 
+                  Na piętrze znajdują się trzy sypialnie, w tym apartament rodziców z własną łazienką i garderobą, 
+                  dwie sypialnie dziecięce z łazienką oraz mini tarasem porannym.
+              </p>
+
+              <p>
+                  Willa Parkowa 7 oferuje przemyślane wnętrze, łączące elegancję z funkcjonalnością.
+              </p>
                 
               <div className="col-md-12 p-b30">
                 <div className="row">
@@ -95,8 +98,8 @@ const ProjectsDetailsOne = () => {
                 </div>
               </div>
               <div className="blog-nav clearfix">
-                <Link to="/single-project-WillaParkowa7" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                <Link to="/single-project-Oszust" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                <Link to="/single-project-DomZWidokiem3" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-project-WillaFloryda3" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
             </div>
             <div className="col-md-4 mt-4">
