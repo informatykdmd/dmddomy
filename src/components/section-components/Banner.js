@@ -25,7 +25,7 @@ const Banner = () => {
                             <h2><span className="span-color-size">Twój dom, </span>Twoje marzenie, nasza pasja!</h2>
                             <div className="text">Sprawdzone technologie, solidne wykonanie!</div>
                             <div className="link-holder">
-                                <Link to="/oferta-parterowe" className="ploting-btn btn-style-two">Sprawdź ofertę</Link>
+                                <Link to="/oferta-parterowe" className="ploting-btn btn-style-three">Sprawdź ofertę</Link>
                             </div>
                         </div>
                     </div>
@@ -37,11 +37,11 @@ const Banner = () => {
                             <h2><span className="span-color-size">Budujemy marzenia,</span> tworzymy domowy raj!</h2>
                             <div className="text">Z nami każdy krok to pewność i profesjonalizm.</div>
                                 <div className="link-holder">
-                                    <Link to="/oferta-parterowe" className="ploting-btn btn-style-five">Parterowe</Link>&nbsp;
-                                    <Link to="/oferta-poddasze" className="ploting-btn btn-style-two">Z Poddaszem</Link>&nbsp;
-                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-two">Pietrowe</Link>&nbsp;
-                                    <Link to="/oferta-wille" className="ploting-btn btn-style-two">Wille</Link>&nbsp;
-                                    <Link to="/oferta-nowoczesne" className="ploting-btn btn-style-two">Nowoczesne</Link>
+                                    <Link to="/oferta-parterowe" className="ploting-btn btn-style-three">Parterowe</Link>&nbsp;
+                                    <Link to="/oferta-poddasze" className="ploting-btn btn-style-three">Z Poddaszem</Link>&nbsp;
+                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-three">Pietrowe</Link>&nbsp;
+                                    <Link to="/oferta-wille" className="ploting-btn btn-style-three">Wille</Link>&nbsp;
+                                    <Link to="/oferta-nowoczesne" className="ploting-btn btn-style-three">Nowoczesne</Link>
                                 </div>
                             </div>
                         </div>
@@ -53,8 +53,8 @@ const Banner = () => {
                             <h2><span className="span-color-size">Indywidualne podejście,</span> Twój wymarzony świat!</h2>
                             <div className="text">Spełniamy marzenia z pasją i zaangażowaniem.</div>
                                 <div className="link-holder">
-                                    <Link to="/o-nas" className="ploting-btn btn-style-two">Dowiedz się więcej</Link>&nbsp;
-                                    <Link to="/realizacje-posts-right-sidebar" className="ploting-btn btn-style-two">Realizacje</Link>
+                                    <Link to="/o-nas" className="ploting-btn btn-style-three">Dowiedz się więcej</Link>&nbsp;
+                                    <Link to="/realizacje-posts-right-sidebar" className="ploting-btn btn-style-three">Realizacje</Link>
                                 </div>
                             </div>
                         </div>
