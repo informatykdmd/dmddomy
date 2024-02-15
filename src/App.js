@@ -34,7 +34,12 @@ import ProjectsDetailsTytan3 from './pages/projectpages/ProjectsDetailsTytan3';
 import ProjectsDetailsQubik3 from './pages/projectpages/ProjectsDetailsQubik3';
 import ProjectsDetailsQubik from './pages/projectpages/ProjectsDetailsQubik';
 
-import ProjectsDetailsDomzWidokiem3 from './pages/projectpages/ProjectsDetailsDomzWidokiem3';
+import ProjectsDetailsWillaFloryda2 from './pages/projectpages/ProjectsDetailsWillaFloryda2';
+import ProjectsDetailsDomZWidokiem3 from './pages/projectpages/ProjectsDetailsDomZWidokiem3';
+import ProjectsDetailsWillaParkowa7 from './pages/projectpages/ProjectsDetailsWillaParkowa7';
+import ProjectsDetailsWillaFloryda3 from './pages/projectpages/ProjectsDetailsWillaFloryda3';
+
+// import ProjectsDetailsDomzWidokiem3 from './pages/projectpages/ProjectsDetailsDomzWidokiem3';
 import ProjectsDetailsOpalElegancja from './pages/projectpages/ProjectsDetailsOpalElegancja';
 import ProjectsDetailswillaParkowa160 from './pages/projectpages/ProjectsDetailswillaParkowa160';
 import ProjectsDetailsTytan134 from './pages/projectpages/ProjectsDetailsTytan134';
@@ -165,6 +170,12 @@ function App() {
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Qubik3'}`} element={<ProjectsDetailsQubik3 />}/>
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Qubik'}`} element={<ProjectsDetailsQubik />}/>
 
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-wille'}`} element={<OfertaWilleOne />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaFloryda2'}`} element={<ProjectsDetailsWillaFloryda2 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomZWidokiem3'}`} element={<ProjectsDetailsDomZWidokiem3 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParkowa7'}`} element={<ProjectsDetailsWillaParkowa7 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaFloryda3'}`} element={<ProjectsDetailsWillaFloryda3 />}/>
+
           <Route exact path={`${process.env.PUBLIC_URL + '/blog-posts-fullwidth'}`} element={<PostsOne />}/>
 
           <Route exact path={`${process.env.PUBLIC_URL + '/search-results'}`} element={<ResutlsSearch />}/>
@@ -190,7 +201,7 @@ function App() {
           
           
           
-          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-wille'}`} element={<OfertaWilleOne />}/>
+          
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-nowoczesne'}`} element={<OfertaNowoczesneOne />}/>
 
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-post-left-sidebar'}`} element={<OfertaDetailsTwo />}/>
