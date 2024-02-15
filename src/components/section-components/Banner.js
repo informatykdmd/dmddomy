@@ -37,11 +37,11 @@ const Banner = () => {
                             <h2><span className="span-color-size">Budujemy marzenia,</span> tworzymy domowy raj!</h2>
                             <div className="text">Z nami każdy krok to pewność i profesjonalizm.</div>
                                 <div className="link-holder">
-                                    <Link to="/oferta-parterowe" className="ploting-btn btn-style-three">Parterowe</Link>
-                                    <Link to="/oferta-poddasze" className="ploting-btn btn-style-three">Z Poddaszem</Link>
-                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-three">Pietrowe</Link>
-                                    <Link to="/oferta-wille" className="ploting-btn btn-style-three">Wille</Link>
-                                    <Link to="/oferta-nowoczesne" className="ploting-btn btn-style-three">Nowoczesne</Link>
+                                    <Link to="/oferta-parterowe" className="ploting-btn btn-style-two">Parterowe</Link>
+                                    <Link to="/oferta-poddasze" className="ploting-btn btn-style-two">Z Poddaszem</Link>
+                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-two">Pietrowe</Link>
+                                    <Link to="/oferta-wille" className="ploting-btn btn-style-two">Wille</Link>
+                                    <Link to="/oferta-nowoczesne" className="ploting-btn btn-style-two">Nowoczesne</Link>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,8 @@ const Banner = () => {
                             <h2><span className="span-color-size">Indywidualne podejście,</span> Twój wymarzony świat!</h2>
                             <div className="text">Spełniamy marzenia z pasją i zaangażowaniem.</div>
                                 <div className="link-holder">
-                                    <Link to="/o-nas" className="ploting-btn btn-style-two">Dowiedz się więcej</Link> <Link to="/realizacje-posts-right-sidebar" className="ploting-btn btn-style-three">Realizacje</Link>
+                                    <Link to="/o-nas" className="ploting-btn btn-style-two">Dowiedz się więcej</Link>
+                                    <Link to="/realizacje-posts-right-sidebar" className="ploting-btn btn-style-two">Realizacje</Link>
                                 </div>
                             </div>
                         </div>
