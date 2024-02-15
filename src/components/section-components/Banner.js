@@ -53,7 +53,7 @@ const Banner = () => {
                             <h2><span className="span-color-size">Indywidualne podejście,</span> Twój wymarzony świat!</h2>
                             <div className="text">Spełniamy marzenia z pasją i zaangażowaniem.</div>
                                 <div className="link-holder">
-                                    <Link to="/o-nas" className="ploting-btn btn-style-two">Dowiedz się więcej</Link>
+                                    <Link to="/o-nas" className="ploting-btn btn-style-two">Dowiedz się więcej</Link>&nbsp;
                                     <Link to="/realizacje-posts-right-sidebar" className="ploting-btn btn-style-two">Realizacje</Link>
                                 </div>
                             </div>
