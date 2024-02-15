@@ -16,7 +16,7 @@ const ServicesOne = () => {
                     </div>
                     <h3><Link to="#">Budowa domów jednorodzinnych</Link></h3>
                     <div className="text">Gotowe projekty, niepowtarzalne domy.</div>
-                    <div className="more-link"><Link className="read-more" to="/oferta-post-left-sidebar-ER">Zobacz więcej</Link></div>
+                    <div className="more-link"><Link className="read-more" to="/oferta-wille">Zobacz więcej</Link></div>
                 </div>
                 </div>
                 {/*Services Block*/}

@@ -25,7 +25,7 @@ const Banner = () => {
                             <h2><span className="span-color-size">Twój dom, </span>Twoje marzenie, nasza pasja!</h2>
                             <div className="text">Sprawdzone technologie, solidne wykonanie!</div>
                             <div className="link-holder">
-                                <Link to="/oferta-post-left-sidebar" className="ploting-btn btn-style-two">Sprawdź ofertę</Link>
+                                <Link to="/oferta-parterowe" className="ploting-btn btn-style-two">Sprawdź ofertę</Link>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,11 @@ const Banner = () => {
                             <h2><span className="span-color-size">Budujemy marzenia,</span> tworzymy domowy raj!</h2>
                             <div className="text">Z nami każdy krok to pewność i profesjonalizm.</div>
                                 <div className="link-holder">
-                                    <Link to="/oferta-post-left-sidebar" className="ploting-btn btn-style-two">Małe Perły</Link> <Link to="/oferta-post-left-sidebar-ER" className="ploting-btn btn-style-three">Eleganckie Rezydencje</Link>
+                                    <Link to="/oferta-parterowe" className="ploting-btn btn-style-two">Domy Parterowe</Link>
+                                    <Link to="/oferta-poddasze" className="ploting-btn btn-style-three">Domy z Poddaszem</Link>
+                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-three">Domy Pietrowe</Link>
+                                    <Link to="/oferta-wille" className="ploting-btn btn-style-three">Wille</Link>
+                                    <Link to="/oferta-nowoczesne" className="ploting-btn btn-style-three">Domy w Nowoczesnej Zabudowie</Link>
                                 </div>
                             </div>
                         </div>
