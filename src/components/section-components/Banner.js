@@ -39,7 +39,7 @@ const Banner = () => {
                                 <div className="link-holder">
                                     <Link to="/oferta-parterowe" className="ploting-btn btn-style-three">Parterowe</Link>&nbsp;
                                     <Link to="/oferta-poddasze" className="ploting-btn btn-style-three">Z Poddaszem</Link>&nbsp;
-                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-three">Pietrowe</Link>&nbsp;
+                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-three">Piętrowe</Link>&nbsp;
                                     <Link to="/oferta-wille" className="ploting-btn btn-style-three">Wille</Link>&nbsp;
                                     <Link to="/oferta-nowoczesne" className="ploting-btn btn-style-three">Nowoczesne</Link>
                                 </div>
