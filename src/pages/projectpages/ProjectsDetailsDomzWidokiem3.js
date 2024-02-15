@@ -5,7 +5,7 @@ import FooterOne from '../../common/footer/FooterOne';
 
 // Przewiń stronę do góry z animacją
 import $ from 'jquery'
-
+ 
 const ProjectsDetails = () => {
     $(function() {
         // Przewiń stronę do góry z animacją
