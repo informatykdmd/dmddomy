@@ -17,11 +17,11 @@ const PostsDetailsTwo = () => {
         <HeaderOne />
 
         <BreadcrumbOnePoddasze
-            title="Domy Piętrowe"
+            title="Wille"
             rootUrl="/"
             parentUrl="DMD"
-            currentUrl="Domy Piętrowe"
-            imgUrl="images/banner/bn-01-1920x480-Wille.png"
+            currentUrl="Wille"
+            imgUrl="images/banner/bn-01-1920x480-EleganckieResidencje.png"
         />
         
         <OfertaDetailsLeftSidebarWille />

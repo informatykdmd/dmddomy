@@ -49,7 +49,7 @@ const BlogDetailsLeftSidebar = () => {
             </blockquote>
             <p>
                 Idąc na przekór tradycji, proponujemy konkurencyjne ceny oparte na naszym głębokim doświadczeniu w tworzeniu innowacyjnych willi w Warszawie 
-                i okolicy. Specjalizujemy się w budowie luksusowych willi według nowatorskich projektów, takich jak Oszust, Tytan 3, Qubik 3 czy zwyczajny Qubik.
+                i okolicy. Specjalizujemy się w budowie luksusowych willi według nowatorskich projektów, takich jak Willa Floryda 2, Dom Z Widokiem 3, Willa Parkowa 7 czy Willa Floryda 3.
             </p>
             <p>
                 Nasza oferta obejmuje wille o różnych metrażach, od kompaktowych po przestronne rezydencje, 

@@ -15,7 +15,7 @@ const ProjectsDetails = () => {
         <>
         <HeaderOne />
         
-        {/* <ProjectsDetailsOneQubik /> */}
+        <ProjectsDetailsOneQubik />
                                 
         <FooterOne />
         </>
