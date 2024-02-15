@@ -61,7 +61,7 @@ const BlogDetailsFullwidthArchitekciBarycz = () => {
                 {/*Social Box*/}
                 <div style={{display: 'flex'}}>
                   <div style={{marigin : '8px', padding : '8px', background : 'none', cursor: 'pointer', fontSize: 25 }}>
-                    <a href="http://http://www.barycz-saramowicz.pl/" rel="noreferrer" target="_blank"><i className="fa fa-home" /></a>
+                    <a href="http://www.barycz-saramowicz.pl/" rel="noreferrer" target="_blank"><i className="fa fa-home" /></a>
                   </div>
                 </div>
                 

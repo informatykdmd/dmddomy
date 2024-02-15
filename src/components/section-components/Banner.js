@@ -25,7 +25,7 @@ const Banner = () => {
                             <h2><span className="span-color-size">Twój dom, </span>Twoje marzenie, nasza pasja!</h2>
                             <div className="text">Sprawdzone technologie, solidne wykonanie!</div>
                             <div className="link-holder">
-                                <Link to="/oferta-parterowe" className="ploting-btn btn-style-two">Sprawdź ofertę</Link>
+                                <Link to="/oferta-parterowe" className="ploting-btn btn-style-one">Sprawdź ofertę</Link>
                             </div>
                         </div>
                     </div>
