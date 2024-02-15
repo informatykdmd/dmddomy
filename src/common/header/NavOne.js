@@ -40,13 +40,13 @@ const NavOne = () => {
                         <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
                             <li className="current dropdown"><Link to="/">DMD</Link>
-                                <ul>
+                                {/* <ul>
                                     <li><a href="dmdbudownictwo.pl" rel="noreferrer" target="_blank">DMD Budownictwo</a></li>
-                                    {/* <li><a href="https://dmdelitehome.pl" rel="noreferrer" target="_blank">DMD EliteHome</a></li> */}
+                                    <li><a href="https://dmdelitehome.pl" rel="noreferrer" target="_blank">DMD EliteHome</a></li>
                                     <li><a href="dmdinvestment.pl" rel="noreferrer" target="_blank">DMD Investment</a></li>
-                                    {/* <li><a href="https://dmdinstalacje.pl" rel="noreferrer" target="_blank">DMD Instalacje</a></li> */}
-                                    {/* <li><a href="https://dmddevelopment.pl" rel="noreferrer" target="_blank">DMD Development</a></li> */}
-                                </ul>
+                                    <li><a href="https://dmdinstalacje.pl" rel="noreferrer" target="_blank">DMD Instalacje</a></li>
+                                    <li><a href="https://dmddevelopment.pl" rel="noreferrer" target="_blank">DMD Development</a></li>
+                                </ul> */}
                             </li>
                             <li className="dropdown"><Link to="/o-nas">DLACZEGO MY?</Link>
                                 <ul>
@@ -119,13 +119,13 @@ const NavOne = () => {
                     <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                     <ul className="navigation clearfix">
                         <li className="current dropdown"><Link to="/">DMD</Link>
-                            <ul>
+                            {/* <ul>
                                 <li><a href="dmdbudownictwo.pl" rel="noreferrer" target="_blank">DMD Budownictwo</a></li>
-                                {/* <li><a href="https://dmdelitehome.pl" rel="noreferrer" target="_blank">DMD EliteHome</a></li> */}
+                                <li><a href="https://dmdelitehome.pl" rel="noreferrer" target="_blank">DMD EliteHome</a></li>
                                 <li><a href="dmdinvestment.pl" rel="noreferrer" target="_blank">DMD Investment</a></li>
-                                {/* <li><a href="https://dmdinstalacje.pl" rel="noreferrer" target="_blank">DMD Instalacje</a></li> */}
-                                {/* <li><a href="https://dmddevelopment.pl" rel="noreferrer" target="_blank">DMD Development</a></li> */}
-                            </ul>
+                                <li><a href="https://dmdinstalacje.pl" rel="noreferrer" target="_blank">DMD Instalacje</a></li>
+                                <li><a href="https://dmddevelopment.pl" rel="noreferrer" target="_blank">DMD Development</a></li>
+                            </ul> */}
                         </li>                                    
                         <li className="dropdown"><Link to="/o-nas">DLACZEGO MY?</Link>
                         <ul>
