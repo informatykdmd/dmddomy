@@ -37,10 +37,10 @@ const Banner = () => {
                             <h2><span className="span-color-size">Budujemy marzenia,</span> tworzymy domowy raj!</h2>
                             <div className="text">Z nami każdy krok to pewność i profesjonalizm.</div>
                                 <div className="link-holder">
-                                    <Link to="/oferta-parterowe" className="ploting-btn btn-style-two">Parterowe</Link>
-                                    <Link to="/oferta-poddasze" className="ploting-btn btn-style-two">Z Poddaszem</Link>
-                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-two">Pietrowe</Link>
-                                    <Link to="/oferta-wille" className="ploting-btn btn-style-two">Wille</Link>
+                                    <Link to="/oferta-parterowe" className="ploting-btn btn-style-two">Parterowe</Link>&nbsp;
+                                    <Link to="/oferta-poddasze" className="ploting-btn btn-style-two">Z Poddaszem</Link>&nbsp;
+                                    <Link to="/oferta-pietrowe" className="ploting-btn btn-style-two">Pietrowe</Link>&nbsp;
+                                    <Link to="/oferta-wille" className="ploting-btn btn-style-two">Wille</Link>&nbsp;
                                     <Link to="/oferta-nowoczesne" className="ploting-btn btn-style-two">Nowoczesne</Link>
                                 </div>
                             </div>
