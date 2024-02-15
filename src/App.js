@@ -35,7 +35,7 @@ import ProjectsDetailsQubik3 from './pages/projectpages/ProjectsDetailsQubik3';
 import ProjectsDetailsQubik from './pages/projectpages/ProjectsDetailsQubik';
 
 import ProjectsDetailsWillaFloryda2 from './pages/projectpages/ProjectsDetailsWillaFloryda2';
-import ProjectsDetailsDomZWidokiem3 from './pages/projectpages/ProjectsDetailsDomZWidokiem3';
+// import ProjectsDetailsDomZWidokiem3 from './pages/projectpages/ProjectsDetailsDomZWidokiem3';
 import ProjectsDetailsWillaParkowa7 from './pages/projectpages/ProjectsDetailsWillaParkowa7';
 import ProjectsDetailsWillaFloryda3 from './pages/projectpages/ProjectsDetailsWillaFloryda3';
 
@@ -172,7 +172,7 @@ function App() {
 
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-wille'}`} element={<OfertaWilleOne />}/>
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaFloryda2'}`} element={<ProjectsDetailsWillaFloryda2 />}/>
-            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomZWidokiem3'}`} element={<ProjectsDetailsDomZWidokiem3 />}/>
+            {/* <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomZWidokiem3'}`} element={<ProjectsDetailsDomZWidokiem3 />}/> */}
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParkowa7'}`} element={<ProjectsDetailsWillaParkowa7 />}/>
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaFloryda3'}`} element={<ProjectsDetailsWillaFloryda3 />}/>
 
