@@ -44,7 +44,6 @@ import ProjectsDetailsEkonomiczny2 from './pages/projectpages/ProjectsDetailsEko
 import ProjectsDetailsDomNaPraktycznej2 from './pages/projectpages/ProjectsDetailsDomNaPraktycznej2';
 import ProjectsDetailsWymarzony9 from './pages/projectpages/ProjectsDetailsWymarzony9';
 
-// import ProjectsDetailsDomzWidokiem3 from './pages/projectpages/ProjectsDetailsDomzWidokiem3';
 import ProjectsDetailsOpalElegancja from './pages/projectpages/ProjectsDetailsOpalElegancja';
 import ProjectsDetailswillaParkowa160 from './pages/projectpages/ProjectsDetailswillaParkowa160';
 import ProjectsDetailsTytan134 from './pages/projectpages/ProjectsDetailsTytan134';
@@ -132,7 +131,6 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project'}`} element={<ProjectsDetails />}/>
 
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Kasjopea7'}`} element={<ProjectsDetailsKasjopea7 />}/>
-          {/* <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomzWidokiem3'}`} element={<ProjectsDetailsDomzWidokiem3 />}/> */}
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-OpalElegancja'}`} element={<ProjectsDetailsOpalElegancja />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-willaParkowa160'}`} element={<ProjectsDetailswillaParkowa160 />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Tytan134'}`} element={<ProjectsDetailsTytan134 />}/>
