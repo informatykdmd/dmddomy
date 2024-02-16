@@ -40,7 +40,7 @@ const BlogDetailsLeftSidebar = () => {
               <div className="blog-detail mt-30">
                 
             <div className="det-content">
-                <h3>Odkryj z Nami Nowoczesne Domy - Najnowsze Trendy w Naszej Ofertce <br />Eleganckie Wille Typu Stodoła</h3>
+                <h3>Odkryj z Nami Nowoczesne Domy - Najnowsze Trendy w Naszej Ofertce, Eleganckie Wille Typu Stodoła</h3>
                 <blockquote>
                     <p>
                         Z entuzjazmem prezentujemy naszą ofertę budowy eleganckich willi z gotowych projektów, dostosowanych
