@@ -92,8 +92,8 @@ const ProjectsDetailsOne = () => {
                     </div>
                 </div>
                 <div className="blog-nav clearfix">
-                    <Link to="/single-project-Wymarzony9" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                    <Link to="/single-project-Ekonomiczny2" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                    <Link to="/single-project-Sensowny2" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                    <Link to="/single-project-DomNaPraktycznej2" className="blog-next"><i className="fa fa-angle-right" /></Link>
                 </div>
             </div>
             <div className="col-md-4 mt-4">
