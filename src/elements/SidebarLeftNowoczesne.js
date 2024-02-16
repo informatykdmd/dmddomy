@@ -8,7 +8,7 @@ const SidebarLeft = () => {
         <div className="widget widget-recent-post">
             <div className="all-title">
             <h3>
-                <span>Wille</span>
+                <span>Nowoczesne Domy</span>
             </h3>
             </div>
             <div className="widget-items">
@@ -21,7 +21,7 @@ const SidebarLeft = () => {
                 </div>
                 <div className="blog-rp-info">
                     <p><Link to="/single-project-Sensowny2">Sensowny 2</Link></p>
-                    <p>Jest to dom nieco mniejszy od cieszącego się popularnością Willa Floryda.</p>
+                    <p>Projekt domu Sensowny 2 to niewielki dom jednorodzinny z bardzo funkcjonalnym wnętrzem.</p>
                 </div>
                 </li>
                 <li>
@@ -32,7 +32,7 @@ const SidebarLeft = () => {
                 </div>
                 <div className="blog-rp-info">
                     <p><Link to="/single-project-Ekonomiczny2">Ekonomiczny 2</Link></p>
-                    <p>Dom z Widokiem 3 został zmniejszony o 30%, co przekłada się również na zmniejszenie kosztów realizacji budynku.</p>
+                    <p>Projekt domu Ekonomiczny 2 jest to projekt niedużego, parterowego domu jednorodzinnego dla 3-4 osób.</p>
                 </div>
                 </li>
                 <li>
@@ -43,7 +43,7 @@ const SidebarLeft = () => {
                 </div>
                 <div className="blog-rp-info">
                     <p><Link to="/single-project-DomNaPraktycznej2">Dom Na Praktycznej 2</Link></p>
-                    <p>Projekt domu Willa Parkowa 7 to klasyczna, podmiejska willa, Swoim stylem nawiązujący do architektury dworkowej i rezydencyjnej.</p>
+                    <p>Budynek zaprojektowano na planie prostokąta przykrytego łagodnym, dwuspadowym dachem przykrytym dachówką.</p>
                 </div>
                 </li>
                 <li>
@@ -54,7 +54,7 @@ const SidebarLeft = () => {
                 </div>
                 <div className="blog-rp-info">
                     <p><Link to="/single-project-Wymarzony9">Wymarzony 9</Link></p>
-                    <p>Dom estetycznie i architektonicznie nawiązuje do serii "Floryd".</p>
+                    <p>Projekt domu Wymarzony 9 to projekt domu jednorodzinnego parterowego ze strychem.</p>
                 </div>
                 </li>
             </ul>

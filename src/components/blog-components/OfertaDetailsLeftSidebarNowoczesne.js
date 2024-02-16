@@ -40,13 +40,13 @@ const BlogDetailsLeftSidebar = () => {
               <div className="blog-detail mt-30">
                 
             <div className="det-content">
-                <h3>Odkryj z Nami Nowoczesne Domy - Najnowsze Trendy w Naszej Ofertce, Eleganckie Wille Typu Stodoła</h3>
+                <h3>Odkryj z Nami Nowoczesne Domy - Najnowsze Trendy w Naszej Ofertce, Eleganckie Domy Typu Stodoła</h3>
                 <blockquote>
                     <p>
-                        Z entuzjazmem prezentujemy naszą ofertę budowy eleganckich willi z gotowych projektów, dostosowanych
+                        Z entuzjazmem prezentujemy naszą ofertę budowy eleganckich domów z gotowych projektów, dostosowanych
                         do różnorodnych oczekiwań naszych Klientów. Nasza firma zdobyła uznanie dzięki realizacji kilku imponujących,
-                        funkcjonalnych willi w nowoczenej zabudowie o zróżnicowanych rozmiarach. Oferujemy zarówno mniejsze domy, idealne dla tych,
-                        którzy pragną kameralnej przestrzeni, jak i reprezentacyjne wille, dostojne i przestronne.
+                        funkcjonalnych domów w nowoczenej zabudowie o zróżnicowanych rozmiarach. Oferujemy zarówno mniejsze domy, idealne dla tych,
+                        którzy pragną kameralnej jak i reprezentacyjnej przestrzeni.
                     </p>
                 </blockquote>
                 <p>
@@ -55,7 +55,7 @@ const BlogDetailsLeftSidebar = () => {
                     w budowie nowoczesnych domów w stylu stodoła, takich jak Sensowny 2, Ekonomiczny 2, Dom Na Praktycznej 2 czy Wymarzony 9.
                 </p>
                 <p>
-                    Nasza oferta obejmuje eleganckie wille o różnych metrażach, od mniejszych po przestronne rezydencje,
+                    Nasza oferta obejmuje eleganckie domy o różnych metrażach, od mniejszych po przestronne rezydencje,
                     z garażami na jedno lub dwa stanowiska, a także alternatywnymi rozwiązaniami, takimi jak dodatkowa przestrzeń sypialna.
                     Dzięki liczbowym sukcesom w realizacjach, gwarantujemy, że koszt budowy domu typu stodoła z naszym doświadczonym zespołem
                     będzie w optymalnej relacji do jakości.
@@ -79,7 +79,7 @@ const BlogDetailsLeftSidebar = () => {
                 <div className="col-sm-7">
                     <ul>
                         <li>
-                            <p>Pasja w Budowie Eleganckich Willi w Stylu Stodoła: Odkryj z nami pasję w tworzeniu niepowtarzalnych
+                            <p>Pasja w Budowie Eleganckich Domów w Stylu Stodoła: Odkryj z nami pasję w tworzeniu niepowtarzalnych
                             przestrzeni, gdzie jakość jest naszym priorytetem. Każdy projekt to nie tylko budowa
                             domu, ale także realizacja marzeń i aspiracji.</p>
                         </li>
@@ -94,7 +94,7 @@ const BlogDetailsLeftSidebar = () => {
                             reprezentacyjnej willi, każdy projekt jest stworzony z myślą o spełnieniu Twoich marzeń.</p>
                         </li>
                         <li>
-                            <p>Dom jako Historia: Nasza firma nie tylko buduje eleganckie wille, lecz tworzy
+                            <p>Dom jako Historia: Nasza firma nie tylko buduje eleganckie domy, lecz tworzy
                             historie wielu zadowolonych klientów. Chcemy, aby Twój dom był wyjątkowym odzwierciedleniem
                             Twojej osobowości. Odkryj z nami przestrzeń, gdzie dbałość o detale i jakość stają się integralną
                             częścią naszej misji.</p>
