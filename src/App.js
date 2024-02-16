@@ -39,6 +39,11 @@ import ProjectsDetailsDomZWidokiem3 from './pages/projectpages/ProjectsDetailsDo
 import ProjectsDetailsWillaParkowa7 from './pages/projectpages/ProjectsDetailsWillaParkowa7';
 import ProjectsDetailsWillaFloryda3 from './pages/projectpages/ProjectsDetailsWillaFloryda3';
 
+import ProjectsDetailsSensowny2 from './pages/projectpages/ProjectsDetailsSensowny2';
+import ProjectsDetailsEkonomiczny2 from './pages/projectpages/ProjectsDetailsEkonomiczny2';
+import ProjectsDetailsDomNaPraktycznej2 from './pages/projectpages/ProjectsDetailsDomNaPraktycznej2';
+import ProjectsDetailsWymarzony9 from './pages/projectpages/ProjectsDetailsWymarzony9';
+
 // import ProjectsDetailsDomzWidokiem3 from './pages/projectpages/ProjectsDetailsDomzWidokiem3';
 import ProjectsDetailsOpalElegancja from './pages/projectpages/ProjectsDetailsOpalElegancja';
 import ProjectsDetailswillaParkowa160 from './pages/projectpages/ProjectsDetailswillaParkowa160';
@@ -176,6 +181,12 @@ function App() {
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaParkowa7'}`} element={<ProjectsDetailsWillaParkowa7 />}/>
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-WillaFloryda3'}`} element={<ProjectsDetailsWillaFloryda3 />}/>
 
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-nowoczesne'}`} element={<OfertaNowoczesneOne />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Sensowny2'}`} element={<ProjectsDetailsSensowny2 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Ekonomiczny2'}`} element={<ProjectsDetailsEkonomiczny2 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomNaPraktycznej2'}`} element={<ProjectsDetailsDomNaPraktycznej2 />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Wymarzony9'}`} element={<ProjectsDetailsWymarzony9 />}/>
+            
           <Route exact path={`${process.env.PUBLIC_URL + '/blog-posts-fullwidth'}`} element={<PostsOne />}/>
 
           <Route exact path={`${process.env.PUBLIC_URL + '/search-results'}`} element={<ResutlsSearch />}/>
@@ -202,7 +213,7 @@ function App() {
           
           
           
-          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-nowoczesne'}`} element={<OfertaNowoczesneOne />}/>
+          
 
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-post-left-sidebar'}`} element={<OfertaDetailsTwo />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-post-left-sidebar-ER'}`} element={<OfertaDetailsTwoEleganckieResidencje />}/>
