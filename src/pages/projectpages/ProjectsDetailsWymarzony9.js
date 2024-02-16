@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderOne from '../../common/header/HeaderOne';
-import ProjectsDetailsOneWillaFloryda3 from '../../components/project-components/ProjectsDetailsOneWillaFloryda3';
+import ProjectsDetailsOneWymarzony9 from '../../components/project-components/ProjectsDetailsOneWymarzony9';
 import FooterOne from '../../common/footer/FooterOne';
 
 // Przewiń stronę do góry z animacją
@@ -15,7 +15,7 @@ const ProjectsDetails = () => {
         <>
         <HeaderOne />
         
-        <ProjectsDetailsOneWillaFloryda3 />
+        <ProjectsDetailsOneWymarzony9 />
                                 
         <FooterOne />
         </>
