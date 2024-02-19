@@ -114,8 +114,11 @@ const ContactUsForm = () => {
                     </div>
                   </div>
                   <div className="col-md-6 col-sm-12">
-                    <input className="switch-checkbox" type="checkbox" role="switch" id="polityka_priv" />
-                    <label className="switch-label" htmlFor="polityka_priv">Akceptuję politykę prywatności</label>
+                    <div className="switch" onclick={toggleSwitch()}>
+                        <input type="checkbox" id="polityka_priv" style={{display: none}} />
+                        <label htmlFor="polityka_priv"></label>
+                    </div>
+                    <div>Akceptuję politykę prywatności</div>
                   </div>
                 </div>
                 <div className="row">
