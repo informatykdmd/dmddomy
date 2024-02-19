@@ -123,7 +123,7 @@ const ContactUsForm = () => {
                       <textarea name="message" rows={4} className="form-control" placeholder="Wiadomość..." required defaultValue={""} onChange={handleInputChange} />
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-12" style={{ display: 'flex' }}>
+                  <div  style={{ display: 'flex' }}>
                     <div className="switch" style={{ marginLeft: '30px' }}>
                         <input type="checkbox" id="polityka_priv" style={{display: 'none'}} checked={privacyAccepted} onChange={handlePrivacyCheckboxChange}/>
                         <label htmlFor="polityka_priv"></label>
