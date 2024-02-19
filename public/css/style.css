@@ -44,65 +44,31 @@
 @import url('margin-padding.css');
 
 /* moje cssy */
-.switch-checkbox {
-    position: absolute;
-    opacity: 0;
-  }
-  
-  .switch-label {
+.switch {
+    width: 30px;
+    height: 15px;
+    background-color: #dad8d8;
+    border-radius: 15px;
     position: relative;
-    display: inline-block;
     cursor: pointer;
-    padding-left: 45px; /* Dostosuj, aby pasowało do Twoich potrzeb */
-  }
-  
-  .switch-inner {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px; /* Dostosuj, aby pasowało do Twoich potrzeb */
-    background-color: #adb5bd; /* Kolor tła switcha */
-    transition: background-color 0.3s;
-  }
-  
-  .switch-inner:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 6px;
-    transform: translate(0, -50%);
-    width: 30px; /* Szerokość switcha */
-    height: 30px; /* Wysokość switcha */
-    background-color: #37483c; /* Kolor kropki switcha */
+}
+
+.switch label {
+    display: block;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    transition: transform 0.3s, background-color 0.3s;
-  }
-  
-  .switch-checkbox:checked + .switch-label .switch-inner {
-    background-color: #cdcdcd; /* Kolor tła switcha, gdy jest włączony */
-  }
-  
-  .switch-checkbox:checked + .switch-label .switch-inner:before {
-    transform: translate(calc(100% - 6px), -50%);
-    background-color: #009e2a; /* Kolor kropki switcha, gdy jest włączony */
-  }
-  
-  /* Stylowanie tekstu (opcjonalne) */
-  .switch-label:before {
-    content: 'Off';
+    background-color: #267b0e;
     position: absolute;
-    top: 50%;
-    right: 8px;
-    transform: translate(0, -50%);
-    color: #495057; /* Kolor tekstu */
-    transition: color 0.3s;
-  }
-  
-  .switch-checkbox:checked + .switch-label:before {
-    content: 'On';
-    color: #878787; /* Kolor tekstu, gdy switch jest włączony */
-  }
+    top: 0;
+    left: 0;
+    transition: transform 0.3s;
+    cursor: pointer;
+    }
+
+#polityka_priv:checked + label {
+    transform: translateX(15px);
+}
 
 /**** Default Style ****/
 
