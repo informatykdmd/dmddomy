@@ -12,6 +12,7 @@ const ContactUsForm = () => {
     done: 1,
   });
   const [showForm, setShowForm] = useState(true);
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
 
   const ApiAddress = myDatabaseConfig.mySqlUrlorIp + ':' + myDatabaseConfig.apiPort;
 
@@ -22,9 +23,18 @@ const ContactUsForm = () => {
     });
   };
 
+  const handlePrivacyCheckboxChange = () => {
+    setPrivacyAccepted(!privacyAccepted);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log('formData: ', formData);
+    // Sprawdzanie, czy polityka prywatności została zaakceptowana
+    if (!privacyAccepted) {
+      alert("Należy zaakceptować politykę prywatności.");
+      return;
+    }
     try {
       const response = await axios.post(`https://${ApiAddress}/api/sendContactAsks`, formData);
 
@@ -115,7 +125,7 @@ const ContactUsForm = () => {
                   </div>
                   <div className="col-md-6 col-sm-12" style={{ display: 'flex' }}>
                     <div className="switch" style={{ marginLeft: '30px' }}>
-                        <input type="checkbox" id="polityka_priv" style={{display: 'none'}} />
+                        <input type="checkbox" id="polityka_priv" style={{display: 'none'}} onChange={handlePrivacyCheckboxChange}/>
                         <label htmlFor="polityka_priv"></label>
                     </div>
                     <div style={{paddingLeft: '10px', marginBottom: '25px'}}>Akceptuję politykę prywatności</div>
