@@ -46,19 +46,19 @@ const NewsOne = () => {
             <div className="row clearfix mt-3">
             {latestPosts.map((post) => (
                 <div className="col-lg-4 mb-4 field-overlay-holder" key={post.ID}>
-                    <div className="img_blog field-overlay-inner">
-                        <div className="field-position-m field-mover-border" onClick={() => window.location.href=`/post/${post.ID}`}>
+                    <div className="img_blog field-overlay-inner" onClick={() => window.location.href=`/post/${post.ID}`}>
+                        <div className="field-position-m field-mover-border">
                             <img src={post.contentDetails && post.contentDetails.HEADER_FOTO} alt="" className="img-fluid mx-auto d-block" />
                         </div>
                     </div>
                     <div className="blog-box-detail p-4">
-                    <div className="mt-0">
-                        <p className="labal text-muted">{post.contentDetails && post.contentDetails.CATEGORY}</p>
-                        <h5 className="font-weight-bold"><Link to={`/post/${post.ID}`} className="read-more">{post.contentDetails && post.contentDetails.TITLE}</Link></h5>
-                        <p className="text-muted">{post.contentDetails && post.contentDetails.HIGHLIGHTS}</p>
-                        <p className="space-date text-muted"> {post.authorDetails && post.authorDetails.NAME_AUTHOR} - {post.contentDetails && formatDate(post.contentDetails.DATE_TIME)}</p>
-                        <Link className="read-more text-uppercase font-weight-bold" to={`/post/${post.ID}`}>Czytaj Więcej</Link>
-                    </div>
+                        <div className="mt-0">
+                            <p className="labal text-muted">{post.contentDetails && post.contentDetails.CATEGORY}</p>
+                            <h5 className="font-weight-bold"><Link to={`/post/${post.ID}`} className="read-more">{post.contentDetails && post.contentDetails.TITLE}</Link></h5>
+                            <p className="text-muted">{post.contentDetails && post.contentDetails.HIGHLIGHTS}</p>
+                            <p className="space-date text-muted"> {post.authorDetails && post.authorDetails.NAME_AUTHOR} - {post.contentDetails && formatDate(post.contentDetails.DATE_TIME)}</p>
+                            <Link className="read-more text-uppercase font-weight-bold" to={`/post/${post.ID}`}>Czytaj Więcej</Link>
+                        </div>
                     </div>
               </div>
             ))}
