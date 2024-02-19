@@ -125,7 +125,7 @@ const ContactUsForm = () => {
                   </div>
                   <div  style={{ display: 'flex', paddingRight: '25px'}}>
                     <div className="switch" style={{ marginLeft: '42px' }}>
-                        <input type="checkbox" id="polityka_priv" style={{display: 'none'}} checked={privacyAccepted} onChange={handlePrivacyCheckboxChange}/>
+                        <input type="checkbox" id="polityka_priv" style={{display: 'none'}} checked={privacyAccepted} onChange={handlePrivacyCheckboxChange} required/>
                         <label htmlFor="polityka_priv"></label>
                     </div>
                     <div style={{fontSize: '12px', paddingLeft: '10px', marginBottom: '25px'}}>Akceptuję politykę prywatoności DMD DOMY, niniejszym wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w niniejszym formularzu w celach kontaktowych, zgodnie z obowiązującą polityką prywatności.</div>
