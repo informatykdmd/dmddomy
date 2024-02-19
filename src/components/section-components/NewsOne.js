@@ -48,9 +48,9 @@ const NewsOne = () => {
                 <div className="col-lg-4 mb-4 field-overlay-holder" key={post.ID}>
                 <div className="img_blog field-overlay-inner">
                   <div className="field-position-m field-mover-border">
-                    <Link to={`/post/${post.ID}`}>
+                    <a href={`/post/${post.ID}`}>
                         <img src={post.contentDetails && post.contentDetails.HEADER_FOTO} alt="" className="img-fluid mx-auto d-block" />
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div className="blog-box-detail p-4">
