@@ -207,12 +207,6 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL + '/single-post-fullwidth'}`} element={<PostsDetailsOne />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/single-post-left-sidebar'}`} element={<PostsDetailsTwo />}/>
 
-          
-          
-          
-          
-          
-
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-post-left-sidebar'}`} element={<OfertaDetailsTwo />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/oferta-post-left-sidebar-ER'}`} element={<OfertaDetailsTwoEleganckieResidencje />}/>
           
