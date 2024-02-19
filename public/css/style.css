@@ -58,7 +58,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #267b0e;
+    background-color: #5e615d;
     position: absolute;
     top: 0;
     left: 0;
@@ -68,6 +68,7 @@
 
 #polityka_priv:checked + label {
     transform: translateX(15px);
+    background-color: #267b0e;
 }
 
 /**** Default Style ****/
