@@ -70,7 +70,7 @@
     }
 
 #polityka_priv:checked + label {
-    transform: translateX(15px);
+    transform: translateX(19px);
     background-color: #267b0e;
 }
 
