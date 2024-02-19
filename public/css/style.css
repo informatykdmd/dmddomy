@@ -45,15 +45,15 @@
 
 /* moje cssy */
 .switch {
-    width: 31px;
+    width: 41px;
     height: 21px;
-    min-width: 31px;
+    min-width: 41px;
     margin-top: 4px;
     background-color: #dad8d8;
     border-radius: 15px;
     position: relative;
     cursor: pointer;
-    border: solid 1px #262626;
+    border: solid 1px #8d8d8d;
 }
 
 .switch label {
