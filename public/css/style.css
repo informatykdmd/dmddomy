@@ -43,6 +43,67 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i');
 @import url('margin-padding.css');
 
+/* moje cssy */
+.switch-checkbox {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .switch-label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 45px; /* Dostosuj, aby pasowało do Twoich potrzeb */
+  }
+  
+  .switch-inner {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; /* Dostosuj, aby pasowało do Twoich potrzeb */
+    background-color: #adb5bd; /* Kolor tła switcha */
+    transition: background-color 0.3s;
+  }
+  
+  .switch-inner:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    transform: translate(0, -50%);
+    width: 30px; /* Szerokość switcha */
+    height: 30px; /* Wysokość switcha */
+    background-color: #fff; /* Kolor kropki switcha */
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .switch-checkbox:checked + .switch-label .switch-inner {
+    background-color: #009e2a; /* Kolor tła switcha, gdy jest włączony */
+  }
+  
+  .switch-checkbox:checked + .switch-label .switch-inner:before {
+    transform: translate(calc(100% - 6px), -50%);
+    background-color: #fff; /* Kolor kropki switcha, gdy jest włączony */
+  }
+  
+  /* Stylowanie tekstu (opcjonalne) */
+  .switch-label:before {
+    content: 'Off';
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translate(0, -50%);
+    color: #495057; /* Kolor tekstu */
+    transition: color 0.3s;
+  }
+  
+  .switch-checkbox:checked + .switch-label:before {
+    content: 'On';
+    color: #fff; /* Kolor tekstu, gdy switch jest włączony */
+  }
+
 /**** Default Style ****/
 
 * {
