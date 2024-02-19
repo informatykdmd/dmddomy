@@ -114,7 +114,7 @@ const ContactUsForm = () => {
                     </div>
                   </div>
                   <div className="col-md-6 col-sm-12">
-                    <div className="switch" onclick={toggleSwitch()}>
+                    <div className="switch">
                         <input type="checkbox" id="polityka_priv" style={{display: none}} />
                         <label htmlFor="polityka_priv"></label>
                     </div>
