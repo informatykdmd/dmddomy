@@ -124,7 +124,7 @@ const ContactUsForm = () => {
                     </div>
                   </div>
                   <div  style={{ display: 'flex', paddingRight: '25px'}}>
-                    <div className="switch" style={{ marginLeft: '45px' }}>
+                    <div className="switch" style={{ marginLeft: '42px' }}>
                         <input type="checkbox" id="polityka_priv" style={{display: 'none'}} checked={privacyAccepted} onChange={handlePrivacyCheckboxChange}/>
                         <label htmlFor="polityka_priv"></label>
                     </div>
