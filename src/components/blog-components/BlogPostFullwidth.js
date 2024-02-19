@@ -83,7 +83,7 @@ const BlogPostFullwidth = () => {
           <div className="row clearfix">
             {blogPosts.map((post) => (
               <div className="col-lg-4 mb-4 field-overlay-holder" key={post.ID}>
-                <div className="img_blog field-overlay-inner">
+                <div className="img_blog field-overlay-inner"  onClick={() => window.location.href=`/post/${post.ID}`}>
                   <div className="field-position-m field-mover-border">
                     <img src={post.contentDetails && post.contentDetails.HEADER_FOTO} alt="" className="img-fluid mx-auto d-block" />
                   </div>
