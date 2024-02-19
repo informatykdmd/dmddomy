@@ -118,7 +118,7 @@ const ContactUsForm = () => {
                         <input type="checkbox" id="polityka_priv" style={{display: 'none'}} />
                         <label htmlFor="polityka_priv"></label>
                     </div>
-                    <div style={{paddingLeft: '10px', paddingBottom: '15px'}}>Akceptuję politykę prywatności</div>
+                    <div style={{paddingLeft: '10px', paddingBottom: '150px'}}>Akceptuję politykę prywatności</div>
                   </div>
                 </div>
                 <div className="row">
