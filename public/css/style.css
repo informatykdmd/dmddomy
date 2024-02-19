@@ -47,6 +47,7 @@
 .switch {
     width: 30px;
     height: 15px;
+    margin-top: 10px;
     background-color: #dad8d8;
     border-radius: 15px;
     position: relative;
