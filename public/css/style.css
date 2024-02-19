@@ -47,11 +47,13 @@
 .switch {
     width: 30px;
     height: 15px;
+    min-width: 30px;
     margin-top: 4px;
     background-color: #dad8d8;
     border-radius: 15px;
     position: relative;
     cursor: pointer;
+    border: solid 1px #262626;
 }
 
 .switch label {
