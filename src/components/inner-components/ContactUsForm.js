@@ -115,7 +115,7 @@ const ContactUsForm = () => {
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <input className="switch-checkbox" type="checkbox" role="switch" id="polityka_priv" />
-                    <label className="switch-label" for="polityka_priv">Akceptuję politykę prywatności</label>
+                    <label className="switch-label" htmlFor="polityka_priv">Akceptuję politykę prywatności</label>
                   </div>
                 </div>
                 <div className="row">
