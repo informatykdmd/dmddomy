@@ -43,6 +43,33 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i');
 @import url('margin-padding.css');
 
+/* moje cssy */
+.switch {
+    width: 30px;
+    height: 15px;
+    background-color: #dad8d8;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.switch label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #267b0e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s;
+    cursor: pointer;
+    }
+
+#polityka_priv:checked + label {
+    transform: translateX(15px);
+}
+
 /**** Default Style ****/
 
 * {
