@@ -12,7 +12,7 @@ const BlogPostsRightSidebar = () => {
           <div className="col-md-8 order-md-1">
             <div className="row clearfix">
               <div className="col-lg-6 mb-4 field-overlay-holder">
-                <div className="img_blog field-overlay-inner">
+                <div className="img_blog field-overlay-inner" onClick={() => window.location.href=`/single-realizacja-RezydencjaParkowa`}>
                   <div className="field-position-m field-mover-border">
                     <img src="images/realizacje/rl-00-750x430-RezydencjaParkowa.png" alt="" className="img-fluid mx-auto d-block" />
                   </div>
@@ -28,7 +28,7 @@ const BlogPostsRightSidebar = () => {
                 </div>
               </div>
               <div className="col-lg-6 mb-4 field-overlay-holder">
-                <div className="img_blog field-overlay-inner">
+                <div className="img_blog field-overlay-inner" onClick={() => window.location.href=`/single-realizacja-DomzWidokiem4`}>
                   <div className="field-position-m field-mover-border">
                     <img src="images/realizacje/rl-00-750x430-DomzWidokiem4.png" alt="" className="img-fluid mx-auto d-block" />
                   </div>
@@ -44,7 +44,7 @@ const BlogPostsRightSidebar = () => {
                 </div>
               </div>
               <div className="col-lg-6 mb-4 field-overlay-holder">
-                <div className="img_blog field-overlay-inner">
+                <div className="img_blog field-overlay-inner" onClick={() => window.location.href=`/single-realizacja-Kasjopea`}>
                   <div className="field-position-m field-mover-border">
                     <img src="images/realizacje/rl-00-750x430-Kasjopea.png" alt="" className="img-fluid mx-auto d-block" />
                   </div>
@@ -60,7 +60,7 @@ const BlogPostsRightSidebar = () => {
                 </div>
               </div>
               <div className="col-lg-6 mb-4 field-overlay-holder">
-                <div className="img_blog field-overlay-inner">
+                <div className="img_blog field-overlay-inner" onClick={() => window.location.href=`/single-realizacja-OpalElegancja`}>
                   <div className="field-position-m field-mover-border">
                     <img src="images/realizacje/rl-00-750x430-OpalElegancja.png" alt="" className="img-fluid mx-auto d-block" />
                   </div>
@@ -76,7 +76,7 @@ const BlogPostsRightSidebar = () => {
                 </div>
               </div>
               <div className="col-lg-6 mb-4 field-overlay-holder">
-                <div className="img_blog field-overlay-inner">
+                <div className="img_blog field-overlay-inner" onClick={() => window.location.href=`/single-realizacja-RezydencjaLesna`}>
                   <div className="field-position-m field-mover-border">
                   <img src="images/realizacje/rl-00-750x430-RezydencjaLesna.png" alt="" className="img-fluid mx-auto d-block" />
                   </div>
