@@ -32,7 +32,7 @@ const ContactUsForm = () => {
     console.log('formData: ', formData);
     // Sprawdzanie, czy polityka prywatności została zaakceptowana
     if (!privacyAccepted) {
-      alert("Należy zaakceptować politykę prywatności.");
+      // alert("Należy zaakceptować politykę prywatności.");
       return;
     }
     try {
@@ -125,7 +125,7 @@ const ContactUsForm = () => {
                   </div>
                   <div className="col-md-6 col-sm-12" style={{ display: 'flex' }}>
                     <div className="switch" style={{ marginLeft: '30px' }}>
-                        <input type="checkbox" id="polityka_priv" style={{display: 'none'}} onChange={handlePrivacyCheckboxChange}/>
+                        <input type="checkbox" id="polityka_priv" style={{display: 'none'}} checked={privacyAccepted} onChange={handlePrivacyCheckboxChange}/>
                         <label htmlFor="polityka_priv"></label>
                     </div>
                     <div style={{paddingLeft: '10px', marginBottom: '25px'}}>Akceptuję politykę prywatności</div>
@@ -134,7 +134,12 @@ const ContactUsForm = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className=" form-group">
-                      <input type="submit" name="submit" className="btn btn_custom ploting-btn btn-style-two" defaultValue="Wyślij Zapytanie" />
+                      <input 
+                        type="submit" 
+                        name="submit" 
+                        className="btn btn_custom ploting-btn btn-style-two" 
+                        defaultValue="Wyślij Zapytanie" 
+                        disabled={!privacyAccepted}/>
                     </div>
                   </div>
                 </div>
