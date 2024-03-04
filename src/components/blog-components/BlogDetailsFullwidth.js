@@ -199,7 +199,7 @@ const BlogDetailsFullwidth = () => {
             <div className="col-md-12">
               <div className="blog-detail mt-30">
                 <div className="b-det-img">
-                  <ZoomableImage src={"../"+post.contentDetails.HEADER_FOTO} alt="blog" />
+                  <ZoomableImage src={post.contentDetails.HEADER_FOTO} alt="blog" />
                 </div>
                 <div className="det-content">
                   <h3>{post.contentDetails.TITLE}</h3>
@@ -231,7 +231,7 @@ const BlogDetailsFullwidth = () => {
                       ))}
                     </div>
                     <div className="col-sm-5">
-                      <ZoomableImage src={"../"+post.contentDetails.CONTENT_FOTO } alt="blog" />
+                      <ZoomableImage src={post.contentDetails.CONTENT_FOTO } alt="blog" />
                     </div>
                   </div>
                 </div>
