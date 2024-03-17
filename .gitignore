@@ -17,6 +17,10 @@ ecosystem.config.js.save
 # production
 /build
 
+# dynamic pictures
+/public/images/blog
+/public/images/team
+
 # misc
 .DS_Store
 .env.local
