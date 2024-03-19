@@ -158,7 +158,7 @@ const BlogDetailsFullwidth = () => {
   const handleShareClickTwitter = () => {
     const shareUrl = "https://twitter.com/intent/tweet";
     const text = encodeURIComponent(post.contentDetails.CONTENT_MAIN + "\n" + post.contentDetails.HIGHLIGHTS);
-    const url = encodeURIComponent(`https://dmddomy.pl/post-${postId}`);
+    const url = encodeURIComponent(`https://dmddomy.pl/post/${postId}`);
   
     window.open(`${shareUrl}?text=${text}&url=${url}`, '_blank');
   };
