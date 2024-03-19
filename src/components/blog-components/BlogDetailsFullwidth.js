@@ -150,7 +150,7 @@ const BlogDetailsFullwidth = () => {
     const title = encodeURIComponent(post.contentDetails.TITLE);
     const description = encodeURIComponent(post.contentDetails.CONTENT_MAIN + "\n" + post.contentDetails.HIGHLIGHTS);
     const imageUrl = encodeURIComponent("https://dmddomy.pl/" + post.contentDetails.HEADER_FOTO);
-    const url = encodeURIComponent(`https://dmddomy.pl/post-${postId}`);
+    const url = encodeURIComponent(`https://dmddomy.pl/post/${postId}`);
 
     window.open(`${shareUrl}?u=${url}&title=${title}&description=${description}&picture=${imageUrl}`, '_blank');
   };
