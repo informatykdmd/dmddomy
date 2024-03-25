@@ -42,7 +42,7 @@ const TestimonialThree = () => {
                         <h5 className="mb-0">Stefan Mierzejewski</h5>
                         <small className="client-position">Klient</small>
                         </div>
-                        <p className="text pt-3 mx-auto">Z dumą polecamy firmę DMD Domy jako niezawodnego partnera w realizacji naszego wymarzonego domu, Rezydencji Parkowej w Janowie. Profesjonalizm, solidność i doskonała jakość wykonania sprawiły, że nasze oczekiwania zostały znakomicie spełnione <span className="fa fa-quote-right" /></p>
+                        <p className="text pt-3 mx-auto">DMD Domy to niezawodny partner w realizacji naszego wymarzonego domu, Rezydencji Parkowej w Janowie. Profesjonalizm, solidność i doskonała jakość wykonania sprawiły, że nasze oczekiwania zostały znakomicie spełnione. Z radością polecamy tę firmę Stefan Mierzejewski.  <span className="fa fa-quote-right" /></p>
                     </div>
                     </div>
                     <div className="business-client-box p-4">
@@ -54,7 +54,7 @@ const TestimonialThree = () => {
                         <h5 className="mb-0">Tadeusz Woszczyński</h5>
                         <small className="client-position">Klient</small>
                         </div>
-                        <p className="text pt-3 mx-auto">Z całego serca polecamy firmę DMD Domy za profesjonalizm i zaangażowanie w realizację naszego indywidualnego projektu w Izabelinie. Jakość wykonania oraz dbałość o detale przekroczyły nasze oczekiwania, tworząc wymarzone miejsce, które teraz z dumą nazywamy domem <span className="fa fa-quote-right" /></p>
+                        <p className="text pt-3 mx-auto">Nasz dom w Izabelinie, stworzony przy współpracy z firmą DMD Domy, zasługuje na gorące rekomendacje. Całym sercem polecamy ich za profesjonalizm i zaangażowanie w realizację naszego indywidualnego projektu. Jakość wykonania oraz dbałość o detale przekroczyły nasze oczekiwania, tworząc wymarzone miejsce, które teraz z dumą nazywamy domem.  <span className="fa fa-quote-right" /></p>
                     </div>
                     </div>
                     <div className="business-client-box p-4">
@@ -66,7 +66,7 @@ const TestimonialThree = () => {
                         <h5 className="mb-0">Michał Skuza</h5>
                         <small className="client-position">Klient</small>
                         </div>
-                        <p className="text pt-3 mx-auto">Z ogromną radością polecamy firmę DMD Domy za niezwykłe zaangażowanie i doskonałą pracę przy budowie naszego domu z widokiem w Bliznach Jasińskich. Profesjonalizm, dbałość o detale i staranność wykonania sprawiły, że nasze marzenie o wymarzonym miejscu stało się rzeczywistością. <span className="fa fa-quote-right" /></p>
+                        <p className="text pt-3 mx-auto">Pełne uznanie dla DMD za niezwykłe zaangażowanie i doskonałą pracę przy budowie pięknego domu z widokiem w Bliznach Jasińskich. Profesjonalizm, nieustająca dbałość o detale i staranność wykonania sprawiły, że nasze marzenie o wymarzonym domu stało się  rzeczywistością.  <span className="fa fa-quote-right" /></p>
                     </div>
                     </div>
                     <div className="business-client-box p-4">
@@ -78,7 +78,7 @@ const TestimonialThree = () => {
                         <h5 className="mb-0">Andrzej Szymański</h5>
                         <small className="client-position">Klient</small>
                         </div>
-                        <p className="text pt-3 mx-auto">Z pełnym przekonaniem polecamy firmę DMD Domy jako partnera w budowie naszego domu z widokiem w Wyględach. Ich zaangażowanie, fachowość i troska o detale przekroczyły nasze oczekiwania, tworząc nie tylko dom, lecz prawdziwy raj z widokiem. <span className="fa fa-quote-right" /></p>
+                        <p className="text pt-3 mx-auto">Gorąco polecam firmę DMD Domy, która wykazała się doskonałą jakością wykonania podczas budowy naszego domu w Wyględach. Realizacja projektu "Dom z widokiem" była niezwykle udana. Ich zaangażowanie, profesjonalizm i dbałość o detale przewyższyły nasze oczekiwania, tworząc nie tylko dom, lecz prawdziwy raj z przepięknym widokiem.  <span className="fa fa-quote-right" /></p>
                     </div>
                     </div>
                     <div className="business-client-box p-4">
@@ -90,7 +90,7 @@ const TestimonialThree = () => {
                         <h5 className="mb-0">Piotr Marczuk</h5>
                         <small className="client-position">Klient</small>
                         </div>
-                        <p className="text pt-3 mx-auto">Z pełnym uznaniem polecamy firmę DMD Domy za profesjonalizm i zaangażowanie w realizację naszego indywidualnego projektu w Koczargach. Ich zdolność do zrozumienia naszych potrzeb oraz perfekcyjne wykonanie sprawiły, że teraz cieszymy się unikalnym domem, który idealnie odzwierciedla naszą wizję. <span className="fa fa-quote-right" /></p>
+                        <p className="text pt-3 mx-auto">Zachęcamy do skorzystania z usług firmy DMD Domy za ich profesjonalizm i zaangażowanie w realizację naszego indywidualnego projektu w Koczargach. Ich zdolność do zrozumienia naszych potrzeb oraz perfekcyjne wykonanie sprawiły, że teraz cieszymy się unikalnym domem, który idealnie odzwierciedla naszą wizję.  <span className="fa fa-quote-right" /></p>
                     </div>
                     </div>
                     <div className="business-client-box p-4">
@@ -102,7 +102,7 @@ const TestimonialThree = () => {
                         <h5 className="mb-0">Waldemar Roszkiewicz</h5>
                         <small className="client-position">Klient</small>
                         </div>
-                        <p className="text pt-3 mx-auto">Z największym zadowoleniem polecamy firmę DMD Domy za wyjątkowe zaangażowanie w budowę naszego domu Wymarzonego 11 w Laskach. Ich doskonała fachowość, precyzja wykonania oraz troska o każdy detal sprawiły, że teraz z dumą nazywamy to miejsce naszym domem, spełniającym wszystkie nasze marzenia. <span className="fa fa-quote-right" /></p>
+                        <p className="text pt-3 mx-auto">Chciałbym z pełnym przekonaniem polecić firmę DMD Domy za ich niezwykłe zaangażowanie i profesjonalizm w procesie budowy domów. Nasza posiadłość w Laskach, stworzona zgodnie z projektem "Wymarzony 11", powstała dokładnie tak, jak sobie wymarzyliśmy. Doskonała fachowość, precyzja wykonania oraz troska o każdy detal sprawiły, że teraz z dumą nazywamy to miejsce naszym domem, spełniającym wszystkie nasze marzenia.  <span className="fa fa-quote-right" /></p>
                     </div>
                     </div>
                     <div className="business-client-box p-4">
