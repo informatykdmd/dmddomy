@@ -75,7 +75,7 @@ const NavOne = () => {
                         </nav>
                         {/*Button Box*/}
                         <div className="button-box">
-                        <Link to="/contact-us" className="ploting-btn btn-style-one">ZAPYTAJ O WYCENĘ</Link>
+                        <a href="/downloads/dmd_domy_download.pdf" download className="ploting-btn btn-style-one">POBIERZ KATALOG</a>
                         </div>
                         {/*Search Box Outer*/}
                         <div className="menu-search-box">
