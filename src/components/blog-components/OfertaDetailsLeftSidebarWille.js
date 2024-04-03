@@ -29,6 +29,17 @@ const BlogDetailsLeftSidebar = () => {
   
     window.open(`${shareUrl}?text=${text}&url=${url}`, '_blank');
   };
+
+  function handleDownload(e) {
+    e.preventDefault(); 
+    // Pobieranie pliku PDF
+    const link = document.createElement('a');
+    link.href = '/downloads/dmd_domy_wille_download.pdf'; 
+    link.download = 'dmd_domy_wille_download.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   
     return(
     <>
@@ -135,6 +146,17 @@ const BlogDetailsLeftSidebar = () => {
                   <Link to="/oferta-poddasze" className="tag">Domy z poddaszem</Link>
                   <Link to="/oferta-pietrowe" className="tag">Domy piętrowe</Link>
                   <Link to="/oferta-nowoczesne" className="tag">W nowoczesnej zabudowie</Link>
+                </div>
+                {/* download file */}
+                <div className="col-md-8">
+                  <span className="title">Pobierz Domy Typu Willa w PDF: </span>
+                  <p style={{padding: "40px"}}>
+                    <a 
+                      onClick={handleDownload} 
+                      style={{fontSize: "60pt", color: "#009e2a", marginLeft: "80px"}}>
+                        <i class="fa fa-download"></i>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>

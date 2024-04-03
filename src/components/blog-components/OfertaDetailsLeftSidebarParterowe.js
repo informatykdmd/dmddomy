@@ -150,9 +150,16 @@ const BlogDetailsLeftSidebar = () => {
                   <Link to="/oferta-wille" className="tag">Wille</Link>
                   <Link to="/oferta-nowoczesne" className="tag">W nowoczesnej zabudowie</Link>
                 </div>
+                {/* download file */}
                 <div className="col-md-8">
-                  <span className="title">Pobierz Domy Parterowe w PDF : </span>
-                  <a onClick={handleDownload} className="ploting-btn btn-style-one">POBIERZ KATALOG</a>
+                  <span className="title">Pobierz Domy Parterowe w PDF: </span>
+                  <p style={{padding: "40px"}}>
+                    <a 
+                      onClick={handleDownload} 
+                      style={{fontSize: "60pt", color: "#009e2a", marginLeft: "80px"}}>
+                        <i class="fa fa-download"></i>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
