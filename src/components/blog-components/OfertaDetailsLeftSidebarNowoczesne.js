@@ -151,7 +151,7 @@ const BlogDetailsLeftSidebar = () => {
                 </div>
                 <div className="col-md-8">
                   <span className="title">Pobierz Domy Typu Stodoła w PDF : </span>
-                  <a onClick={handleDownload} className="ploting-btn btn-style-one">POBIERZ KATALOG</a>
+                  <a onClick={handleDownload}><i className="fa fa-pdf" /></a>
                 </div>
               </div>
             </div>
