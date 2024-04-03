@@ -150,8 +150,8 @@ const BlogDetailsLeftSidebar = () => {
                   <Link to="/oferta-wille" className="tag">Wille</Link>
                 </div>
                 <div className="col-md-8">
-                  <span className="title" style={{marginBottom: "40px"}}>Pobierz Domy Typu Stodoła w PDF: </span>
-                  <p>
+                  <span className="title">Pobierz Domy Typu Stodoła w PDF: </span>
+                  <p style={{padding: "40px"}}>
                     <a 
                       onClick={handleDownload} 
                       style={{fontSize: "60pt", color: "#009e2a", marginLeft: "80px"}}>
