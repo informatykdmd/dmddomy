@@ -151,7 +151,7 @@ const BlogDetailsLeftSidebar = () => {
                 </div>
                 <div className="col-md-8">
                   <span className="title">Pobierz Domy Typu Stodoła w PDF : </span>
-                  <a onClick={handleDownload}><i class="fa fa-download"></i></a>
+                  <a onClick={handleDownload} style={{fontSize: "40pt"}}><i class="fa fa-download"></i></a>
                 </div>
               </div>
             </div>
