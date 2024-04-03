@@ -3,6 +3,16 @@ import { Link } from 'react-router-dom';
 import ZoomableImage from '../../supportscripts/ZoomableImage';
 
 const ProjectsDetailsOne = () => { 
+  function handleDownload(e) {
+    e.preventDefault(); 
+    // Pobieranie pliku PDF
+    const link = document.createElement('a');
+    link.href = '/downloads/dmd_domy_Wymarzony9_download.pdf'; 
+    link.download = 'dmd_domy_Wymarzony9_download.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
     return(
     <>
     {/* Projects Section*/}
@@ -106,6 +116,17 @@ const ProjectsDetailsOne = () => {
                 <div className="blog-nav clearfix">
                     <Link to="/single-project-DomNaPraktycznej2" className="blog-prev"><i className="fa fa-angle-left" /></Link>
                     <Link to="/single-project-Sensowny2" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                </div>
+                {/* download file */}
+                <div className="col-md-8">
+                    <span className="title">Pobierz Wymarzony 9 w PDF: </span>
+                    <p style={{padding: "40px"}}>
+                      <a 
+                        onClick={handleDownload} 
+                        style={{fontSize: "60pt", color: "#009e2a", marginLeft: "80px"}}>
+                          <i class="fa fa-download"></i>
+                      </a>
+                    </p>
                 </div>
             </div>
             <div className="col-md-4 mt-4">

@@ -9,6 +9,17 @@ const ProjectsDetailsOne = () => {
     'bl-04-750x430-WillaParterowa2.png', 'bl-05-750x430-WillaParterowa2.png', 'bl-06-750x430-WillaParterowa2.png', 'bl-07-750x430-WillaParterowa2.png', 
     'bl-08-750x430-WillaParterowa2.png', 'bl-09-750x430-WillaParterowa2.png', 'bl-10-750x430-WillaParterowa2.png', 
   ];
+
+  function handleDownload(e) {
+    e.preventDefault(); 
+    // Pobieranie pliku PDF
+    const link = document.createElement('a');
+    link.href = '/downloads/dmd_domy_WillaParterowa2_download.pdf'; 
+    link.download = 'dmd_domy_WillaParterowa2_download.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
     return(
     <>
     {/* Projects Section*/}
@@ -100,6 +111,17 @@ const ProjectsDetailsOne = () => {
               <div className="blog-nav clearfix">
                 <Link to="/single-project-DomNaDebowej" className="blog-prev"><i className="fa fa-angle-left" /></Link>
                 <Link to="/single-project-DomWaski3" className="blog-next"><i className="fa fa-angle-right" /></Link>
+              </div>
+              {/* download file */}
+              <div className="col-md-8">
+                  <span className="title">Pobierz Willa Parterowa 2 w PDF: </span>
+                  <p style={{padding: "40px"}}>
+                    <a 
+                      onClick={handleDownload} 
+                      style={{fontSize: "60pt", color: "#009e2a", marginLeft: "80px"}}>
+                        <i class="fa fa-download"></i>
+                    </a>
+                  </p>
               </div>
             </div>
             <div className="col-md-4 mt-4">

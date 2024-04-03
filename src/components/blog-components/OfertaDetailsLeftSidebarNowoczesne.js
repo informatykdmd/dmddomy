@@ -149,6 +149,7 @@ const BlogDetailsLeftSidebar = () => {
                   <Link to="/oferta-pietrowe" className="tag">Domy piętrowe</Link>
                   <Link to="/oferta-wille" className="tag">Wille</Link>
                 </div>
+                {/* download file */}
                 <div className="col-md-8">
                   <span className="title">Pobierz Domy Typu Stodoła w PDF: </span>
                   <p style={{padding: "40px"}}>

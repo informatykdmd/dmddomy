@@ -3,6 +3,18 @@ import { Link } from 'react-router-dom';
 import ZoomableImage from '../../supportscripts/ZoomableImage';
 
 const ProjectsDetailsOne = () => { 
+
+  function handleDownload(e) {
+    e.preventDefault(); 
+    // Pobieranie pliku PDF
+    const link = document.createElement('a');
+    link.href = '/downloads/dmd_domy_WillaParkowa7_download.pdf'; 
+    link.download = 'dmd_domy_WillaParkowa7_download.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
     return(
     <>
     {/* Projects Section*/}
@@ -101,6 +113,17 @@ const ProjectsDetailsOne = () => {
                 <Link to="/single-project-DomZWidokiem3" className="blog-prev"><i className="fa fa-angle-left" /></Link>
                 <Link to="/single-project-WillaFloryda3" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
+              {/* download file */}
+              <div className="col-md-8">
+                    <span className="title">Pobierz WillaParkowa 7 w PDF: </span>
+                    <p style={{padding: "40px"}}>
+                      <a 
+                        onClick={handleDownload} 
+                        style={{fontSize: "60pt", color: "#009e2a", marginLeft: "80px"}}>
+                          <i class="fa fa-download"></i>
+                      </a>
+                    </p>
+                </div>
             </div>
             <div className="col-md-4 mt-4">
               <div className="info">
