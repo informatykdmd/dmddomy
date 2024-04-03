@@ -154,7 +154,7 @@ const BlogDetailsLeftSidebar = () => {
                   <p>
                     <a 
                       onClick={handleDownload} 
-                      style={{fontSize: "60pt", color: "#009e2a", marginLeft: "60px"}}>
+                      style={{fontSize: "60pt", color: "#009e2a", marginLeft: "80px", marginTop: "40px"}}>
                         <i class="fa fa-download"></i>
                     </a>
                   </p>
