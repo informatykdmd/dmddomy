@@ -8,8 +8,8 @@ const ProjectsDetailsOne = () => {
     e.preventDefault(); 
     // Pobieranie pliku PDF
     const link = document.createElement('a');
-    link.href = '/downloads/dmd_domy_DomzWidokiem3_download.pdf'; 
-    link.download = 'dmd_domy_DomzWidokiem3_download.pdf'; 
+    link.href = '/downloads/dmd_domy_DomZWidokiem3_download.pdf'; 
+    link.download = 'dmd_domy_DomZWidokiem3_download.pdf'; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
