@@ -106,7 +106,7 @@ const ProjectsDetailsOne = () => {
                 <Link to="/single-project-WillaParterowa2" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
               {/* download file */}
-              <div className="col-md-8">
+              <div className="col-md-8" style={{marginTop: "20px"}}>
                 <span className="title">Pobierz Dom Na Debowej w PDF: </span>
                 <p style={{padding: "40px"}}>
                   <a 

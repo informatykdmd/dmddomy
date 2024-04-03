@@ -115,7 +115,7 @@ const ProjectsDetailsOne = () => {
                 <Link to="/single-project-Zefir" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
               {/* download file */}
-              <div className="col-md-8">
+              <div className="col-md-8" style={{marginTop: "20px"}}>
                 <span className="title">Pobierz Dom Narcyz 2 w PDF: </span>
                 <p style={{padding: "40px"}}>
                   <a 
