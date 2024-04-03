@@ -86,7 +86,8 @@ const NavOne = () => {
                         </nav>
                         {/*Button Box*/}
                         <div className="button-box">
-                        <a href="/downloads/dmd_domy_download.pdf" onClick={handleDownload} className="ploting-btn btn-style-one">POBIERZ KATALOG</a>
+                        {/* href="/downloads/dmd_domy_download.pdf" */}
+                        <a onClick={handleDownload} className="ploting-btn btn-style-one">POBIERZ KATALOG</a>
                         </div>
                         {/*Search Box Outer*/}
                         <div className="menu-search-box">

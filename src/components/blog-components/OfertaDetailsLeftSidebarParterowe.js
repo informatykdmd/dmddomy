@@ -30,6 +30,16 @@ const BlogDetailsLeftSidebar = () => {
     window.open(`${shareUrl}?text=${text}&url=${url}`, '_blank');
   };
   
+  function handleDownload(e) {
+    e.preventDefault(); 
+    // Pobieranie pliku PDF
+    const link = document.createElement('a');
+    link.href = '/downloads/dmd_domy_parterowe_download.pdf'; 
+    link.download = 'dmd_domy_parterowe_download.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
     return(
     <>
     {/*Blog Details Section*/}
@@ -139,6 +149,10 @@ const BlogDetailsLeftSidebar = () => {
                   <Link to="/oferta-pietrowe" className="tag">Domy piętrowe</Link>
                   <Link to="/oferta-wille" className="tag">Wille</Link>
                   <Link to="/oferta-nowoczesne" className="tag">W nowoczesnej zabudowie</Link>
+                </div>
+                <div className="col-md-8">
+                  <span className="title">Pobierz Domy Parterowe w PDF : </span>
+                  <a onClick={handleDownload} className="ploting-btn btn-style-one">POBIERZ KATALOG</a>
                 </div>
               </div>
             </div>
