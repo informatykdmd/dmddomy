@@ -29,11 +29,11 @@ const ProjectsDetailsOne = () => {
                 </div>
               </div>
             </div> */}
-            {/* <div className="col-md-12">
+            <div className="col-md-12">
               <div className="project-thumb">
-                <ZoomableImage src="images/project/bl-01-1920x1075-Wymarzony9-0.png" alt="Oferta" />
+                <ZoomableImage src="images/project/bl-01-1920x1075-koparka-0.png" alt="Oferta" />
               </div>
-            </div> */}
+            </div>
             <div className="col-md-8 det-content">
                 <h3>Usługa koparką kołową - Wkop się w jakość i precyzję</h3>
                 <p>
