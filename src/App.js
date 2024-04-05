@@ -44,6 +44,8 @@ import ProjectsDetailsEkonomiczny2 from './pages/projectpages/ProjectsDetailsEko
 import ProjectsDetailsDomNaPraktycznej2 from './pages/projectpages/ProjectsDetailsDomNaPraktycznej2';
 import ProjectsDetailsWymarzony9 from './pages/projectpages/ProjectsDetailsWymarzony9';
 
+import ProjectsDetailsKoparka from './pages/projectpages/ProjectsDetailsKoparka';
+
 import ProjectsDetailsOpalElegancja from './pages/projectpages/ProjectsDetailsOpalElegancja';
 import ProjectsDetailswillaParkowa160 from './pages/projectpages/ProjectsDetailswillaParkowa160';
 import ProjectsDetailsTytan134 from './pages/projectpages/ProjectsDetailsTytan134';
@@ -89,6 +91,7 @@ import OfertaPoddaszeOne from './pages/blogpages/OfertaPoddaszeOne';
 import OfertaPietroweOne from './pages/blogpages/OfertaPietroweOne';
 import OfertaWilleOne from './pages/blogpages/OfertaWilleOne';
 import OfertaNowoczesneOne from './pages/blogpages/OfertaNowoczesneOne';
+import OfertaUslugi from './pages/blogpages/OfertaUslugi';
 
 import OfertaDetailsTwo from './pages/blogpages/OfertaDetailsTwo';
 import OfertaDetailsTwoEleganckieResidencje from './pages/blogpages/OfertaDetailsTwoEleganckieResidencje';
@@ -184,7 +187,10 @@ function App() {
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Ekonomiczny2'}`} element={<ProjectsDetailsEkonomiczny2 />}/>
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-DomNaPraktycznej2'}`} element={<ProjectsDetailsDomNaPraktycznej2 />}/>
             <Route exact path={`${process.env.PUBLIC_URL + '/single-project-Wymarzony9'}`} element={<ProjectsDetailsWymarzony9 />}/>
-            
+          
+          <Route exact path={`${process.env.PUBLIC_URL + '/oferta-uslugi'}`} element={<OfertaUslugi />}/>
+            <Route exact path={`${process.env.PUBLIC_URL + '/single-project-koparka'}`} element={<ProjectsDetailsKoparka />}/>
+
           <Route exact path={`${process.env.PUBLIC_URL + '/blog-posts-fullwidth'}`} element={<PostsOne />}/>
 
           <Route exact path={`${process.env.PUBLIC_URL + '/search-results'}`} element={<ResutlsSearch />}/>
