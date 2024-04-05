@@ -88,11 +88,11 @@ const BlogDetailsLeftSidebar = () => {
                     </ul>
                 </div>
 
-                <div className="col-sm-5">
+                {/* <div className="col-sm-5">
                     <p><img src="images/offers/bl-09-750x430-Uslugi1.png" alt="" /></p>
                     <p><img src="images/offers/bl-09-750x430-Uslugi2.png" alt="" /></p>
                     <p><img src="images/offers/bl-09-750x430-Uslugi3.png" alt="" /></p>
-                </div>
+                </div> */}
               </div>
             </div>
 
