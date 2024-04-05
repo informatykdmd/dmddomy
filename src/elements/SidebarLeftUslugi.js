@@ -16,7 +16,7 @@ const SidebarLeft = () => {
                 <li>
                 <div className="blog-rp-image">
                     <Link to="/single-project-koparka">
-                    <img src="images/offers/bl-01-120x120-uslugi2.png" alt="thumb" />
+                    <img src="images/offers/bl-01-120x120-uslugi.png" alt="thumb" />
                     </Link>
                 </div>
                 <div className="blog-rp-info">
