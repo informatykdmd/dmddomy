@@ -1,25 +1,16 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // import RelatedProjectsKasjopea7 from '../../elements/RelatedProjectsKasjopea7';
 import ZoomableImage from '../../supportscripts/ZoomableImage';
 
 const ProjectsDetailsOne = () => { 
-  function handleDownload(e) {
-    e.preventDefault(); 
-    // Pobieranie pliku PDF
-    const link = document.createElement('a');
-    link.href = '/downloads/dmd_domy_Wymarzony9_download.pdf'; 
-    link.download = 'dmd_domy_Wymarzony9_download.pdf'; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+
     return(
     <>
     {/* Projects Section*/}
     <section className="single-portfolio-section section-padding-all">
         <div className="default-container">
           <div className="row">
-            <div className="col-md-12 p-b30">
+            {/* <div className="col-md-12 p-b30">
               <div className="row">
                 <div className="col-md-4">
                   <div className="project-thumb">
@@ -37,64 +28,55 @@ const ProjectsDetailsOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-12">
+            </div> */}
+            {/* <div className="col-md-12">
               <div className="project-thumb">
                 <ZoomableImage src="images/project/bl-01-1920x1075-Wymarzony9-0.png" alt="Oferta" />
               </div>
-            </div>
+            </div> */}
             <div className="col-md-8 det-content">
-                <h3>Usługi Dodatkowe</h3>
+                <h3>Usługa koparką kołową - Wkop się w jakość i precyzję</h3>
                 <p>
-                    Projekt domu Wymarzony 9 to projekt domu jednorodzinnego parterowego ze strychem, 
-                    Budynek został zaprojektowany w modnej stylistyce domu-stodoły. Powierzchnia użytkowa 
-                    to 118,51 m2 ( kubatura 947 m3). Dom jest zaprojektowany dla 5 użytkowników. Przykryty 
-                    został dwuspadowym dachem o kącie nachylenia 35 stopni. Minimalna wielkość działki na 
-                    jakiej może być realizowany projekt to: 29,93 m x 18,30 m.
+                    Gdy planujesz budowę domu, pierwszym krokiem jest właściwe przygotowanie terenu. 
+                    Specjalistyczne usługi koparką kołową oferowane przez naszą firmę zapewniają solidną 
+                    podstawę dla każdego projektu budowlanego. Niezależnie od tego, czy potrzebujesz wykopać 
+                    fundamenty, wyrównać teren, czy przygotować infrastrukturę pod instalacje – jesteśmy do Twojej dyspozycji.
                 </p>
 
-                <span><strong>Bryła Domu Wymarzony 9 - Architektura</strong></span><br />
+                <span><strong>Wykopy pod fundamenty - Fundamenty sukcesu</strong></span><br />
                 <p>
-                    Bryła domu Wymarzony 9 charakteryzuje się maksymalną prostotą i nowoczesnością. 
-                    Pudełkowe zadaszenia z tyłu i z przodu skutecznie kryją wejście oraz wykusze w kuchni. 
-                    Ciekawe detale i materiały, takie jak okładzina klinkierowa, szare wstawki, stolarka 
-                    okienna w kolorze szarym oraz grafitowa dachówka, nadają budynkowi elegancji 
-                    i reprezentacyjnego charakteru. Dwuspadowy dach bez okapów stanowi dopełnienie 
-                    minimalistycznego designu.
+                    Każdy stabilny budynek zaczyna się od solidnych fundamentów. Nasza koparka kołowa, 
+                    dzięki swojej precyzji i mocy, zapewnia szybkie i dokładne wykopy pod fundamenty, 
+                    dostosowane do specyfikacji twojego projektu. Wykorzystanie zaawansowanej technologii 
+                    pozwala nam minimalizować ryzyko błędów i zapewniać najlepszą możliwą jakość pracy.
                 </p>
 
-                <span><strong>Projekt Domu Wymarzony 9 - Elewacja Frontowa</strong></span><br />
+                <span><strong>Niwelacja terenu - Poziom wyżej w przygotowaniu terenu</strong></span><br />
                 <p>
-                    Część wejściowa z podestem, pudełkowym zadaszeniem i drzwiami wejściowymi z naświetlami 
-                    wyróżnia elewację frontową. Ten detal powtórzono także w wykuszu kuchni na elewacji tylnej. 
-                    Szczególną uwagę przyciąga szczyt domu z oknem biegnącym przez całą wysokość elewacji, 
-                    doświetlając salon z pustką i antresolą oraz otwierając wnętrze na taras z pergolą 
-                    i ogród. Projekt domu umożliwia lokalizację na różnych rodzajach działek, nawet 
-                    z nietypowym ułożeniem.
+                    Niwelacja terenu to kluczowy etap przygotowania pod budowę. Dzięki naszym usługom, 
+                    możesz liczyć na perfekcyjnie przygotowany grunt, co jest niezbędne dla bezpieczeństwa 
+                    i stabilności konstrukcji. Nasza koparka kołowa, wyposażona w najnowsze technologie, 
+                    pozwala na szybką i skuteczną niwelację, przygotowując teren pod dalsze etapy budowy.
                 </p>
 
-                <span><strong>Wnętrze Domu Wymarzony 9</strong></span><br />
+                <span><strong>Przygotowanie do instalacji - Podłącz się do jakości</strong></span><br />
                 <p>
-                    Wnętrze domu Wymarzony 9 zostało starannie zaprojektowane, oferując wygodne cztery pokoje, 
-                    salon i wszystkie potrzebne pomieszczenia dodatkowe. Przedsionek prowadzi bezpośrednio do 
-                    części dziennej z salonem, jadalnią i częściowo otwartą kuchnią. Kuchnia łączy się ze 
-                    spiżarnią, a także pralnią z wyjściem na tył domu. Na przeciwnym końcu znajdują się 
-                    trzy sypialnie, łazienka i dodatkowy pokój, który może pełnić rolę gabinetu lub dodatkowej 
-                    sypialni. Podwójne drzwi łączą dom z garażem i kotłownią.
+                    Przygotowanie terenu pod instalacje kanalizacyjne i wodociągowe wymaga szczególnej precyzji. 
+                    Nasze doświadczenie i specjalistyczny sprzęt gwarantują, że infrastruktura Twojego domu 
+                    zostanie przygotowana zgodnie z najwyższymi standardami, zapewniając bezproblemowe 
+                    użytkowanie na lata.
                 </p>
                 <p>
-                    Nad parterem zaplanowano poddasze z pustką nad salonem, antresolą ze schodami, oraz 
-                    dodatkową przestrzenią strychu, którą można wykorzystać jako magazyn lub pozostawić jako strych.
+                    Nie ryzykuj fundamentów swojego przyszłego domu. Zaufaj profesjonalistom. 
                 </p>
 
                 <em>
-                    Krótkie podsumowanie: Prosta i elegancka bryła domu Wymarzony 9 łączy nowoczesność z 
-                    funkcjonalnością zarówno na zewnątrz, jak i wewnątrz, oferując reprezentacyjny 
-                    i komfortowy dom.
+                    Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o naszych usługach 
+                    i rozpocząć współpracę, która położy solidne podstawy pod Twój nowy dom.
                 </em>
 
 
-                <div className="col-md-12 p-b30">
+                {/* <div className="col-md-12 p-b30">
                     <div className="row">
                         <div className="col-md-4">
                             <div className="project-thumb">
@@ -112,11 +94,11 @@ const ProjectsDetailsOne = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="blog-nav clearfix">
+                </div> */}
+                {/* <div className="blog-nav clearfix">
                     <Link to="/single-project-DomNaPraktycznej2" className="blog-prev"><i className="fa fa-angle-left" /></Link>
                     <Link to="/single-project-Sensowny2" className="blog-next"><i className="fa fa-angle-right" /></Link>
-                </div>
+                </div> */}
                 {/* download file */}
                 {/* <div className="col-md-8" style={{marginTop: "20px"}}>
                     <span className="title">Pobierz Wymarzony 9 w PDF: </span>
@@ -133,10 +115,10 @@ const ProjectsDetailsOne = () => {
               <div className="info">
                 <ul>
                   <li>
-                    <h5>SSO - Stan surowy otwarty</h5><span><strong>Czas realizacji:</strong> 3 miesiące <br />fundamenty, ściany, stropy, dach</span>
+                    <h5>Zalety koparki kołowej</h5><span><strong>Mobilność i precyzja:</strong> <br />Idealna do pracy w trudnych warunkach i na ograniczonej przestrzeni.<br /><strong>Wszechstronność zastosowań:</strong> <br />Od wykopów po niwelację i prace instalacyjne.</span>
                   </li>
                   <li>
-                  <h5>SSZ - Stan surowy zamknięty</h5><span><strong>Czas realizacji:</strong> 6 miesięcy <br />SSO, okna, drzwi, elektryka, instalacje wodno-kanalizacyjne</span>
+                  <h5>Gwarancja jakości</h5><span><strong>Doświadczenie:</strong> <br />Wieloletnia praktyka i setki zadowolonych klientów.<br /><strong>Bezpieczeństwo: </strong> <br />Przestrzeganie wszystkich norm bezpieczeństwa budowlanego.<br /><strong>Zadowolenie klienta:  </strong> <br />Indywidualne podejście do każdego projektu.</span>
                   </li>
                   <li>
                   <h5>Stan developerski</h5><span><strong>Czas realizacji:</strong> 12 miesięcy <br />SSZ, elewacja, wylewki, tynki wewnętrzne</span>
