@@ -153,6 +153,7 @@ const NavOne = () => {
                           <li><Link to="/oferta-pietrowe">Piętrowe</Link></li>
                           <li><Link to="/oferta-wille">Wille</Link></li>
                           <li><Link to="/oferta-nowoczesne">Styl Nowoczesny</Link></li>
+                          <li><Link to="/oferta-uslugi">Usługi Dodatkowe</Link></li>
 
                           {/* <li><Link to="/oferta-post-left-sidebar">Małe Perły</Link></li>
                           <li><Link to="/oferta-post-left-sidebar-ER">Eleganckie Rezydencje</Link></li> */}
