@@ -30,16 +30,7 @@ const BlogDetailsLeftSidebar = () => {
     window.open(`${shareUrl}?text=${text}&url=${url}`, '_blank');
   };
   
-  function handleDownload(e) {
-    e.preventDefault(); 
-    // Pobieranie pliku PDF
-    const link = document.createElement('a');
-    link.href = '/downloads/dmd_domy_stodoly_download.pdf'; 
-    link.download = 'dmd_domy_stodoly_download.pdf'; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+
 
     return(
     <>
@@ -83,7 +74,7 @@ const BlogDetailsLeftSidebar = () => {
             <div className="det-list">
               <div className="row">
                 <div className="col-sm-7">
-                    <h3>Dlaczego warto skorzystać z naszych usług dodatkowych?</h3>
+                    <h6>Dlaczego warto skorzystać z naszych usług dodatkowych?</h6>
                     <ul>
                         <li>
                             <p>Doświadczenie i precyzja: Nasz zespół specjalistów zapewnia, że wszystkie prace zostaną wykonane z największą starannością i zgodnie z najnowszymi standardami budowlanymi.</p>
