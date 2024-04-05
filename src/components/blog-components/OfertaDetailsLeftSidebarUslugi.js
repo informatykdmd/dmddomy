@@ -73,7 +73,7 @@ const BlogDetailsLeftSidebar = () => {
 
             <div className="det-list">
               <div className="row">
-                <div className="col-sm-7">
+                <div className="col-sm-12">
                     <h6>Dlaczego warto skorzystać z naszych usług dodatkowych?</h6>
                     <ul>
                         <li>
