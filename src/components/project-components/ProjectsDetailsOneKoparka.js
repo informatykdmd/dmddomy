@@ -120,9 +120,9 @@ const ProjectsDetailsOne = () => {
                   <li>
                   <h5>Gwarancja jakości</h5><span><strong>Doświadczenie:</strong> <br />Wieloletnia praktyka i setki zadowolonych klientów.<br /><strong>Bezpieczeństwo: </strong> <br />Przestrzeganie wszystkich norm bezpieczeństwa budowlanego.<br /><strong>Zadowolenie klienta:  </strong> <br />Indywidualne podejście do każdego projektu.</span>
                   </li>
-                  <li>
+                  {/* <li>
                   <h5>Stan developerski</h5><span><strong>Czas realizacji:</strong> 12 miesięcy <br />SSZ, elewacja, wylewki, tynki wewnętrzne</span>
-                  </li>
+                  </li> */}
                   {/* <li>
                   <h5>RSSZ - Stan Pod Klucz</h5>
                     <span>
