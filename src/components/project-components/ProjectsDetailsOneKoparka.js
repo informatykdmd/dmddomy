@@ -123,16 +123,16 @@ const ProjectsDetailsOne = () => {
                   <li>
                   <h5>Stan developerski</h5><span><strong>Czas realizacji:</strong> 12 miesięcy <br />SSZ, elewacja, wylewki, tynki wewnętrzne</span>
                   </li>
-                  <li>
+                  {/* <li>
                   <h5>RSSZ - Stan Pod Klucz</h5>
                     <span>
                         <strong>Czas realizacji:</strong> 18 miesięcy <br />
                         Jest to etap, w którym inwestor już może zamieszkasz.
                     </span>
                   </li>
-                  <li></li>
+                  <li></li> */}
                   </ul>
-                    <li>
+                    {/* <li>
                       <p><ZoomableImage src="images/project/bl-04-750x430-Wymarzony9.png" alt="blog" /></p>
                     </li>
                     <li>
@@ -143,7 +143,7 @@ const ProjectsDetailsOne = () => {
                     </li>
                     <li>
                     <p><ZoomableImage src="images/project/bl-07-750x430-Wymarzony9.png" alt="blog" /></p>
-                    </li>
+                    </li> */}
               </div>
               <div className="row">
                 {/*Video Column*/}
