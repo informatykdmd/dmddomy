@@ -45,9 +45,13 @@ const BlogDetailsLeftSidebar = () => {
                 <h3>Usługi dodatkowe - Zwiększ potencjał swojej budowy</h3>
                 <blockquote>
                     <p>
-                        Rozpoczynając budowę domu, stajesz przed wieloma wyzwaniami. Oferujemy profesjonalne wsparcie 
-                        na każdym etapie - począwszy od przygotowania terenu, aż po finalne prace. Nasza pierwsza 
-                        usługa, koparka kołowa, to tylko początek szerokiego zakresu wsparcia, które planujemy oferować.
+                        Każdy projekt budowlany napotyka na swojej drodze różne wyzwania - nawet te już rozpoczęte. 
+                        Nasza oferta specjalistycznych usług dodatkowych została stworzona, by wspierać Cię na dowolnym 
+                        etapie Twojej inwestycji, uzupełniając i optymalizując prace, które już się rozpoczęły. 
+                        Z naszą koparką kołową możemy zająć się specyficznymi zadania, takimi jak przygotowanie terenu, 
+                        niwelacja, czy też prace związane z instalacjami podziemnymi. To tylko wstęp do szerokiego zakresu 
+                        wsparcia, które oferujemy, mając na uwadze, że naszym celem jest dostarczanie kompleksowych rozwiązań 
+                        na każdym etapie trwającej już budowy.
                     </p>
                 </blockquote>
                 <p>
