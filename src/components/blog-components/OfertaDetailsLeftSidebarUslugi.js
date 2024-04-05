@@ -123,6 +123,7 @@ const BlogDetailsLeftSidebar = () => {
                   <Link to="/oferta-poddasze" className="tag">Domy z poddaszem</Link>
                   <Link to="/oferta-pietrowe" className="tag">Domy piętrowe</Link>
                   <Link to="/oferta-wille" className="tag">Wille</Link>
+                  <Link to="/oferta-nowoczesne" className="tag">W nowoczesnej zabudowie</Link>
                 </div>
                 {/* download file */}
                 {/* <div className="col-md-8">

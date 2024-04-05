@@ -79,6 +79,9 @@ const SidebarLeft = () => {
                 <li>
                     <Link to="/oferta-parterowe">Domy parterowe</Link>
                 </li>
+                <li>
+                    <Link to="/oferta-nowoczesne">W nowoczesnej zabudowie</Link>
+                </li>
             </ul>
             </div>
         </div>
