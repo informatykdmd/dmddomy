@@ -20,6 +20,7 @@ ecosystem.config.js.save
 # dynamic pictures
 /public/images/blog
 /public/images/team
+/public/images/estate
 
 # misc
 .DS_Store
