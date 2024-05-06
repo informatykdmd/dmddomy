@@ -17,10 +17,10 @@ const Advice = () => {
         <HeaderOne />
 
         <BreadcrumbOneOnas 
-            title="Gwarancja spokoju przy budowie domu"
+            title="Konsultacje budowlane"
             rootUrl="/"
             parentUrl="DMD"
-            currentUrl="Zaufanie"
+            currentUrl="Konsultacje"
         />
         
         <ProjectsDetailsOneKonsultacje />

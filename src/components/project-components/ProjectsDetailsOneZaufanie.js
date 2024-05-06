@@ -8,50 +8,48 @@ const ProjectsDetailsOne = () => {
     <section className="single-portfolio-section section-padding-all">
         <div className="default-container">
           <div className="row">
-            <div className="col-md-12">
+            {/* <div className="col-md-12">
               <div className="project-thumb">
                 <ZoomableImage src="images/project/bl-01-1920x1075-koparka-0.png" alt="Oferta" />
               </div>
-            </div>
+            </div> */}
             <div className="col-md-8 det-content">
-                <h3>Usługa koparką kołową - Wkop się w jakość i precyzję</h3>
+                <h3>Generalny Wykonawca: Gwarancja spokoju przy budowie domu</h3>
                 <p>
-                    Gdy planujesz budowę domu, pierwszym krokiem jest właściwe przygotowanie terenu. 
-                    Specjalistyczne usługi koparką kołową oferowane przez naszą firmę zapewniają solidną 
-                    podstawę dla każdego projektu budowlanego. Niezależnie od tego, czy potrzebujesz wykopać 
-                    fundamenty, wyrównać teren, czy przygotować infrastrukturę pod instalacje – jesteśmy do Twojej dyspozycji.
+                    W dzisiejszych dynamicznych czasach, równoważenie życia zawodowego, rodzinnego i pasji 
+                    może być wyzwaniem. Dodatkowym obciążeniem jest budowa własnego domu, która wymaga nie 
+                    tylko czasu, ale i specjalistycznej wiedzy. Czy warto zatem powierzyć to zadanie Generalnemu 
+                    Wykonawcy? Przekonaj się, jakie korzyści niesie za sobą ta decyzja.
                 </p>
 
-                <span><strong>Wykopy pod fundamenty - Fundamenty sukcesu</strong></span><br />
+                <span><strong>Partnerstwo i wsparcie</strong></span><br />
                 <p>
-                    Każdy stabilny budynek zaczyna się od solidnych fundamentów. Nasza koparka kołowa, 
-                    dzięki swojej precyzji i mocy, zapewnia szybkie i dokładne wykopy pod fundamenty, 
-                    dostosowane do specyfikacji twojego projektu. Wykorzystanie zaawansowanej technologii 
-                    pozwala nam minimalizować ryzyko błędów i zapewniać najlepszą możliwą jakość pracy.
+                    Generalny Wykonawca to nie tylko osoba, która zajmie się technicznymi aspektami budowy. 
+                    To partner, który może znacząco odciążyć Cię od stresu związanego z zarządzaniem projektami, 
+                    koordynacją prac oraz kontrolą budżetu. Dzięki kompleksowej ofercie, klienci otrzymują nie 
+                    tylko usługi związane z budową, ale także doradztwo budowlane i optymalizację procesu.
                 </p>
 
-                <span><strong>Niwelacja terenu - Poziom wyżej w przygotowaniu terenu</strong></span><br />
+                <span><strong>Pewność i profesjonalizm</strong></span><br />
                 <p>
-                    Niwelacja terenu to kluczowy etap przygotowania pod budowę. Dzięki naszym usługom, 
-                    możesz liczyć na perfekcyjnie przygotowany grunt, co jest niezbędne dla bezpieczeństwa 
-                    i stabilności konstrukcji. Nasza koparka kołowa, wyposażona w najnowsze technologie, 
-                    pozwala na szybką i skuteczną niwelację, przygotowując teren pod dalsze etapy budowy.
+                    To idealne rozwiązanie dla tych, którzy cenią sobie spokój i pewność, że ich inwestycja 
+                    jest realizowana profesjonalnie. Zlecając prace generalnemu wykonawcy, masz pewność, że 
+                    wszystkie etapy projektu są odpowiednio zaplanowane i realizowane zgodnie z najwyższymi 
+                    standardami.
                 </p>
 
-                <span><strong>Przygotowanie do instalacji - Podłącz się do jakości</strong></span><br />
+                <span><strong>Zarządzanie i koordynacja</strong></span><br />
                 <p>
-                    Przygotowanie terenu pod instalacje kanalizacyjne i wodociągowe wymaga szczególnej precyzji. 
-                    Nasze doświadczenie i specjalistyczny sprzęt gwarantują, że infrastruktura Twojego domu 
-                    zostanie przygotowana zgodnie z najwyższymi standardami, zapewniając bezproblemowe 
-                    użytkowanie na lata.
+                    Co więcej, generalny wykonawca zarządza całym personelem – od projektantów po kierowników 
+                    budów. Gwarantuje to, że każde zadanie jest wykonane przez specjalistów w swojej dziedzinie, 
+                    co przekłada się na wysoką jakość i efektywność prowadzonych prac.
                 </p>
-                <p>
-                    Nie ryzykuj fundamentów swojego przyszłego domu. Zaufaj profesjonalistom. 
-                </p>
-
+                
                 <em>
-                    Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o naszych usługach 
-                    i rozpocząć współpracę, która położy solidne podstawy pod Twój nowy dom.
+                    Mając na uwadze te korzyści, warto rozważyć, czy zarządzanie własną budową jest najlepszą opcją. 
+                    Czasami lepiej powierzyć to zadanie profesjonalistom, aby mieć pewność, że nasz dom będzie bezpieczny, 
+                    solidny i zbudowany zgodnie z najnowszymi standardami budowlanymi. Skontaktuj się z nami już dziś, 
+                    aby dowiedzieć się więcej o naszych usługach oraz jak rozpocząć współpracę.
                 </em>
 
 
@@ -60,10 +58,24 @@ const ProjectsDetailsOne = () => {
               <div className="info">
                 <ul>
                   <li>
-                    <h5>Zalety koparki kołowej</h5><span><strong>Mobilność i precyzja:</strong> <br />Idealna do pracy w trudnych warunkach i na ograniczonej przestrzeni.<br /><strong>Wszechstronność zastosowań:</strong> <br />Od wykopów po niwelację i prace instalacyjne.</span>
+                    <h5>Spokój i bezpieczeństwo</h5>
+                    <span>Generalny Wykonawca zapewnia kompleksową obsługę, co minimalizuje ryzyko błędów i problemów na budowie.</span>
                   </li>
                   <li>
-                    <h5>Gwarancja jakości</h5><span><strong>Doświadczenie:</strong> <br />Wieloletnia praktyka i setki zadowolonych klientów.<br /><strong>Bezpieczeństwo: </strong> <br />Przestrzeganie wszystkich norm bezpieczeństwa budowlanego.<br /><strong>Zadowolenie klienta:  </strong> <br />Indywidualne podejście do każdego projektu.</span>
+                    <h5>Oszczędność czasu</h5>
+                    <span>Dzięki delegowaniu obowiązków związanych z budową, zyskujesz więcej czasu na osobiste pasje i rodzinę.</span>
+                  </li>
+                  <li>
+                    <h5>Profesjonalizm i doświadczenie</h5>
+                    <span>Skorzystanie z usług doświadczonych specjalistów gwarantuje wysoką jakość wykonania i terminowość.</span>
+                  </li>
+                  <li>
+                    <h5>Realne gwarancje</h5>
+                    <span>Jako klient otrzymujesz realną gwarancję na wykonane prace, co jest rzadkością w przypadku zarządzania budową we własnym zakresie.</span>
+                  </li>
+                  <li>
+                    <h5>Optymalizacja kosztów</h5>
+                    <span>Choć początkowa cena za usługi generalnego wykonawcy może wydawać się wyższa, w długoterminowej perspektywie pozwala uniknąć wielu dodatkowych kosztów.</span>
                   </li>
                   
                 </ul>

@@ -8,62 +8,51 @@ const ProjectsDetailsOne = () => {
     <section className="single-portfolio-section section-padding-all">
         <div className="default-container">
           <div className="row">
-            <div className="col-md-12">
+            {/* <div className="col-md-12">
               <div className="project-thumb">
                 <ZoomableImage src="images/project/bl-01-1920x1075-koparka-0.png" alt="Oferta" />
               </div>
-            </div>
+            </div> */}
             <div className="col-md-8 det-content">
-                <h3>Usługa koparką kołową - Wkop się w jakość i precyzję</h3>
+                <h3>Bezpłatne konsultacje budowlane</h3>
                 <p>
-                    Gdy planujesz budowę domu, pierwszym krokiem jest właściwe przygotowanie terenu. 
-                    Specjalistyczne usługi koparką kołową oferowane przez naszą firmę zapewniają solidną 
-                    podstawę dla każdego projektu budowlanego. Niezależnie od tego, czy potrzebujesz wykopać 
-                    fundamenty, wyrównać teren, czy przygotować infrastrukturę pod instalacje – jesteśmy do Twojej dyspozycji.
+                  Zastanawiasz się nad budową domu, ale nie wiesz jak zacząć? Skorzystaj z naszej oferty 
+                  bezpłatnych konsultacji budowlanych i poznaj najlepsze praktyki oraz najnowsze rozwiązania 
+                  technologiczne, które pomogą Ci zrealizować Twój wymarzony dom.
                 </p>
 
-                <span><strong>Wykopy pod fundamenty - Fundamenty sukcesu</strong></span><br />
+                <span><strong>Profesjonalne doradztwo na każdym etapie</strong></span><br />
                 <p>
-                    Każdy stabilny budynek zaczyna się od solidnych fundamentów. Nasza koparka kołowa, 
-                    dzięki swojej precyzji i mocy, zapewnia szybkie i dokładne wykopy pod fundamenty, 
-                    dostosowane do specyfikacji twojego projektu. Wykorzystanie zaawansowanej technologii 
-                    pozwala nam minimalizować ryzyko błędów i zapewniać najlepszą możliwą jakość pracy.
+                  W DMD Domy oferujemy profesjonalne doradztwo na każdym etapie budowy domu – od koncepcji 
+                  po realizację. Dzięki temu możesz liczyć na wsparcie naszych ekspertów niezależnie od tego, 
+                  w jakim momencie procesu budowlanego się znajdujesz.
                 </p>
 
-                <span><strong>Niwelacja terenu - Poziom wyżej w przygotowaniu terenu</strong></span><br />
+                <span><strong>Elastyczne formy konsultacji</strong></span><br />
                 <p>
-                    Niwelacja terenu to kluczowy etap przygotowania pod budowę. Dzięki naszym usługom, 
-                    możesz liczyć na perfekcyjnie przygotowany grunt, co jest niezbędne dla bezpieczeństwa 
-                    i stabilności konstrukcji. Nasza koparka kołowa, wyposażona w najnowsze technologie, 
-                    pozwala na szybką i skuteczną niwelację, przygotowując teren pod dalsze etapy budowy.
+                  Nasze konsultacje dostępne są w formie telefonicznej, mailowej oraz online, co pozwala na 
+                  elastyczne dostosowanie do Twoich potrzeb i harmonogramu. Bez względu na to, czy dopiero 
+                  zaczynasz planować, czy już posiadasz projekt i zastanawiasz się nad wyborem technologii 
+                  budowlanej, nasi eksperci są gotowi, aby Ci pomóc w każdej sytuacji.
                 </p>
 
-                <span><strong>Przygotowanie do instalacji - Podłącz się do jakości</strong></span><br />
+                <span><strong>Zaplanuj swoją konsultację już dziś!</strong></span><br />
                 <p>
-                    Przygotowanie terenu pod instalacje kanalizacyjne i wodociągowe wymaga szczególnej precyzji. 
-                    Nasze doświadczenie i specjalistyczny sprzęt gwarantują, że infrastruktura Twojego domu 
-                    zostanie przygotowana zgodnie z najwyższymi standardami, zapewniając bezproblemowe 
-                    użytkowanie na lata.
+                  Nie pozostawaj sam z pytaniami i wątpliwościami! Zarejestruj się na bezpłatne konsultacje 
+                  budowlane w DMD Domy i podejmij najlepsze decyzje dotyczące Twojego przyszłego domu. 
+                  Dzięki naszym konsultacjom zyskujesz dostęp do fachowej wiedzy, którą możesz wykorzystać, 
+                  by Twoja inwestycja przebiegła sprawnie i bez niepotrzebnego stresu.
                 </p>
-                <p>
-                    Nie ryzykuj fundamentów swojego przyszłego domu. Zaufaj profesjonalistom. 
-                </p>
-
-                <em>
-                    Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o naszych usługach 
-                    i rozpocząć współpracę, która położy solidne podstawy pod Twój nowy dom.
-                </em>
-
 
             </div>
             <div className="col-md-4 mt-4">
               <div className="info">
                 <ul>
                   <li>
-                    <h5>Zalety koparki kołowej</h5><span><strong>Mobilność i precyzja:</strong> <br />Idealna do pracy w trudnych warunkach i na ograniczonej przestrzeni.<br /><strong>Wszechstronność zastosowań:</strong> <br />Od wykopów po niwelację i prace instalacyjne.</span>
+                    <h5>Idealny moment na konsultacje</h5><span><strong>Planujesz budowę domu?:</strong> <br />Potrzebujesz pomocy w sprecyzowaniu swoich potrzeb.<br /><strong>Masz już projekt?:</strong> <br />Zastanawiasz się nad wyborem materiałów lub technologii budowlanych.<br /><strong>Rozpocząłeś już budowę?:</strong> <br />Napotkałeś problemy, które wymagają ekspertyzy i doradztwa.</span>
                   </li>
                   <li>
-                    <h5>Gwarancja jakości</h5><span><strong>Doświadczenie:</strong> <br />Wieloletnia praktyka i setki zadowolonych klientów.<br /><strong>Bezpieczeństwo: </strong> <br />Przestrzeganie wszystkich norm bezpieczeństwa budowlanego.<br /><strong>Zadowolenie klienta:  </strong> <br />Indywidualne podejście do każdego projektu.</span>
+                    <h5>Jak to działa?</h5><span><strong>Zostaw swój kontakt:</strong> <br />Skorzystaj z <a href="/contact-us">formularza</a> na naszej stronie internetowej.<br /><strong>Odezwiemy się do Ciebie w ciągu 48 godzin:</strong> <br />Ustalimy dogodny termin i formę konsultacji.<br /><strong>Skorzystaj z wiedzy naszych ekspertów:</strong> <br />Zaplanuj budowę domu z pełnym spokojem.</span>
                   </li>
                   
                 </ul>

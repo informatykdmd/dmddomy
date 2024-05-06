@@ -17,10 +17,10 @@ const Trust = () => {
         <HeaderOne />
 
         <BreadcrumbOneOnas 
-            title="Nasz zespół"
+            title="Spokój i bezpieczeństwo"
             rootUrl="/"
             parentUrl="DMD"
-            currentUrl="Nasz zespół"
+            currentUrl="Zaufanie"
         />
         
         <ProjectsDetailsOneZaufanie />
