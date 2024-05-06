@@ -49,7 +49,7 @@ const ServicesOne = () => {
                     </div>
                     <h3><Link to="#">Konsultacje ekspertów</Link></h3>
                     <div className="text">Doradztwo budowlane dostępne online</div>
-                    <div className="more-link"><Link className="read-more" to="/team">Skontaktuj się</Link></div>
+                    <div className="more-link"><Link className="read-more" to="/advice">Skontaktuj się</Link></div>
                 </div>
                 </div>
             </div>
