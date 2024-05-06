@@ -61,8 +61,10 @@ const NavOne = () => {
                             </li>
                             <li className="dropdown"><Link to="/o-nas">DLACZEGO MY?</Link>
                                 <ul>
+                                <li><Link to="/trust">ZAUFANIE</Link></li>
                                 <li><Link to="/o-nas">O NAS</Link></li>
                                 <li><Link to="/team">ZESPÓŁ</Link></li>
+                                <li><Link to="/advice">KONSULTACJE</Link></li>
 
                                 </ul>
                             </li>

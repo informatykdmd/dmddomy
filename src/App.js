@@ -7,6 +7,7 @@ import HomeFour from './pages/homepages/HomeFour';
 import AboutUs from './pages/innerpages/AboutUs';
 import Onas from './pages/innerpages/Onas';
 import OurTeam from './pages/innerpages/OurTeam';
+import Trust from './pages/innerpages/Trust';
 import Price from './pages/innerpages/Price';
 import ContactUs from './pages/innerpages/ContactUs';
 import RegisterSubscriber from './pages/innerpages/RegisterSubscriber';
@@ -119,6 +120,7 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL + '/about-us'}`} element={<AboutUs />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/o-nas'}`} element={<Onas />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/team'}`} element={<OurTeam />}/>
+          <Route exact path={`${process.env.PUBLIC_URL + '/trust'}`} element={<Trust />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/price'}`} element={<Price />}/>
           <Route exact path={`${process.env.PUBLIC_URL + '/contact-us'}`} element={<ContactUs />}/>
 
