@@ -52,7 +52,7 @@ const ProjectsDetailsOne = () => {
                     <h5>Idealny moment na konsultacje</h5><span><strong>Planujesz budowę domu?:</strong> <br />Potrzebujesz pomocy w sprecyzowaniu swoich potrzeb.<br /><strong>Masz już projekt?:</strong> <br />Zastanawiasz się nad wyborem materiałów lub technologii budowlanych.<br /><strong>Rozpocząłeś już budowę?:</strong> <br />Napotkałeś problemy, które wymagają ekspertyzy i doradztwa.</span>
                   </li>
                   <li>
-                    <h5>Jak to działa?</h5><span><strong>Zostaw swój kontakt:</strong> <br />Skorzystaj z <a href="/contact-us">formularza</a> na naszej stronie internetowej.<br /><strong>Odezwiemy się do Ciebie w ciągu 48 godzin:</strong> <br />Ustalimy dogodny termin i formę konsultacji.<br /><strong>Skorzystaj z wiedzy naszych ekspertów:</strong> <br />Zaplanuj budowę domu z pełnym spokojem.</span>
+                    <h5>Jak to działa?</h5><span><strong>Zostaw swój kontakt:</strong> <br />Skorzystaj z <a href="/contact-us">formularza</a> na naszej stronie internetowej.<br /><strong>Zgłoś się, odpowiemy w 48h:</strong> <br />Ustalimy dogodny termin i formę konsultacji.<br /><strong>Skorzystaj z wiedzy naszych ekspertów:</strong> <br />Zaplanuj budowę domu z pełnym spokojem.</span>
                   </li>
                   
                 </ul>
