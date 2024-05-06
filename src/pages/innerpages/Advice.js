@@ -7,7 +7,7 @@ import Quote from '../../components/section-components/Quote';
 import FooterOne from '../../common/footer/FooterOne';
 import $ from 'jquery';
 
-const Trust = () => {
+const Advice = () => {
     $(function() {
         // Przewiń stronę do góry z animacją
         $('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -35,4 +35,4 @@ const Trust = () => {
     )
 }
     
-export default OurTeam;
+export default Advice;

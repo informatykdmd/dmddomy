@@ -35,4 +35,4 @@ const Trust = () => {
     )
 }
     
-export default OurTeam;
+export default Trust;
