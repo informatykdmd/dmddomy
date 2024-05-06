@@ -47,9 +47,9 @@ const ServicesOne = () => {
                     <div className="icon-holder">
                     <i className="flaticon-crane" />
                     </div>
-                    <h3><Link to="#">Zespół ekspertów dla Twojego spokoju</Link></h3>
-                    <div className="text">Budujemy pewnie i sprawnie wokół Warszawy.</div>
-                    <div className="more-link"><Link className="read-more" to="/team">Czekamy na Ciebie</Link></div>
+                    <h3><Link to="#">Konsultacje ekspertów</Link></h3>
+                    <div className="text">Doradztwo budowlane dostępne online</div>
+                    <div className="more-link"><Link className="read-more" to="/team">Skontaktuj się</Link></div>
                 </div>
                 </div>
             </div>
