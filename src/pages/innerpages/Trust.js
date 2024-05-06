@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderOne from '../../common/header/HeaderOne';
 import BreadcrumbOneOnas from '../../common/breadcrumb/BreadcrumbOneOnas';
-import OurTeamOne from '../../components/inner-components/OurTeamOne';
+import ProjectsDetailsOneZaufanie from '../../components/project-components/ProjectsDetailsOneZaufanie';
 import TestimonialThree from '../../components/section-components/TestimonialThree';
 import Quote from '../../components/section-components/Quote';
 import FooterOne from '../../common/footer/FooterOne';
@@ -23,8 +23,7 @@ const Trust = () => {
             currentUrl="Nasz zespół"
         />
         
-        <OurTeamOne />
-        
+        <ProjectsDetailsOneZaufanie />
         
         <div className='d-none d-lg-block'><TestimonialThree /></div>
         

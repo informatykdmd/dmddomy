@@ -92,35 +92,10 @@ const BlogDetailsLeftSidebar = () => {
                     </ul>
                 </div>
 
-                {/* <div className="col-sm-5">
-                    <p><img src="images/offers/bl-09-750x430-Uslugi1.png" alt="" /></p>
-                    <p><img src="images/offers/bl-09-750x430-Uslugi2.png" alt="" /></p>
-                    <p><img src="images/offers/bl-09-750x430-Uslugi3.png" alt="" /></p>
-                </div> */}
               </div>
             </div>
 
-                {/* <div className="blog-tags">
-                  <div className="row">
-                    <div className="col-md-4 text-right">
-                      <span className="title">Udostępnij :</span>
-                      <button onClick={handleShareClickFB} style={{
-                        padding : '8px', 
-                        background : 'none',
-                        cursor: 'pointer'
-                        }} target="_blank" rel="noreferrer">
-                        <i className="fa fa-facebook" />
-                      </button>
-                      <button onClick={handleShareClickTwitter} style={{
-                        padding : '8px', 
-                        background : 'none',
-                        cursor: 'pointer'
-                        }} target="_blank" rel="noreferrer">
-                        <i className="fa fa-twitter" />
-                      </button>
-                    </div>
-                  </div>
-                </div> */}
+                
                 <div className="col-md-8">
                   <span className="title">Sprawdź również : </span>
                   <Link to="/oferta-parterowe" className="tag">Domy parterowe</Link>
@@ -129,17 +104,7 @@ const BlogDetailsLeftSidebar = () => {
                   <Link to="/oferta-wille" className="tag">Wille</Link>
                   <Link to="/oferta-nowoczesne" className="tag">W nowoczesnej zabudowie</Link>
                 </div>
-                {/* download file */}
-                {/* <div className="col-md-8">
-                  <span className="title">Pobierz Domy Typu Stodoła w PDF: </span>
-                  <p style={{padding: "40px"}}>
-                    <a 
-                      onClick={handleDownload} 
-                      style={{fontSize: "60pt", color: "#009e2a", marginLeft: "80px"}}>
-                        <i class="fa fa-download"></i>
-                    </a>
-                  </p>
-                </div> */}
+                
               </div>
             </div>
 

@@ -1,8 +1,7 @@
 import React from 'react';
 import HeaderOne from '../../common/header/HeaderOne';
 import BreadcrumbOneOnas from '../../common/breadcrumb/BreadcrumbOneOnas';
-import OurTeamOne from '../../components/inner-components/OurTeamOne';
-import TestimonialThree from '../../components/section-components/TestimonialThree';
+import ProjectsDetailsOneKonsultacje from '../../components/project-components/ProjectsDetailsOneKonsultacje';
 import Quote from '../../components/section-components/Quote';
 import FooterOne from '../../common/footer/FooterOne';
 import $ from 'jquery';
@@ -17,16 +16,15 @@ const Advice = () => {
         <HeaderOne />
 
         <BreadcrumbOneOnas 
-            title="Nasz zespół"
+            title="Gwarancja spokoju przy budowie domu"
             rootUrl="/"
             parentUrl="DMD"
-            currentUrl="Nasz zespół"
+            currentUrl="Zaufanie"
         />
         
-        <OurTeamOne />
+        <ProjectsDetailsOneKonsultacje />
         
-        
-        <div className='d-none d-lg-block'><TestimonialThree /></div>
+        <Counter />
         
         <Quote />
                 
