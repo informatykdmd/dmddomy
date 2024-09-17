@@ -55,8 +55,8 @@ const NavOne = () => {
                                     <li><a href="https://dmdbudownictwo.pl" rel="noreferrer" target="_blank">DMD Budownictwo</a></li>
                                     <li><a href="https://dmdelitehome.pl" rel="noreferrer" target="_blank">DMD EliteHome</a></li>
                                     <li><a href="https://dmdinwestycje.pl" rel="noreferrer" target="_blank">DMD Inwestycje</a></li>
-                                    {/*<li><a href="https://dmdinstalacje.pl" rel="noreferrer" target="_blank">DMD Instalacje</a></li>
-                                    <li><a href="https://dmddevelopment.pl" rel="noreferrer" target="_blank">DMD Development</a></li> */}
+                                    <li><a href="https://dmd-instalacje.pl" rel="noreferrer" target="_blank">DMD Instalacje</a></li>
+                                    {/* <li><a href="https://dmddevelopment.pl" rel="noreferrer" target="_blank">DMD Development</a></li> */}
                                 </ul>
                             </li>
                             <li className="dropdown"><Link to="/o-nas">DLACZEGO MY?</Link>
