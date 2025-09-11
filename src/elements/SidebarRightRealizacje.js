@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import myDatabaseConfig from '../../supportscripts/env_connect';
-import SidebarRightRealizacje from '../../elements/SidebarRightRealizacje';
+import myDatabaseConfig from '../supportscripts/env_connect';
 
 const SidebarRightRealizacje = () => {
     const [items, setItems] = useState([]);
@@ -36,15 +35,15 @@ const SidebarRightRealizacje = () => {
             {loading && (
               <li className="blog-category text-muted">Ładowanie…</li>
             )}
-            {err && (
-              <li className="blog-category text-danger">{err}</li>
+            {error && (
+              <li className="blog-category text-danger">{error}</li>
             )}
             {items.map((i, idx) => (
               <li className="blog-category" key={i.ep_url || i.nazwa || idx}>
                 <Link to={i.ep_url}>{i.nazwa}</Link>
               </li>
             ))}
-            {!loading && !err && items.length === 0 && (
+            {!loading && !error && items.length === 0 && (
               <li className="blog-category text-muted">Brak kategorii</li>
             )}
           </ul>
