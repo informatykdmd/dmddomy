@@ -1,45 +1,58 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+import myDatabaseConfig from '../../supportscripts/env_connect';
 import ZoomableImage from '../../supportscripts/ZoomableImage';
 
-const KATEGORIA = 'Kasjopea'; // <<< TYLKO TUTAJ PODAJESZ KATEGORIĘ
+const KATEGORIA = 'Kasjopea';
 
 const BlogDetailsFullwidth = () => {
   const [items, setItems] = useState([]);
+  const [error, setError] = useState('');
+  const ApiAddress = `${myDatabaseConfig.mySqlUrlorIp}:${myDatabaseConfig.apiPort}`;
 
   useEffect(() => {
     const load = async () => {
       try {
-        const url = `/api/realizacje/domy?kategoria=${encodeURIComponent(KATEGORIA)}&limit=9999&offset=0`;
-        const res = await fetch(url);
-        if (!res.ok) throw new Error('Błąd pobierania realizacji');
-        const data = await res.json();
-        console.log('API realizacje:', { url, data });
-        // BE może zwrócić { items: [...] } albo samą tablicę
-        const list = Array.isArray(data) ? data : (data.items || []);
+        const { data } = await axios.get(
+          `https://${ApiAddress}/api/realizacje/domy`,
+          { params: { kategoria: KATEGORIA, limit: 9999, offset: 0 } }
+        );
+        // możliwe kształty odpowiedzi: [{...}], {items:[...]}, [rows, total]
+        const list = Array.isArray(data)
+          ? data
+          : Array.isArray(data?.items)
+          ? data.items
+          : Array.isArray(data?.[0])
+          ? data[0]
+          : [];
         setItems(list);
       } catch (e) {
-        console.error(e);
-        setItems([]); // brak danych = brak renderu
+        console.error('Błąd ładowania realizacji:', e);
+        setError('Nie udało się pobrać realizacji.');
+        setItems([]);
       }
     };
     load();
-  }, []);
+  }, [ApiAddress]);
 
   return (
     <>
-      {/*Blog Details Section*/}
       <section className="single-blog-section section-padding-all">
         <div className="default-container">
           <div className="row">
             <div className="col-md-12">
+
+              {error && (
+                <div className="alert alert-danger mb-3">{error}</div>
+              )}
 
               {items.map((it, idx) => (
                 <div className="blog-detail mt-30" key={idx}>
                   <div className="b-det-img">
                     <ZoomableImage
                       src={it.zdjecie || 'images/realizacje/placeholder-1920x1075.png'}
-                      alt="realizations"
+                      alt={it.tytul_ogloszenia || 'realizations'}
                     />
                   </div>
                   <div className="det-content">
@@ -51,17 +64,15 @@ const BlogDetailsFullwidth = () => {
                 </div>
               ))}
 
-              {/* Zostawiasz/wywalasz nawigację wedle uznania */}
               <div className="blog-nav clearfix">
-                <Link to="#" className="blog-prev"><i className="fa fa-angle-left" /></Link>
-                <Link to="#" className="blog-next"><i className="fa fa-angle-right" /></Link>
+                <Link to="/single-realizacja-DomzWidokiem4" className="blog-prev"><i className="fa fa-angle-left" /></Link>
+                <Link to="/single-realizacja-OpalElegancja" className="blog-next"><i className="fa fa-angle-right" /></Link>
               </div>
 
             </div>
           </div>
         </div>
       </section>
-      {/*End Blog Details Section */}
     </>
   );
 };
