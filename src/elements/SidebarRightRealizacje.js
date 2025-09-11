@@ -2,27 +2,25 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const SidebarRightRealizacje = () => {
-  const [items, setItems] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [err, setErr] = useState('');
+    const [items, setItems] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState('');
+    const ApiAddress = `${myDatabaseConfig.mySqlUrlorIp}:${myDatabaseConfig.apiPort}`;
 
-  useEffect(() => {
-    const load = async () => {
-      try {
-        const res = await fetch('/api/realizacje/kategorie');
-        if (!res.ok) throw new Error('Błąd pobierania kategorii');
-        const data = await res.json();
-        console.log('API realizacje:', { url, data });
-        // opcjonalnie: sortuj alfabetycznie po nazwie
-        setItems(Array.isArray(data) ? data.sort((a,b)=> (a.nazwa||'').localeCompare(b.nazwa||'')) : []);
-      } catch (e) {
-        setErr(e.message || 'Nie udało się pobrać kategorii.');
-      } finally {
-        setLoading(false);
-      }
-    };
-    load();
-  }, []);
+    useEffect(() => {
+      const load = async () => {
+        try {
+          const url = `https://${ApiAddress}/api/realizacje/kategorie`;
+          const { data } = await axios.get(url, { withCredentials: false });
+          setItems(Array.isArray(data) ? data : []);
+        } catch (e) {
+          setError(e?.message || 'Nie udało się pobrać danych.');
+        } finally {
+          setLoading(false);
+        }
+      };
+      load();
+  }, [ApiAddress]);
 
   return (
     <div className="col-md-4 order-md-2">
