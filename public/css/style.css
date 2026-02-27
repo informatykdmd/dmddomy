@@ -4571,21 +4571,6 @@ img {
 
 
 /* Orły - dopasowanie do stylu dmddomy */
-.orly-section .orly-img{
-  max-height: 220px;
-  /* border-radius: 8px; */
-}
-
-.orly-section .orly-title{
-  font-weight: 700;
-  letter-spacing: 0.2px;
-}
-
-.orly-section .orly-lead{
-  opacity: 0.9;
-  max-width: 720px;
-}
-
 /* ===== Orły (dmddomy) ===== */
 .orly-section .orly-grid{
   display: grid;
@@ -4603,8 +4588,7 @@ img {
 .orly-section .orly-img{
   width: 100%;
   max-width: 340px;
-  /* height: auto; */
-  /* border-radius: 10px; */
+  height: auto;   /* kluczowe */
   display: block;
 }
 
