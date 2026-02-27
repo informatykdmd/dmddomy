@@ -4569,9 +4569,8 @@ img {
     margin-bottom: 20px;
 }
 
-
-/* Orły - dopasowanie do stylu dmddomy */
 /* ===== Orły (dmddomy) ===== */
+
 .orly-section .orly-grid{
   display: grid;
   grid-template-columns: 340px 1fr;
@@ -4588,9 +4587,10 @@ img {
 .orly-section .orly-img{
   width: 100%;
   max-width: 340px;
-  height: auto;   /* kluczowe */
+  height: auto;
   display: block;
 }
+
 
 .orly-section .orly-title{
   margin: 0 0 10px 0;
@@ -4606,7 +4606,7 @@ img {
   margin-top: 18px;
 }
 
-/* Responsive: na mobile układ w kolumnie */
+/* Responsive */
 @media (max-width: 991px){
   .orly-section .orly-grid{
     grid-template-columns: 1fr;
@@ -4619,13 +4619,32 @@ img {
 
   .orly-section .orly-content{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .orly-section .orly-title,
+  .orly-section .orly-lead{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .orly-section .orly-lead{
+    max-width: 680px;
+  }
+
+  .orly-section .orly-cta{
+    text-align: center;
   }
 }
 
+/* dopasowanie do tytułu sekcji z theme */
 .orly-section .con-title-text{
   opacity: 0.95;
 }
 
+/* CTA w stylu theme */
 .orly-section .read-more{
   display: inline-block;
 }
