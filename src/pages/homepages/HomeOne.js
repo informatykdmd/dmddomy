@@ -11,6 +11,7 @@ import Counter from '../../components/section-components/Counter';
 import NewsOne from '../../components/section-components/NewsOne';
 import Quote from '../../components/section-components/Quote';
 import FooterOne from '../../common/footer/FooterOne';
+import OrlySection from "../../components/section-components/OrlySection";
 
 // Przewiń stronę do góry z animacją
 import $ from 'jquery';
@@ -37,6 +38,15 @@ const HomeOne = () => {
         <ServicesTwo />
         
         <TeamOne />
+
+        <OrlySection
+            variant="split"
+            imgSrc="/images/page-1_img_orly.png"
+            title="Laureat Orłów Nieruchomości"
+            lead="Wyróżnienie, które potwierdza standard realizacji i zaufanie naszych klientów."
+            ctaText="Zobacz realizacje"
+            ctaHref="/realizacje"
+        />
         
         <Counter />
         
