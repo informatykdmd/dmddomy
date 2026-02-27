@@ -4585,3 +4585,63 @@ img {
   opacity: 0.9;
   max-width: 720px;
 }
+
+/* ===== Orły (dmddomy) ===== */
+.orly-section .orly-grid{
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.orly-section .orly-media{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.orly-section .orly-img{
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.orly-section .orly-title{
+  margin: 0 0 10px 0;
+}
+
+.orly-section .orly-lead{
+  margin: 0;
+  max-width: 720px;
+  opacity: 0.9;
+}
+
+.orly-section .orly-cta{
+  margin-top: 18px;
+}
+
+/* Responsive: na mobile układ w kolumnie */
+@media (max-width: 991px){
+  .orly-section .orly-grid{
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .orly-section .orly-media{
+    justify-content: center;
+  }
+
+  .orly-section .orly-content{
+    text-align: center;
+  }
+}
+
+.orly-section .con-title-text{
+  opacity: 0.95;
+}
+
+.orly-section .read-more{
+  display: inline-block;
+}

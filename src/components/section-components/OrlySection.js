@@ -43,29 +43,26 @@ export default function OrlySection({
             </div>
 
             {/* Treść sekcji */}
-            <div className="row align-items-center clearfix" style={{ marginTop: 30 }}>
-            <div className="col-12 col-lg-5 text-center text-lg-start">
-                <img
-                src={imgSrc}
-                alt={imgAlt}
-                className="img-fluid orly-img"
-                loading="lazy"
-                />
-            </div>
-
-            <div className="col-12 col-lg-7">
-                <h3 className="orly-title mb-2">{title}</h3>
-                <p className="orly-lead mb-0">{lead}</p>
-
-                {ctaText && ctaHref ? (
-                <div className="mt-3">
-                    <Link className="read-more" to={ctaHref}>{ctaText}</Link>
-                    {/* <a className="btn btn-dark" href={ctaHref}> 
-                    {ctaText}
-                    </a> */}
+            <div className="orly-grid">
+                <div className="orly-media">
+                    <img
+                    src={imgSrc}
+                    alt={imgAlt}
+                    className="orly-img"
+                    loading="lazy"
+                    />
                 </div>
-                ) : null}
-            </div>
+
+                <div className="orly-content">
+                    <h3 className="orly-title">{title}</h3>
+                    <p className="orly-lead">{lead}</p>
+
+                    {ctaText && ctaHref ? (
+                    <div className="orly-cta">
+                        <Link className="read-more" to={ctaHref}>{ctaText}</Link>
+                    </div>
+                    ) : null}
+                </div>
             </div>
         </div>
         </section>
