@@ -4573,7 +4573,7 @@ img {
 /* Orły - dopasowanie do stylu dmddomy */
 .orly-section .orly-img{
   max-height: 220px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 .orly-section .orly-title{
@@ -4603,8 +4603,8 @@ img {
 .orly-section .orly-img{
   width: 100%;
   max-width: 340px;
-  height: auto;
-  border-radius: 10px;
+  /* height: auto; */
+  /* border-radius: 10px; */
   display: block;
 }
 
