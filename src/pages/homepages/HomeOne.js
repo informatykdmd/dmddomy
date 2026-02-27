@@ -42,7 +42,7 @@ const HomeOne = () => {
         <OrlySection
             variant="split"
             imgSrc="/images/page-1_img_orly.png"
-            title="DMD Group — Laureatem plebiscytu ORŁY Nieruchomości"
+            title="DMD Group — Laureatem plebiscytu"
             lead="Z dumą informujemy, że Grupa DMD została Laureatem prestiżowego plebiscytu ORŁY Nieruchomości. Wyróżnienie przyznano na podstawie analizy ponad 5,1 mln opinii klientów, doceniając naszą jakość w budownictwie, domach na zamówienie i segmencie premium. "
             ctaText="Zobacz wyróżnienie"
             ctaHref="https://www.orlynieruchomosci.pl/profile-490053-dmd-domy"

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 /**
  * OrlySection
@@ -58,9 +59,10 @@ export default function OrlySection({
 
                 {ctaText && ctaHref ? (
                 <div className="mt-3">
-                    <a className="btn btn-dark" href={ctaHref}>
+                    <Link className="read-more" to={ctaHref}>{ctaText}</Link>
+                    {/* <a className="btn btn-dark" href={ctaHref}> 
                     {ctaText}
-                    </a>
+                    </a> */}
                 </div>
                 ) : null}
             </div>
