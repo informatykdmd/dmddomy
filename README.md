@@ -1,4 +1,53 @@
-# Getting Started with Create React App
+# DMD Domy — synchronizacja produkcji 2026-10-01
+
+Źródła frontendu z `/home/johndoe/app/dmddomy-frontend-next` są w katalogu
+głównym repozytorium. Backend z `/home/johndoe/app/dmddomy-backend` jest w `api/`.
+Frontend nadal używa Create React App; nazwa katalogu na VPS nie oznacza Next.js.
+
+Wymagany jest Node.js 24.x. Instalacja i build:
+
+```powershell
+npm ci
+npm run build
+npm --prefix api ci
+```
+
+Backend wymaga hasła lokalnej bazy w zmiennej środowiskowej `DB_PASSWORD`.
+Pozostałe ustawienia: `DB_HOST` (domyślnie `127.0.0.1`), `DB_PORT` (`3306`),
+`DB_USER` (`informatyk`), `DB_NAME` (`dmd`). Do testów należy używać osobnej bazy.
+Hasło można podać w lokalnym PowerShellu bez zapisywania go w pliku lub historii:
+
+```powershell
+$env:DB_PASSWORD = [Net.NetworkCredential]::new('', (Read-Host 'Hasło lokalnej bazy' -AsSecureString)).Password
+node api/api_mysql.js
+```
+
+Backend nasłuchuje po HTTP wyłącznie na `127.0.0.1:5100`, po pomyślnym `SELECT 1`.
+Przy uruchomieniu przez PM2 wysyła `ready`. Konfiguracja PM2: `api/ecosystem.config.js`.
+Zmienne bazy należy przekazać w środowisku procesu; pliki `.env` nie są ładowane automatycznie.
+
+Frontend korzysta z `/api/` na tym samym originie. Serwer obsługujący frontend musi
+przekazywać `/api/` do backendu; samo `npm start` nie konfiguruje tego proxy.
+HTTPS obsługuje reverse proxy. Backend ufa nagłówkom proxy wyłącznie od loopback.
+
+Domyślny log lokalny to `api/logs/server.log`. Zmienna `SERVER_LOG_PATH` pozwala
+wskazać inną ścieżkę. Na VPS dotychczasowa ścieżka współdzielona to
+`/home/johndoe/app/dmddomy_stats/server.log`; przy przyszłym wdrożeniu należy ją
+przekazać w środowisku, aby zachować współpracę ze statystykami. Format wpisów
+`IP: ..., Time: ..., Endpoint: ..., Method: ...` nie został zmieniony.
+
+Odstępstwa od kopii produkcyjnej: hasło bazy zastąpiono zmienną środowiskową,
+ścieżki PM2 i lokalnego logu są przenośne, a pomocniczy podgląd konfiguracji API
+również wskazuje `/api/`. Lockfile obu części zachowują wersje z produkcji.
+Stare PHP, kopie `_old`, pliki SQL i nieobecne w nowych źródłach kopie logo
+z `public/post/images` usunięto z aktywnego drzewa projektu.
+
+Media produkcyjne pozostają poza synchronizacją: `/var/www/html/appdmddomy/public/images`
+i `/var/www/html/appdmddomy/public/downloads`. Nie należy pobierać ich do Git.
+Już śledzone lokalne media w `public/images` i `public/downloads` pozostawiono bez zmian;
+nowe pliki w tych katalogach są ignorowane. Logi, sekrety, dumpy i backupy też są ignorowane.
+
+## Oryginalna dokumentacja Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

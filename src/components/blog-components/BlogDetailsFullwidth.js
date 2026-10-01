@@ -36,7 +36,7 @@ const BlogDetailsFullwidth = () => {
   }, [postId]);
 
   useEffect(() => {
-    axios.get(`https://${ApiAddress}/api/getAllBlogPosts`)
+    axios.get(`/api/getAllBlogPosts`)
       .then((response) => {
         // setAllPosts(response.data[0]);
         setnumberPosts(response.data[1]);
@@ -50,7 +50,7 @@ const BlogDetailsFullwidth = () => {
   // console.log('numberPosts', numberPosts);
 
   useEffect(() => {
-    axios.get(`https://${ApiAddress}/api/getPost/${postId}`)
+    axios.get(`/api/getPost/${postId}`)
       .then((response) => {
         setPost(response.data);
       })
@@ -63,7 +63,7 @@ const BlogDetailsFullwidth = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post(`https://${ApiAddress}/api/addComment`, {
+      const response = await axios.post(`/api/addComment`, {
           name,
           email,
           post_id: postId,

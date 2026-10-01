@@ -7,7 +7,7 @@ const SinglePost = () => {
   const [post, setPost] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/getPost/${postId}`)
+    axios.get(`/api/getPost/${postId}`)
       .then((response) => {
         setPost(response.data);
       })

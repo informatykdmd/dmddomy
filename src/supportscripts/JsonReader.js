@@ -20,7 +20,7 @@ const JsonReader = () => {
   function giveMeAddress(jsonGot) {
     // Dodaj sprawdzenie, czy jsonGot nie jest nullem przed dostępem do właściwości
     if (jsonGot && jsonGot.API_MySQL) {
-      const fullAddress = jsonGot.API_MySQL.url + ":" + jsonGot.API_MySQL.port;
+      const fullAddress = jsonGot.API_MySQL.url;
       return fullAddress;
     }
     return null;

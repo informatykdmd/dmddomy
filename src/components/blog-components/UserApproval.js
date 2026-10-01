@@ -24,7 +24,7 @@ const ActiveUser = () => {
 
   const handleActiveSubscriber = async () => {
       try {
-        const response = await axios.post(`https://${ApiAddress}/api/activesSubscriber`, {userHash});
+        const response = await axios.post(`/api/activesSubscriber`, {userHash});
         setUserData(response.data);
       } catch (error) {
         setError(error.message);

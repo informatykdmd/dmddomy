@@ -10,7 +10,7 @@ const BlogPostsList = () => {
   useEffect(() => {
     const fetchBlogPosts = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/getAllBlogPosts`);
+        const response = await axios.get(`/api/getAllBlogPosts`);
         console.log('Odpowiedź z serwera:', response.data);
         setBlogPosts(response.data);
         setTotalPages(response.headers['x-total-pages']);

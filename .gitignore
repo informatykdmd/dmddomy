@@ -1,26 +1,25 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules/
 /.pnp
 .pnp.js
-api/api_mysql.js
-
-api/ecosystem.config.js
 commader.md
-ecosystem.config.js
+/ecosystem.config.js
 ecosystem.config.js.save
 
 # testing
 /coverage
 
 # production
-/build
+build/
+dist/
+.next/
+.npm-cache/
 
 # dynamic pictures
-/public/images/blog
-/public/images/team
-/public/images/estate
+/public/images/
+/public/downloads/
 
 # misc
 .DS_Store
@@ -28,6 +27,29 @@ ecosystem.config.js.save
 .env.development.local
 .env.test.local
 .env.production.local
+.env
+.env.*
+*.log
+logs/
+backup/
+backups/
+.migration-backups/
+*.bak
+*.save
+*_old.js
+*_old_*.js
+*.sql
+*.dump
+dump.pm2*
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+id_ecdsa*
 
 npm-debug.log*
 yarn-debug.log*

@@ -17,7 +17,7 @@ const BlogPostsList = () => {
         setIsLoading(true);
 
         // Pobierz nowe posty
-        axios.get('http://localhost:5000/api/loadMorePosts')
+        axios.get('/api/loadMorePosts')
           .then((response) => {
             setBlogPosts((prevPosts) => [...prevPosts, ...response.data]);
             setIsLoading(false);

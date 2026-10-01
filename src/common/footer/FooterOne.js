@@ -23,7 +23,7 @@ const FooterOne = () => {
       // Wyślij dane do serwera
       console.log('Wysyłanie danych do serwera:', { name, email });
   
-      axios.post(`https://${ApiAddress}/api/addSubscriber`, { name, email })
+      axios.post(`/api/addSubscriber`, { name, email })
         .then((response) => {
           console.log('Odpowiedź od serwera:', response.data);
           // Tutaj możesz obsłużyć odpowiedź od serwera, na przykład pokazać komunikat o sukcesie
@@ -44,7 +44,7 @@ const FooterOne = () => {
 
     useEffect(() => {
         // Wywołaj endpoint /api/getLatestPosts, domyślnie pobierając 3 najnowsze posty
-        axios.get(`https://${ApiAddress}/api/getLatestPosts?count=3`) // ?count=3
+        axios.get(`/api/getLatestPosts?count=3`) // ?count=3
           .then((response) => {
             console.log('Odpowiedź z serwera (najnowsze posty):', response.data);
             setLatestPosts(response.data);

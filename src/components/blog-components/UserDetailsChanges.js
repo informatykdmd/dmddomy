@@ -28,7 +28,7 @@ const UserDetailsChanges = () => {
         return;
       }
       console.log('userAvatar', userAvatar, typeof userAvatar);
-      const response = await axios.post(`https://${ApiAdres}/api/addSubscriberAvatar`, { userHash, userAvatar });
+      const response = await axios.post(`/api/addSubscriberAvatar`, { userHash, userAvatar });
       console.log(response.data);
       setSuccessFull(true);
     } catch (error) {
@@ -39,7 +39,7 @@ const UserDetailsChanges = () => {
   useEffect(() => {
     const getUserData = async () => {
       try {
-        const response = await axios.get(`https://${ApiAdres}/api/getUserName`, { params: { userHash } });
+        const response = await axios.get(`/api/getUserName`, { params: { userHash } });
         const fetchedUserData = response.data;
 
         if (Array.isArray(fetchedUserData) && fetchedUserData.length > 0) {

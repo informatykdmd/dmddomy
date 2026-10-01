@@ -15,7 +15,7 @@ const BlogDetailsFullwidth = () => {
     const load = async () => {
       try {
         const { data } = await axios.get(
-          `https://${ApiAddress}/api/realizacje/domy`,
+          `/api/realizacje/domy`,
           { params: { kategoria: KATEGORIA, limit: 9999, offset: 0 } }
         );
         // możliwe kształty odpowiedzi: [{...}], {items:[...]}, [rows, total]

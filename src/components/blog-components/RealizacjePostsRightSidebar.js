@@ -13,7 +13,7 @@ const BlogPostsRightSidebar = () => {
   useEffect(() => {
     const load = async () => {
       try {
-        const url = `https://${ApiAddress}/api/realizacje/kategorie`;
+        const url = `/api/realizacje/kategorie`;
         const { data } = await axios.get(url, { withCredentials: false });
         setItems(Array.isArray(data) ? data : []);
       } catch (e) {

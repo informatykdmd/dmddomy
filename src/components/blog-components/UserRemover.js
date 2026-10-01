@@ -25,7 +25,7 @@ const UserDetailsChanges = () => {
 
   const handleRemoveSubscriber = async () => {
       try {
-        const response = await axios.post(`https://${ApiAddress}/api/removeSubscriber`, {userHash});
+        const response = await axios.post(`/api/removeSubscriber`, {userHash});
         setUserData(response.data); // Upewnij się, że struktura danych jest zgodna z tym, co zwraca nowy endpoint
       } catch (error) {
         setError(error.message);

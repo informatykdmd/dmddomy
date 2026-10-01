@@ -7,7 +7,7 @@ const LatestPosts = () => {
 
   useEffect(() => {
     // Wywołaj endpoint /api/getLatestPosts, domyślnie pobierając 3 najnowsze posty
-    axios.get('http://localhost:5000/api/getLatestPosts?count=3') // ?count=3
+    axios.get('/api/getLatestPosts?count=3') // ?count=3
       .then((response) => {
         console.log('Odpowiedź z serwera (najnowsze posty):', response.data);
         setLatestPosts(response.data);
